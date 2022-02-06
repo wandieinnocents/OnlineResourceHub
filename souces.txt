@@ -1,0 +1,5 @@
+//run specific migration
+php artisan migrate:refresh --path=/database/migrations/2021_12_02_185704_create_posts_table.php
+
+
+

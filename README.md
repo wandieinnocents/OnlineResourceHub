@@ -1,5 +1,4 @@
 
-## Wanran Admin Panel
+## Sense International Online Resource Hub
 
-Rapid development backend tool for developing web applications 
-
+SENSE International Online Resource Hub , for downloading material and accessing resources

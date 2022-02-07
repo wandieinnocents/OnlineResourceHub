@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
+use App\Models\ResourceCategory;
 use Illuminate\Http\Request;
 
 class ResourceCategoryController extends Controller
@@ -14,8 +15,8 @@ class ResourceCategoryController extends Controller
      */
     public function index()
     {
-        //
-    }
+        $categories  = ResourceCategory::all();
+        return view('backend.pages_backend.resource_categories.index',compact('categories'));    }
 
     /**
      * Show the form for creating a new resource.
@@ -24,7 +25,8 @@ class ResourceCategoryController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.pages_backend.resource_categories.create');
+        
     }
 
     /**
@@ -35,7 +37,13 @@ class ResourceCategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $resource_category = new ResourceCategory();
+        $resource_category->name = $request->name;
+        $resource_category->description = $request->description;
+        $resource_category->save();
+        // redirect
+        
+        return redirect('/resource_categories');   
     }
 
     /**
@@ -69,7 +77,12 @@ class ResourceCategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $category = ResourceCategory::find($id);
+        $category->name        = $request->name;
+        $category->description = $request->description;
+        // update
+        $category->save();
+        return redirect('/resource_categories');
     }
 
     /**
@@ -80,6 +93,9 @@ class ResourceCategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $category = ResourceCategory::findOrFail($id);
+        $category->delete();
+
+        return redirect('/resource_categories')->with('success', 'Resource Category is successfully deleted');
     }
 }

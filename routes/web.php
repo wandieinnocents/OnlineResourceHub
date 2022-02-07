@@ -83,6 +83,9 @@ Route::resource('/feedbacks', 'App\Http\Controllers\BackEnd\FeedbackController')
 
 // resources
 Route::resource('/resources', 'App\Http\Controllers\BackEnd\ResourceController');
+// resource categories
+Route::resource('/resource_categories', 'App\Http\Controllers\BackEnd\ResourceCategoryController');
+
 
 
 // Orders

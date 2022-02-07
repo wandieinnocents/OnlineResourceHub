@@ -26,7 +26,7 @@
                                 <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
                                    
                                     <div>
-                                        <a href="/foodmenu_categories/create" class="btn bg-primary text-light"><i class="bx bx-plus me-1"></i> Add Category</a>
+                                        <a href="/resource_categories/create" class="btn bg-primary text-light"><i class="bx bx-plus me-1"></i> Add Category</a>
                                     </div>
                                     
                                    
@@ -61,7 +61,7 @@
                                 <tbody>
                                    
                                     
-                                @foreach($foodmenu_categories as $foodmenu_category)
+                                @foreach($categories as $category)
                                       <tr>
                                         <th scope="row">
                                             <div class="form-check font-size-16">
@@ -69,26 +69,24 @@
                                                 <label class="form-check-label" for="contacusercheck11"></label>
                                             </div>
                                         </th>
-                                        <td>{{ $foodmenu_category->id }}</td>
-
-                                       
-                                        <td>{{ $foodmenu_category->foodmenu_category_name }}</td>
-                                        <td>{{ $foodmenu_category->foodmenu_category_description }}</td>
+                                        <td>{{ $category->id }}</td>
+                                        <td>{{ $category->name }}</td>
+                                        <td>{{ $category->description }}</td>
                                         
                                         <td colspan="6">
                                             <div class="row">
                                              <div class="col-md-4">
-                                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#viewCategory{{ $foodmenu_category->id }}" data-bs-whatever="@getbootstrap"><i class=" far fa-eye  "></i></button>
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#viewCategory{{ $category->id }}" data-bs-whatever="@getbootstrap"><i class=" far fa-eye  "></i></button>
                                             </div>
                                                 
                                             <div class="col-md-4">
-                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editCategory{{ $foodmenu_category->id }}" data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editCategory{{ $category->id }}" data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
 
                                             </div>
                                             
                                             <!-- delete food menu -->
                                             <div class="col-md-4">
-                                            <form action="{{ route('foodmenu_categories.destroy',$foodmenu_category->id) }}" method="post">
+                                            <form action="{{ route('resource_categories.destroy',$category->id) }}" method="post">
                                                         @csrf
                                                         @method('DELETE')
                                                         <a >  <button class="btn btn-danger shadow btn-xs sharp"> <span class="fa fa-trash"> </button> </a>  
@@ -106,7 +104,7 @@
 
                                                       <!-- VIEW DETAILS MODEL -->
 
-                <div class="modal fade" id="viewCategory{{ $foodmenu_category->id }}" tabindex="-1"
+                <div class="modal fade" id="viewCategory{{ $category->id }}" tabindex="-1"
                     aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
 
                     <div class="modal-dialog modal-dialog-scrollable">
@@ -117,9 +115,9 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>Name : {{ $foodmenu_category->foodmenu_category_name }}</p>
+                                <p>Name : {{ $category->name }}</p>
                                 <hr>
-                                <p>Description : {{ $foodmenu_category->foodmenu_category_description }}</p>
+                                <p>Description : {{ $category->description }}</p>
                                 
                             </div>
                             <div class="modal-footer">
@@ -134,7 +132,7 @@
                 <!-- END OF VIEW DETAILS MODEL -->
 
                 <!-- edit   MENU DETAILS MODEL -->
-                <div class="modal fade" id="editCategory{{ $foodmenu_category->id }}" tabindex="-1"
+                <div class="modal fade" id="editCategory{{ $category->id }}" tabindex="-1"
                     aria-labelledby="editFoodOrderLabel" style="display: none;" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-scrollable">
                         <div class="modal-content">
@@ -148,19 +146,19 @@
 
                                 <!-- form update food menu items -->
 
-                                <form action="{{ route('foodmenu_categories.update', $foodmenu_category->id) }}" method="post"
+                                <form action="{{ route('resource_categories.update', $category->id) }}" method="post"
                                     enctype="multipart/form-data">
                                     @csrf
                                     @method('PATCH')
                                     <div class="mb-3">
                                         <label for="recipient-name" class="col-form-label">Name:</label>
-                                        <input type="text" class="form-control" name="foodmenu_category_name"
-                                            value="{{  $foodmenu_category->foodmenu_category_name }}" id="recipient-name">
+                                        <input type="text" class="form-control" name="name"
+                                            value="{{  $category->name }}" id="recipient-name">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="recipient-name" class="col-form-label">Description:</label>
-                                        <input type="text" class="form-control" name="foodmenu_category_description"
-                                            value="{{  $foodmenu_category->foodmenu_category_description }}" id="recipient-name">
+                                        <label for="recipient-name" class="col-form-label">Category:</label>
+                                        <input type="text" class="form-control" name="description"
+                                            value="{{  $category->description }}" id="recipient-name">
                                     </div>
                                    
 

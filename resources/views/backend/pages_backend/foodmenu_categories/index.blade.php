@@ -108,7 +108,6 @@
 
                 <div class="modal fade" id="viewCategory{{ $foodmenu_category->id }}" tabindex="-1"
                     aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
-
                     <div class="modal-dialog modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -144,10 +143,7 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-
-
                                 <!-- form update food menu items -->
-
                                 <form action="{{ route('foodmenu_categories.update', $foodmenu_category->id) }}" method="post"
                                     enctype="multipart/form-data">
                                     @csrf
@@ -162,8 +158,6 @@
                                         <input type="text" class="form-control" name="foodmenu_category_description"
                                             value="{{  $foodmenu_category->foodmenu_category_description }}" id="recipient-name">
                                     </div>
-                                   
-
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Close</button>

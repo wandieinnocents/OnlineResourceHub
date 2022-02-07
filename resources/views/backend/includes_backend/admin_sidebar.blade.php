@@ -5,21 +5,13 @@
             <!-- Left Menu Stargit ddt -->
             <ul class="metismenu list-unstyled" id="side-menu">
                 <!-- <li class="menu-title" data-key="t-menu">Menu</li> -->
-
                 <li>
                     <a href="/dashboard">
                         <i data-feather="home"></i>
                         <span data-key="t-dashboard">Dashboard</span>
                     </a>
                 </li>
-
-                <!-- Bookings -->
-                <!-- <li>
-                    <a href="/bookings">
-                        <i data-feather="users"></i>
-                        <span data-key="t-dashboard">Bookings</span>
-                    </a>
-                </li> -->
+              
 
                 <!-- Feedback -->
                 <li>
@@ -29,50 +21,7 @@
                     </a>
                 </li>
 
-                <!-- Orders -->
-                <!-- <li>
-                    <a href="{{ route('orders.index') }}">
-                        <i data-feather="users"></i>
-                        <span data-key="t-dashboard">Orders</span>
-                    </a>
-                </li> -->
-
-
-                <!-- Foods Menu -->
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
-                        <span data-key="t-apps">Foods Menu</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li>
-                            <a href="/foodmenu_categories/create">
-                                <span data-key="t-calendar">Add Category</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="/foodmenu_categories">
-                                <span data-key="t-calendar"
-                                    >View Categories</span
-                                >
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="/foodmenus/create">
-                                <span data-key="t-chat">Add Food</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="/foodmenus">
-                                <span data-key="t-chat">View Foods</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
+               
                 <!-- Resources -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
@@ -81,13 +30,13 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li>
-                            <a href="/gallery_categories/create">
+                            <a href="/resource_categories/create">
                                 <span data-key="t-calendar">Add Category</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="/gallery_categories">
+                            <a href="/resource_categories">
                                 <span data-key="t-calendar"
                                     >View Categories</span
                                 >
@@ -95,13 +44,13 @@
                         </li>
 
                         <li>
-                            <a href="/galleries/create">
+                            <a href="/resources/create">
                                 <span data-key="t-chat">Add Resource</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="/galleries">
+                            <a href="/resources">
                                 <span data-key="t-chat">View Resources</span>
                             </a>
                         </li>

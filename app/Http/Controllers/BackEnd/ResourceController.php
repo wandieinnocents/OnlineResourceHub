@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
+use App\Models\ResourceCategory;
 use Illuminate\Http\Request;
 
 class ResourceController extends Controller
@@ -24,7 +25,8 @@ class ResourceController extends Controller
      */
     public function create()
     {
-        return view('backend.pages_backend.resources.create');
+        $categories = ResourceCategory::all();
+        return view('backend.pages_backend.resources.create',compact('categories'));
 
     }
 

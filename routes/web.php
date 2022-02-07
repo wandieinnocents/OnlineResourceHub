@@ -80,16 +80,24 @@ Route::resource('/dashboard', 'App\Http\Controllers\BackEnd\DashboardController'
 Route::resource('/bookings', 'App\Http\Controllers\BackEnd\BookingController');
 // Feedbacks
 Route::resource('/feedbacks', 'App\Http\Controllers\BackEnd\FeedbackController');
+
+// resources
+Route::resource('/resources', 'App\Http\Controllers\BackEnd\ResourceController');
+
+
 // Orders
 Route::resource('/orders', 'App\Http\Controllers\BackEnd\OrderController');
 // Food menu category
 Route::resource('/foodmenu_categories', 'App\Http\Controllers\BackEnd\FoodMenuCategoryController');
 // Food menu
 Route::resource('/foodmenus', 'App\Http\Controllers\BackEnd\FoodMenuController');
-// Drink menu category
-Route::resource('/drinkmenu_categories', 'App\Http\Controllers\BackEnd\DrinkMenuCategoryController');
-// Drink menu
-Route::resource('/drinkmenus', 'App\Http\Controllers\BackEnd\DrinkMenuController');
+
+// DOWNLOAD DOCUMENT ON FOOD MENU
+Route::get('/foodmenus/download/{file}', 'App\Http\Controllers\BackEnd\FoodMenuController@downloadDoc')->name('downloadResource');
+
+
+
+
 // Gallery  category
 Route::resource('/gallery_categories', 'App\Http\Controllers\BackEnd\GalleryCategoryController');
 // Gallery 

@@ -69,6 +69,7 @@
                                     <th scope="col">Price</th>
                                     <th scope="col">Description</th>
                                     <th scope="col">Status</th>
+                                    <th>Download</th>
                                     <th style="width: 150px; min-width: 80px;">Action</th>
                                   </tr>
                                 </thead>
@@ -118,6 +119,16 @@
                                                 
                                             </div>
                                         </td>
+                                        <td>
+                                            <!-- DOWNLOAD FILE -->
+                                            <a href="{{ route('downloadResource', $foodmenu->id) }}">
+                                            
+                                            
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-whatever="@getbootstrap">
+                                            <i class="fas fa-download "></i>
+                                        </button></a>
+
+                                        </td>
                                         <td colspan="6">
                                             <div class="row">
                                              <div class="col-md-4">
@@ -128,6 +139,8 @@
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editFoodOrder{{ $foodmenu->id }}" data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
 
                                             </div>
+
+                                            
                                             
                                             <!-- delete food menu -->
                                             <div class="col-md-4">

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\FoodMenu;
 use App\Models\FoodMenuCategory;
+use Illuminate\Support\Facades\Storage;
 
 class FoodMenuController extends Controller
 {
@@ -147,11 +148,32 @@ class FoodMenuController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+
+
+
+    
     public function destroy($id)
     {
         $foodmenu = FoodMenu::findOrFail($id);
         $foodmenu->delete();
 
         return redirect('/foodmenus')->with('success', 'Food is successfully deleted');
+    }
+
+    // Download  food menu document
+    public function downloadDoc($file){
+        // first working 
+        // $file= public_path(). "/uploads/foodmenu_photos/1644261140.pdf";   
+
+        // second working
+        // $file_path = public_path('uploads/cv/'.$file);
+        // $file_path = public_path('/uploads/foodmenu_photos/1644261140.pdf');
+
+        // dynamic
+        $file_path = public_path('/uploads/foodmenu_photos/'.$file);
+
+    return response()->download($file_path);
+
+
     }
 }

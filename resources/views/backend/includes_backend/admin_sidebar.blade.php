@@ -14,12 +14,12 @@
                 </li>
 
                 <!-- Bookings -->
-                <li>
+                <!-- <li>
                     <a href="/bookings">
                         <i data-feather="users"></i>
                         <span data-key="t-dashboard">Bookings</span>
                     </a>
-                </li>
+                </li> -->
 
                 <!-- Feedback -->
                 <li>
@@ -73,58 +73,21 @@
                     </ul>
                 </li>
 
-                <!-- Specials Menu -->
-                <!-- <li>
-                    <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
-                        <span data-key="t-apps">Week Specials </span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li>
-                            <a href="/">
-                                <span data-key="t-calendar">Add Category</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <span data-key="t-calendar"
-                                    >View Categories</span
-                                >
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="/">
-                                <span data-key="t-chat">Add Special</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <span data-key="t-chat">View Specials</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li> -->
-
-
-
-                <!-- Drinks Menu -->
+                <!-- Resources -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i data-feather="grid"></i>
-                        <span data-key="t-apps">Drinks Menu</span>
+                        <span data-key="t-apps">Resources</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li>
-                            <a href="/drinkmenu_categories/create">
+                            <a href="/gallery_categories/create">
                                 <span data-key="t-calendar">Add Category</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="/drinkmenu_categories">
+                            <a href="/gallery_categories">
                                 <span data-key="t-calendar"
                                     >View Categories</span
                                 >
@@ -132,18 +95,20 @@
                         </li>
 
                         <li>
-                            <a href="/drinkmenus/create">
-                                <span data-key="t-chat">Add Drinks</span>
+                            <a href="/galleries/create">
+                                <span data-key="t-chat">Add Resource</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="/drinkmenus    ">
-                                <span data-key="t-chat">View Drinks</span>
+                            <a href="/galleries">
+                                <span data-key="t-chat">View Resources</span>
                             </a>
                         </li>
                     </ul>
                 </li>
+
+
 
                 <!-- Gallery -->
                 <li>

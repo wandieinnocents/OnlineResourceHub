@@ -66,8 +66,8 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom02">Resource Name</label>
-                                                        <input type="text" class="form-control"  name="foodmenu_name" id="validationCustom02" placeholder="Foos name" value="" required>
+                                                        <label class="form-label" for="validationCustom02">Title</label>
+                                                        <input type="text" class="form-control"  name="title" id="validationCustom02" placeholder="Enter Resource Title" value="" required>
                                                         
                                                     </div>
                                                 </div>
@@ -79,22 +79,20 @@
                                             <div class="row">
                                             <div class="col-md-6">
                                                     <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom02">Resource Name</label>
-                                                        <input type="text" class="form-control"  name="foodmenu_name" id="validationCustom02" placeholder="Foos name" value="" required>
+                                                        <label class="form-label" for="validationCustom02">Audience</label>
+                                                        <input type="text" class="form-control"  name="audience" id="validationCustom02" placeholder="Add audience" value="" required>
                                                         
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
-                                                    <label class="form-label" for="validationCustom01">Permission Status</label>
+                                                    <label class="form-label" for="validationCustom01">Written Permission</label>
 
-                                                    <select name="permission_status" class="form-select">
+                                                    <select name="written_permission" class="form-select">
                                                         
-                                                            <option value="in_stock" selected >In Stock</option>
-                                                            <option value="out_stock">Out Stock</option>
-                                                            <option value="excess">Excess</option>
-                                                            <option value="almost_done">Almost done</option>
+                                                            <option value="Yes">Yes</option>
+                                                            <option value="No">No</option>
                          
                                                     </select>
                                                     </div>
@@ -107,22 +105,21 @@
                                              <div class="row">
                                             <div class="col-md-6">
                                                     <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom02">Resource Name</label>
-                                                        <input type="text" class="form-control"  name="foodmenu_name" id="validationCustom02" placeholder="Foos name" value="" required>
+                                                        <label class="form-label" for="validationCustom02">Written Permission Storage</label>
+                                                        <input type="text" class="form-control"  name="written_permission_storage" id="validationCustom02" placeholder="Written Permission Storage" value="" required>
                                                         
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
-                                                    <label class="form-label" for="validationCustom01">Permission Status</label>
+                                                    <label class="form-label" for="validationCustom01">Permission Resource Usage </label>
 
                                                     <select name="permission_status" class="form-select">
                                                         
-                                                            <option value="in_stock" selected >In Stock</option>
-                                                            <option value="out_stock">Out Stock</option>
-                                                            <option value="excess">Excess</option>
-                                                            <option value="almost_done">Almost done</option>
+                                                            <option value="Yes" selected >Yes</option>
+                                                            <option value="No">No</option>
+                                                           
                          
                                                     </select>
                                                     </div>
@@ -135,24 +132,17 @@
                                              <div class="row">
                                             <div class="col-md-6">
                                                     <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom02">Resource Name</label>
-                                                        <input type="text" class="form-control"  name="foodmenu_name" id="validationCustom02" placeholder="Foos name" value="" required>
+                                                        <label class="form-label" for="validationCustom02">Who to contact for permission</label>
+                                                        <input type="text" class="form-control"  name="contact_person_written_permission" id="validationCustom02" placeholder="Who to contact for permission" value="" required>
                                                         
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->
                                                 <div class="col-md-6">
-                                                    <div class="mb-3">
-                                                    <label class="form-label" for="validationCustom01">Permission Status</label>
-
-                                                    <select name="permission_status" class="form-select">
+                                                <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom02">Topic</label>
+                                                        <input type="text" class="form-control"  name="topic" id="validationCustom02" placeholder="Enter Topic" value="" required>
                                                         
-                                                            <option value="in_stock" selected >In Stock</option>
-                                                            <option value="out_stock">Out Stock</option>
-                                                            <option value="excess">Excess</option>
-                                                            <option value="almost_done">Almost done</option>
-                         
-                                                    </select>
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->
@@ -163,24 +153,17 @@
                                              <div class="row">
                                             <div class="col-md-6">
                                                     <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom02">Resource Name</label>
-                                                        <input type="text" class="form-control"  name="foodmenu_name" id="validationCustom02" placeholder="Foos name" value="" required>
+                                                        <label class="form-label" for="validationCustom02">Link</label>
+                                                        <input type="text" class="form-control"  name="link" id="validationCustom02" placeholder="Enter Link" value="" required>
                                                         
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->
                                                 <div class="col-md-6">
-                                                    <div class="mb-3">
-                                                    <label class="form-label" for="validationCustom01">Permission Status</label>
-
-                                                    <select name="permission_status" class="form-select">
+                                                <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom02">Created By</label>
+                                                        <input type="text" class="form-control"  name="created_by" id="validationCustom02" placeholder="Created By" value="" required>
                                                         
-                                                            <option value="in_stock" selected >In Stock</option>
-                                                            <option value="out_stock">Out Stock</option>
-                                                            <option value="excess">Excess</option>
-                                                            <option value="almost_done">Almost done</option>
-                         
-                                                    </select>
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->
@@ -192,28 +175,29 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom03">Price</label>
-                                                        <input type="text" class="form-control"  name="foodmenu_price" id="validationCustom03" placeholder="Price" required>
+                                                        <label class="form-label" for="validationCustom03">Partner Organisations</label>
+                                                        <input type="text" class="form-control"  name="partner_orgnisations" id="validationCustom03" placeholder="Partner Organisations" required>
                                                         
                                                     </div>
                                                 </div>
                                               
                                                 <div class="col-md-6">
-                                                    <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom05">Photo</label>
-                                                        <input type="file" class="form-control" name="foodmenu_photo" id="validationCustom05" placeholder="Zip" required>
+                                                <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom03">Date</label>
+                                                        <input type="date" class="form-control"  name="date" id="validationCustom03" placeholder="Date" required>
                                                         
                                                     </div>
                                                 </div>
                                             </div>
                                             
                                             <div class="col-md-12">
-                                                    <div class="mb-3">
-                                                        <label class="form-label" >Description</label>
-                                                        <textarea class="form-control" name="foodmenu_description" id="exampleFormControlTextarea5" placeholder="Enter Category Description" rows="3"></textarea>
+                                            <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom05">Attachment</label>
+                                                        <input type="file" class="form-control" name="attachment" id="validationCustom05" placeholder="Attachment" required>
+                                                        
                                                     </div>
                                                 </div>
-                                            <button class="btn btn-primary" type="submit">Add Food</button>
+                                            <button class="btn btn-primary" type="submit">Add Resource</button>
                                         </form>
                                     </div>
                                 </div>

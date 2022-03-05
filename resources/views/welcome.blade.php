@@ -96,6 +96,43 @@
         </section>
         <!-- about-nine end -->
 
+          <!-- about-three -->
+          <section class="about-three p_relative sec-pad">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-three wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block b_radius_10 b_shadow_6 pl_40 pt_40 pr_30 pb_35">
+                                <div class="icon-box p_relative d_iblock w_80 h_80 lh_85 fs_45 centred b_radius_50 mb_20"><i class="icon-6"></i></div>
+                                <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_15 tran_5">Quick Innovative <br />Solutions</h4>
+                                <p class="font_family_oxygen tran_5">Lorem ipsum dolor sit elit consectur sed eiusmod tempor labore set aliquat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-three wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block b_radius_10 b_shadow_6 pl_40 pt_40 pr_30 pb_35">
+                                <div class="icon-box p_relative d_iblock w_80 h_80 lh_85 fs_45 centred b_radius_50 mb_20"><i class="icon-7"></i></div>
+                                <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_15 tran_5">Super Flexible <br />Pricing</h4>
+                                <p class="font_family_oxygen tran_5">Lorem ipsum dolor sit elit consectur sed eiusmod tempor labore set aliquat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-three wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block b_radius_10 b_shadow_6 pl_40 pt_40 pr_30 pb_35">
+                                <div class="icon-box p_relative d_iblock w_80 h_80 lh_85 fs_45 centred b_radius_50 mb_20"><i class="icon-8"></i></div>
+                                <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_15 tran_5">Fast & Flexible <br />Support</h4>
+                                <p class="font_family_oxygen tran_5">Lorem ipsum dolor sit elit consectur sed eiusmod tempor labore set aliquat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-three end -->
+
+        
 
         <!-- service-nine -->
         <section class="service-nine p_relative sec-pad">

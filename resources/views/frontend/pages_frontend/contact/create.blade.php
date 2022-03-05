@@ -5,7 +5,6 @@
 @endsection
 
 @section('content')
-<!-- content  -->
 
 
         <!-- Page Title -->

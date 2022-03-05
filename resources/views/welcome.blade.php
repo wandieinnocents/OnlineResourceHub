@@ -134,66 +134,6 @@
 
         
 
-        <!-- service-nine -->
-        <section class="service-nine p_relative sec-pad">
-            <div class="auto-container">
-                <div class="sec-title p_relative d_block mb_45 centred">
-                    <h2 class="d_block fs_45 fw_bold lh_55 fw_bold font_family_spartan">Great Business Solutions <br />System</h2>
-                </div>
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-eight wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block b_shadow_6">
-                                <figure class="image-box p_relative d_block"><a href="service-details.html"><img src="assets/frontend_assets/assets/images/service/service-13.jpg" alt=""></a></figure>
-                                <div class="lower-content p_relative d_block pl_40 pr_30 pb_40 pt_65">
-                                    <div class="icon-box p_absolute l_40 fs_45 mb_25 w_80 h_80 lh_80 text-center">
-                                        <div class="icon"><i class="icon-65"></i></div>
-                                        <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-48.png" alt=""></div>
-                                    </div>
-                                    <h4 class="d_block fs_20 lh_28 fw_bold font_family_spartan mb_16"><a href="service-details.html">Truck Freight <br />Service</a></h4>
-                                    <p class="d_block font_family_oxygen">Lorem ipsum dolor amet consectur elit adicing elit sed.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-eight wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block b_shadow_6">
-                                <figure class="image-box p_relative d_block"><a href="service-details.html"><img src="assets/frontend_assets/assets/images/service/service-14.jpg" alt=""></a></figure>
-                                <div class="lower-content p_relative d_block pl_40 pr_30 pb_40 pt_65">
-                                    <div class="icon-box p_absolute l_40 fs_45 mb_25 w_80 h_80 lh_80 text-center">
-                                        <div class="icon"><i class="icon-63"></i></div>
-                                        <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-49.png" alt=""></div>
-                                    </div>
-                                    <h4 class="d_block fs_20 lh_28 fw_bold font_family_spartan mb_16"><a href="service-details.html">Ship Freight <br />Service</a></h4>
-                                    <p class="d_block font_family_oxygen">Lorem ipsum dolor amet consectur elit adicing elit sed.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 service-block">
-                        <div class="service-block-eight wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block b_shadow_6">
-                                <figure class="image-box p_relative d_block"><a href="service-details.html"><img src="assets/frontend_assets/assets/images/service/service-15.jpg" alt=""></a></figure>
-                                <div class="lower-content p_relative d_block pl_40 pr_30 pb_40 pt_65">
-                                    <div class="icon-box p_absolute l_40 fs_45 mb_25 w_80 h_80 lh_80 text-center">
-                                        <div class="icon"><i class="icon-64"></i></div>
-                                        <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-50.png" alt=""></div>
-                                    </div>
-                                    <h4 class="d_block fs_20 lh_28 fw_bold font_family_spartan mb_16"><a href="service-details.html">Plane Freight <br />Service</a></h4>
-                                    <p class="d_block font_family_oxygen">Lorem ipsum dolor amet consectur elit adicing elit sed.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="more-btn centred mt_60">
-                    <a href="service.html" class="theme-btn theme-btn-eight">All Services</a>
-                </div>
-            </div>
-        </section>
-        <!-- service-nine end -->
-
 
         <!-- chooseus-six -->
         <section class="chooseus-six p_relative">
@@ -226,6 +166,16 @@
                                             <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/icons/hid-icon-18.png" alt=""></div>
                                         </div>
                                         <h4 class="d_block fs_20 lh_30 mb_6 font_family_spartan fw_sbold">Safe Packing</h4>
+                                        <p class="mb_0 fs_16 font_family_oxygen">Lorem ipsum dolor sit elit consectur sed tempor..</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                                    <div class="single-item p_relative d_block pl_80">
+                                        <div class="icon-box p_absolute l_0 t_3 w_50 h_50 lh_50 text-center b_radius_50">
+                                            <div class="icon p_relative d_iblock"><i class="icon-15"></i></div>
+                                            <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/icons/hid-icon-18.png" alt=""></div>
+                                        </div>
+                                        <h4 class="d_block fs_20 lh_30 mb_6 font_family_spartan fw_sbold">Cost Saving</h4>
                                         <p class="mb_0 fs_16 font_family_oxygen">Lorem ipsum dolor sit elit consectur sed tempor..</p>
                                     </div>
                                 </div>

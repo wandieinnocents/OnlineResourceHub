@@ -133,77 +133,7 @@
         <!-- feature-13 end -->
 
 
-        <!-- team-ten -->
-        <section class="team-ten about-page-3 p_relative sec-pad centred">
-            <div class="shape">
-                <div class="shape-1 p_absolute t_120 r_150 rotate-me" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-176.png);"></div>
-                <div class="shape-2 p_absolute l_140 float-bob-y" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-56.png);"></div>
-                <div class="shape-3 p_absolute t_0 r_0" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-181.png);"></div>
-            </div>
-            <div class="auto-container">
-                <div class="sec-title-13 p_relative d_block mb_50">
-                    <h5 class="p_relative d_iblock fs_17 lh_30 fw_sbold mb_16 uppercase">Team Member</h5><br />
-                    <h2 class="d_block fs_40 fw_bold lh_50">Our Staff Comes from Many <br />Different Disciplines</h2>
-                </div>
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                        <div class="team-block-four wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block">
-                                <div class="image-box p_relative d_block">
-                                    <figure class="image p_relative d_block b_radius_50"><img src="assets/frontend_assets/assets/images/team/team-30.jpg" alt=""></figure>
-                                    <ul class="social-links p_absolute l_0 t_0 clearfix tran_5">
-                                        <li class="p_relative d_iblock"><a href="about-3.html" class="p_relative d_iblock fs_17 w_45 h_45 lh_45 centred b_radius_50 color_black"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="about-3.html" class="p_relative d_iblock fs_17 w_45 h_45 lh_45 centred b_radius_50 color_black"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="about-3.html" class="p_relative d_iblock fs_17 w_45 h_45 lh_45 centred b_radius_50 color_black"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25">
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_2"><a href="team-details.html" class="d_iblock color_black">Roger Jones</a></h4>
-                                    <span class="designation p_relative d_block lh_20">Designer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                        <div class="team-block-four wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block">
-                                <div class="image-box p_relative d_block">
-                                    <figure class="image p_relative d_block b_radius_50"><img src="assets/frontend_assets/assets/images/team/team-31.jpg" alt=""></figure>
-                                    <ul class="social-links p_absolute l_0 t_0 clearfix tran_5">
-                                        <li class="p_relative d_iblock"><a href="about-3.html" class="p_relative d_iblock fs_17 w_45 h_45 lh_45 centred b_radius_50 color_black"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="about-3.html" class="p_relative d_iblock fs_17 w_45 h_45 lh_45 centred b_radius_50 color_black"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="about-3.html" class="p_relative d_iblock fs_17 w_45 h_45 lh_45 centred b_radius_50 color_black"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25">
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_2"><a href="team-details.html" class="d_iblock color_black">Ann Dowson</a></h4>
-                                    <span class="designation p_relative d_block lh_20">Designer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                        <div class="team-block-four wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block">
-                                <div class="image-box p_relative d_block">
-                                    <figure class="image p_relative d_block b_radius_50"><img src="assets/frontend_assets/assets/images/team/team-32.jpg" alt=""></figure>
-                                    <ul class="social-links p_absolute l_0 t_0 clearfix tran_5">
-                                        <li class="p_relative d_iblock"><a href="about-3.html" class="p_relative d_iblock fs_17 w_45 h_45 lh_45 centred b_radius_50 color_black"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="about-3.html" class="p_relative d_iblock fs_17 w_45 h_45 lh_45 centred b_radius_50 color_black"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="p_relative d_iblock"><a href="about-3.html" class="p_relative d_iblock fs_17 w_45 h_45 lh_45 centred b_radius_50 color_black"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="lower-content p_relative d_block pt_25">
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_2"><a href="team-details.html" class="d_iblock color_black">Nicolas Lawson</a></h4>
-                                    <span class="designation p_relative d_block lh_20">Designer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- team-ten end -->
+      
 
 
         <!-- funfact-nine -->

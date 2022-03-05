@@ -1,139 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-	<meta charset="utf-8">
-	<title>Restaurant</title>
-	<!-- Stylesheets -->
-	<link href="{{ asset('assets/frontend_assets/assets/css/bootstrap.css') }}" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-	<link href="{{ asset('assets/frontend_assets/assets/vendors/flat-icon/flaticon.css') }}" rel="stylesheet">
+<title>Online Portal</title>
 
+<!-- Fav Icon -->
+<link rel="icon" href="{{ asset('assets/frontend_assets/assets/images/favicon-9.ico') }}" type="image/x-icon">
 
-	<!-- Rev slider css -->
-	<link href="{{ asset('assets/frontend_assets/assets/vendors/revolution/css/settings.css') }}" rel="stylesheet">
-	<link href="{{ asset('assets/frontend_assets/assets/vendors/revolution/css/layers.css') }}" rel="stylesheet">
-	<link href="{{ asset('assets/frontend_assets/assets/vendors/revolution/css/navigation.css') }}" rel="stylesheet">
+<!-- Stylesheets -->
+<link href="{{ asset('assets/frontend_assets/assets/css/font-awesome-all.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/flaticon.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/owl.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/bootstrap.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/jquery.fancybox.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/animate.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/color.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/global.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/nice-select.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/jquery-ui.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/elpath.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/style.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/assets/css/responsive.css') }}" rel="stylesheet">
 
-	<link href="{{ asset('assets/frontend_assets/assets/css/style.css') }}" rel="stylesheet">
-	<link href="{{ asset('assets/frontend_assets/assets/css/responsive.css') }}" rel="stylesheet">
-
-	<link rel="shortcut icon" href="{{ asset('assets/frontendassets/assets/images/favicon.png') }}" type="image/x-icon">
-	<link rel="icon" href="{{ asset('assets/frontendassets/assets/images/favicon.png') }}" type="image/x-icon">
-
-	<link
-		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&amp;family=Open+Sans:wght@400;600;700;800&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
-		rel="stylesheet">
-
-	<!-- Responsive -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
+
+<!-- page wrapper -->
 <body>
 
-	<div class="page-wrapper">
-
-		<!-- Preloader -->
-		<!-- <div class="prel	oader"></div> -->
-
-		<!-- Navigation  -->
-        @include('frontend.includes_frontend.header_frontend')
-
-		
-
-		<!-- Content section -->
-		@yield('content')
-		<!-- End content section -->
-
-		<!--Main Footer-->
-        @include('frontend.includes_frontend.footer')
-
-	</div>
-	<!--End pagewrapper-->
-
-	<!--Scroll to top-->
-	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
-
-	<!--Search Popup-->
-	<div id="search-popup" class="search-popup">
-		<div class="close-search theme-btn"><span class="fas fa-window-close"></span></div>
-		<div class="popup-inner">
-			<div class="overlay-layer"></div>
-			<div class="search-form">
-				<form method="post" action="">
-					<div class="form-group">
-						<fieldset>
-							<input type="search" class="form-control" name="search-input" value=""
-								placeholder="Search Here" required>
-							<input type="submit" value="Search Now!" class="theme-btn">
-						</fieldset>
-					</div>
-				</form>
-
-				<br>
-				<h3>Recent Search Keywords</h3>
-				<ul class="recent-searches">
-					<li><a href="#">Cake</a></li>
-					<li><a href="#">Chocolate</a></li>
-					<li><a href="#">Strawberry</a></li>
-					<li><a href="#">Vanila</a></li>
-					<li><a href="#">Mango Icecream</a></li>
-				</ul>
-
-			</div>
-
-		</div>
-	</div>
+    <div class="boxed_wrapper">
 
 
+        <!-- mouse-pointer -->
+        <div class="mouse-pointer display_none" id="mouse-pointer">
+            <div class="icon"><i class="far fa-angle-left"></i><i class="far fa-angle-right"></i></div>
+        </div>
+        <!-- mouse-pointer end -->
 
 
+        <!-- preloader -->
+
+        <!-- <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close">x</div>
+                <div id="handle-preloader" class="handle-preloader home-9">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader="a" class="letters-loading">
+                                a
+                            </span>
+                            <span data-text-preloader="t" class="letters-loading">
+                                t
+                            </span>
+                            <span data-text-preloader="r" class="letters-loading">
+                                r
+                            </span>
+                            <span data-text-preloader="i" class="letters-loading">
+                                i
+                            </span>
+                            <span data-text-preloader="x" class="letters-loading">
+                                x
+                            </span>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div> -->
+
+        <!-- preloader end -->
 
 
+        <!--Search Popup-->
+        <div id="search-popup" class="search-popup">
+            <div class="popup-inner">
+                <div class="upper-box clearfix">
+                    <figure class="logo-box pull-left"><a href="index.html"><img src="assets/frontend_assets/assets/images/logo-8.png" alt=""></a></figure>
+                    <div class="close-search pull-right"><span class="icon-179"></span></div>
+                </div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="search-form">
+                        <form method="post" action="#">
+                            <div class="form-group">
+                                <fieldset>
+                                    <input type="search" class="form-control" name="search-input" value="" placeholder="Type your keyword and hit" required >
+                                    <button type="submit"><i class="icon-1"></i></button>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
+        <!-- main header -->
+
+       @include('frontend.includes_frontend.header_frontend')
+
+        <!-- main-header end -->
+
+      
+	@yield('content')
 
 
+        <!-- footer-one -->
+
+       @include('frontend.includes_frontend.footer')
+        <!-- footer-one end -->
 
 
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <div>
+                <div class="scroll-top-inner">
+                    <div class="scroll-bar">
+                        <div class="bar-inner"></div>
+                    </div>
+                    <div class="scroll-bar-text g_color_2">Go To Top</div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll to top end -->
+    </div>
 
 
+    <!-- jequery plugins -->
+    <script src="{{ asset('assets/frontend_assets/assets/js/jquery.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/plugins.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/owl.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/wow.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/jquery.fancybox.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/appear.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/scrollbar.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/parallax.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/circle-progress.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/jquery.countTo.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/nav-tool.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/isotope.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/jquery-ui.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/assets/js/jquery.paroller.min.js') }}"></script>
 
+    <!-- main-js -->
+    <script src="{{ asset('assets/frontend_assets/assets/js/script.js') }}"></script>
 
-
-
-
-
-
-
-	<!--Scroll to top-->
-	<script src="{{ asset('assets/frontend_assets/assets/js/jquery.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/js/parallax.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/js/popper.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/js/jquery-ui.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/js/bootstrap.min.js') }}"></script>
-
-	<!-- Rev slider js -->
-	<script src="{{ asset('assets/frontend_assets/assets/vendors/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/vendors/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/vendors/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
-
-	<script src="{{ asset('assets/frontend_assets/assets/js/jquery.fancybox.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/js/owl.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/js/wow.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/js/mixitup.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/js/appear.js') }}"></script>
-	<script src="{{ asset('assets/frontend_assets/assets/js/script.js') }}"></script>
-
-</body>
-
+</body><!-- End of .page_wrapper -->
 
 </html>

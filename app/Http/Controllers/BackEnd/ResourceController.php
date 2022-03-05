@@ -5,6 +5,8 @@ namespace App\Http\Controllers\BackEnd;
 use App\Http\Controllers\Controller;
 use App\Models\ResourceCategory;
 use Illuminate\Http\Request;
+use App\Models\Resource;
+
 
 class ResourceController extends Controller
 {
@@ -15,7 +17,10 @@ class ResourceController extends Controller
      */
     public function index()
     {
-        return view('backend.pages_backend.resources.index');
+        $categories  = ResourceCategory::all();
+        $resources = Resource::all();
+        $count_resources = Resource::count();
+        return view('backend.pages_backend.resources.index',compact('categories','resources','count_resources'));
     }
 
     /**
@@ -38,7 +43,45 @@ class ResourceController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //submit resource to the database
+        $validatedData = $request->validate([
+            
+            'attachment' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
+            
+        ]);
+
+    $resource = new Resource;
+    $resource->resource_category_id              = $request->resource_category_id;
+    $resource->title                             = $request->title;
+    $resource->audience                          = $request->audience;
+    $resource->written_permission                = $request->written_permission;
+    $resource->written_permission_storage        = $request->written_permission_storage;
+    $resource->contact_person_written_permission = $request->contact_person_written_permission;
+    $resource->permission_status                 = $request->permission_status;
+    $resource->topic                             = $request->topic;
+    $resource->link                              = $request->link;
+    $resource->created_by                        = $request->created_by;
+    $resource->partner_orgnisations              = $request->partner_orgnisations;
+    $resource->date                              = $request->date;
+
+    // resource attachment 
+    if($request->hasfile('attachment')){
+        $file               = $request->file('attachment');
+        $extension          = $file->getClientOriginalExtension();  //get image extension
+        $filename           = time() . '.' .$extension;
+        $file->move('uploads/resource_attachments/',$filename);
+        $resource->attachment   = url('uploads' . '/resource_attachments/'  . $filename);
+    }
+
+    else{
+        // return $request;
+        $resource->attachment  = '';
+    }
+
+    // dd("works");
+    $resource->save();
+
+    return redirect('/resources');
     }
 
     /**

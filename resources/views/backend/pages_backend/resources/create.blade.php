@@ -54,7 +54,7 @@
                                                     <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">Category</label>
 
-                                                    <select name="foodmenu_category_id" class="form-select">
+                                                    <select name="resource_category_id" class="form-select">
                                                         @foreach($categories as $category)
                                                             <option value="{{ $category->id }}">{{ $category->name }}</option>
                                                            
@@ -80,7 +80,7 @@
                                             <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Audience</label>
-                                                        <input type="text" class="form-control"  name="audience" id="validationCustom02" placeholder="Add audience" value="" required>
+                                                        <input type="text" class="form-control"  name="audience" id="validationCustom02" placeholder="Add audience" value="" >
                                                         
                                                     </div>
                                                 </div>
@@ -106,7 +106,7 @@
                                             <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Written Permission Storage</label>
-                                                        <input type="text" class="form-control"  name="written_permission_storage" id="validationCustom02" placeholder="Written Permission Storage" value="" required>
+                                                        <input type="text" class="form-control"  name="written_permission_storage" id="validationCustom02" placeholder="Written Permission Storage" value="" >
                                                         
                                                     </div>
                                                 </div>
@@ -133,7 +133,7 @@
                                             <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Who to contact for permission</label>
-                                                        <input type="text" class="form-control"  name="contact_person_written_permission" id="validationCustom02" placeholder="Who to contact for permission" value="" required>
+                                                        <input type="text" class="form-control"  name="contact_person_written_permission" id="validationCustom02" placeholder="Who to contact for permission" value="" >
                                                         
                                                     </div>
                                                 </div>
@@ -141,7 +141,7 @@
                                                 <div class="col-md-6">
                                                 <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Topic</label>
-                                                        <input type="text" class="form-control"  name="topic" id="validationCustom02" placeholder="Enter Topic" value="" required>
+                                                        <input type="text" class="form-control"  name="topic" id="validationCustom02" placeholder="Enter Topic" value="" >
                                                         
                                                     </div>
                                                 </div>
@@ -154,7 +154,7 @@
                                             <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Link</label>
-                                                        <input type="text" class="form-control"  name="link" id="validationCustom02" placeholder="Enter Link" value="" required>
+                                                        <input type="text" class="form-control"  name="link" id="validationCustom02" placeholder="Enter Link" value="" >
                                                         
                                                     </div>
                                                 </div>
@@ -162,7 +162,7 @@
                                                 <div class="col-md-6">
                                                 <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Created By</label>
-                                                        <input type="text" class="form-control"  name="created_by" id="validationCustom02" placeholder="Created By" value="" required>
+                                                        <input type="text" class="form-control"  name="created_by" id="validationCustom02" placeholder="Created By" value="" >
                                                         
                                                     </div>
                                                 </div>
@@ -176,7 +176,7 @@
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom03">Partner Organisations</label>
-                                                        <input type="text" class="form-control"  name="partner_orgnisations" id="validationCustom03" placeholder="Partner Organisations" required>
+                                                        <input type="text" class="form-control"  name="partner_orgnisations" id="validationCustom03" placeholder="Partner Organisations" >
                                                         
                                                     </div>
                                                 </div>
@@ -184,7 +184,7 @@
                                                 <div class="col-md-6">
                                                 <div class="mb-3">
                                                         <label class="form-label" for="validationCustom03">Date</label>
-                                                        <input type="date" class="form-control"  name="date" id="validationCustom03" placeholder="Date" required>
+                                                        <input type="date" class="form-control"  name="date" id="validationCustom03" placeholder="Date" >
                                                         
                                                     </div>
                                                 </div>
@@ -193,7 +193,7 @@
                                             <div class="col-md-12">
                                             <div class="mb-3">
                                                         <label class="form-label" for="validationCustom05">Attachment</label>
-                                                        <input type="file" class="form-control" name="attachment" id="validationCustom05" placeholder="Attachment" required>
+                                                        <input type="file" class="form-control" name="attachment" id="validationCustom05" placeholder="Attachment" >
                                                         
                                                     </div>
                                                 </div>

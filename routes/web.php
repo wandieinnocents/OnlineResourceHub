@@ -19,18 +19,16 @@ use App\Models\FoodMenu;
 
 Route::get('/', function () {
 
-    $foodmenus = Foodmenu::paginate(12);
-    $foodmenus_chicken_categories = Foodmenu::where('foodmenu_category_id',7)->get();
-    // dd($foodmenus_chicken_categories);
-    $foodmenus_pizza_categories = Foodmenu::where('foodmenu_category_id', 6)->get();
-
-    $drinkmenus = DrinkMenu::all();
-
-    return view('welcome',compact('foodmenus','drinkmenus','foodmenus_chicken_categories','foodmenus_pizza_categories'));
+    return view('welcome');
 });
 // FRONT END ROUTES
 // about us
 Route::resource('/about', 'App\Http\Controllers\FrontEnd\FrontEndAboutController');
+
+// resources
+Route::resource('/our_resources', 'App\Http\Controllers\FrontEnd\FrontEndResourceController');
+// careers
+Route::resource('/careers', 'App\Http\Controllers\FrontEnd\FrontEndCareerController');
 // testimonials
 Route::resource('/testimonials', 'App\Http\Controllers\FrontEnd\FrontEndTestimonialController');
 // services

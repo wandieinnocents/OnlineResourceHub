@@ -1,162 +1,129 @@
-<header class="main-header">
-			<!--Header Top-->
-			<div class="header-top">
-				<div class="auto-container clearfix">
-					<div class="top-left">
-						<!-- Info List -->
-						<ul class="info-list">
-							<li>Quality Deliveries on time</li>
-							<li><a href="mailto:info@wengdo.com"><span class="icon far fa-envelope"></span>
-									info@cafedesarah.com</a></li>
-						</ul>
-					</div>
-					<div class="top-right clearfix">
+<header class="main-header header-style-nine">
+            <!-- header-top-one -->
+            <div class="header-top-two p_relative d_block">
+                <div class="auto-container">
+                    <div class="top-inner clearfix p_relative">
+                        <div class="top-left pull-left">
+                            <ul class="social-links-two clearfix">
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40 font_family_oxygen fw_bold">Follow Us:</li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-twitter"></i></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left lh_40"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="top-right pull-right">
+                            <ul class="info clearfix">
+                                <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_30 lh_40">
+                                    <i class="icon-1"></i>
+                                </li>
+                                <li class="p_relative d_iblock float_left mr_30 lh_40 pl_25 fs_16 font_family_oxygen">
+                                    <i class="icon-2"></i>
+                                    <p class="font_family_oxygen"><span>Call:</span> <a href="tel:123045615523">+1 (230)- 456-155-23</a></p>
+                                </li>
+                                <li class="p_relative d_iblock float_left lh_40 pl_25 fs_16 font_family_oxygen">
+                                    <i class="icon-3"></i>
+                                    <p class="font_family_oxygen">Email: <a href="mailto:sample@example.com">sample@example.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/frontend_assets/assets/images/logo-11.png" alt=""></a></figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix home-menu">
+                                        <li class="current ">
+											<a href="/">Home</a>
+                                           
+                                        </li>
+                                        <li><a href="/about">About</a></li>
+										<li><a href="/our_resources">Resources</a></li>
+                                        
+										<li><a href="/careers">Careers</a></li>
+										<li><a href="/contact/create">Support</a></li>
+                                        
+                                        <!-- <li><a href="index.html">Know Us</a>
+                                            <ul>
+                                                <li><a href="shop.html">Shop 1</a></li>
+                                                <li><a href="shop-2.html">Shop 2</a></li>
+                                                <li><a href="shop-details.html">shop Details 1</a></li>
+                                                <li><a href="shop-details-2.html">shop Details 2</a></li>
+                                                <li><a href="cart.html">Cart Page</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                            </ul>
+                                        </li>
+                                         -->
+                                          
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="btn-box">
+                            <a href="index-9.html" class="theme-btn theme-btn-eight">Get A Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-						<!--Social Box-->
-						<ul class="social-box">
-							<li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-							<li><a href="#"><span class="fab fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-							<li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-						</ul>
-						<!-- <div class="option-list">
-							<div class="cart-btn">
-								<a href="shop-single.html" class="icon flaticon-shopping-cart"><span
-										class="total-cart">3</span></a>
-							</div>
-							<div class="search-box-btn"><span class="icon fa fa-search"></span></div>
-						</div> -->
-					</div>
-				</div>
-			</div>
-			<!-- End Header Top -->
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/frontend_assets/assets/images/logo-11.png" alt=""></a></figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <nav class="main-menu clearfix">
+                                <!--Keep This Empty / Menu will come through Javascript-->
+                            </nav>
+                        </div>
+                        <div class="btn-box">
+                            <a href="index-9.html" class="theme-btn theme-btn-eight">Get A Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-			<!-- Header Upper -->
-			<div class="header-upper">
-				<div class="inner-container">
-					<div class="auto-container clearfix">
-						<!--Info-->
-						<div class="logo-outer">
-							<!-- <div class="logo"><a href="index-2.html">
-								
-								<img src="assets/frontend_assets/assets/images/logo.png" alt="" title=""></a>
-							
-							</div> -->
-							<h2 class="text-white" style="margin-top: 20px;"><b>CAFE DE SARAH</b></h2>
-						</div>
-
-						<!--Nav Box-->
-						<div class="nav-outer clearfix">
-							<!-- Main Menu -->
-							<nav class="main-menu navbar-expand-md navbar-light">
-								<div class="navbar-header">
-									<!-- Togg le Button -->
-									<button class="navbar-toggler" type="button" data-toggle="collapse"
-										data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-										aria-expanded="false" aria-label="Toggle navigation">
-										<span class="icon flaticon-menu"></span>
-									</button>
-								</div>
-
-								<div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
-									<ul class="navigation clearfix">
-										<!-- <li class="current dropdown"><a href="/">Home</a> -->
-										<li><a href="/">Home</a></li>
-											
-										</li>
-										<li class="dropdown"><a href="#">Know Us</a>
-											<ul>
-												<li><a href="/about">About us</a></li>
-												<!-- <li><a href="/works">Services</a></li> -->
-												<!-- <li><a href="/testimonials">Testimonials</a></li> -->
-												<li><a href="/pictures">Gallery</a></li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">Our Menu</a>
-											<ul>
-												<li><a href="/foods">Food Menu</a></li>
-												<li><a href="/drinks">Drinks Menu</a></li>
-											</ul>
-										</li>
-										
-										<!-- <li><a href="/articles">Blog</a></li> -->
-										<li><a href="{{ route('book.create') }}">Booking</a></li>
-										
-
-										<li><a href="{{ route('contact.create') }}">Contact</a></li>
-										
-									</ul>
-								</div>
-							</nav>
-							<!-- Main Menu End-->
-
-							<div class="outer-box">
-								<div class="order">
-									Order Now
-									<span><a href="tel:1800-456-7890">+974 3327 1165</a></span>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--End Header Upper-->
-
-			<!--Sticky Header-->
-			<div class="sticky-header">
-				<div class="auto-container clearfix">
-					<!--Logo-->
-					<div class="logo pull-left">
-						<a href="index-2.html" class="img-responsive"><img src="assets/frontend_assets/assets/images/logo-small.png" alt=""
-								title=""></a>
-					</div>
-
-					<!--Right Col-->
-					<div class="right-col pull-right">
-						<!-- Main Menu -->
-						<nav class="main-menu navbar-expand-md navbar-light">
-								<div class="navbar-header">
-									<!-- Togg le Button -->
-									<button class="navbar-toggler" type="button" data-toggle="collapse"
-										data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-										aria-expanded="false" aria-label="Toggle navigation">
-										<span class="icon flaticon-menu"></span>
-									</button>
-								</div>
-
-								<div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
-									<ul class="navigation clearfix">
-										<li class="current dropdown"><a href="/">Home</a>
-											
-										</li>
-										<li class="dropdown"><a href="#">Know Us</a>
-											<ul>
-												<li><a href="/about">About us</a></li>
-												<!-- <li><a href="/works">Services</a></li> -->
-												<!-- <li><a href="/testimonials">Testimonials</a></li> -->
-												<li><a href="/pictures">Gallery</a></li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">Our Menu</a>
-											<ul>
-												<li><a href="/foods">Food Menu</a></li>
-												<li><a href="/drinks">Drinks Menu</a></li>
-											</ul>
-										</li>
-										
-										<!-- <li><a href="/articles">Blog</a></li> -->
-										<li><a href="{{ route('book.create') }}">Booking</a></li>
-										
-
-										<li><a href="{{ route('contact.create') }}">Contact</a></li>
-									</ul>
-								</div>
-							</nav>
-					</div>
-
-				</div>
-			</div>
-			<!--End Sticky Header-->
-
-		</header>
+		  <!-- Mobile Menu  -->
+		  <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/frontend_assets/assets/images/mobile-logo.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->

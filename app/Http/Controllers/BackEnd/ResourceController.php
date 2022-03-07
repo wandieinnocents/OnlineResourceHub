@@ -63,6 +63,8 @@ class ResourceController extends Controller
     $resource->created_by                        = $request->created_by;
     $resource->partner_orgnisations              = $request->partner_orgnisations;
     $resource->date                              = $request->date;
+    $resource->thumbnail                         = $request->thumbnail;
+    $resource->description                              = $request->description;
 
     // resource attachment 
     if($request->hasfile('attachment')){

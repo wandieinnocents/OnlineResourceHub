@@ -189,14 +189,39 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                <div class="mb-3">
+                                                        <label class="form-label" >Description</label>
+                                                        <textarea class="form-control" name="description" id="exampleFormControlTextarea5" placeholder="Enter Resource Description" rows="3"></textarea>
+                                                    </div>
+                                                </div>
+                                              
+                                                
+                                            </div>
                                             
-                                            <div class="col-md-12">
-                                            <div class="mb-3">
+                                            <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
                                                         <label class="form-label" for="validationCustom05">Attachment</label>
                                                         <input type="file" class="form-control" name="attachment" id="validationCustom05" placeholder="Attachment" >
                                                         
                                                     </div>
-                                                </div>
+                                             </div>
+
+                                             <!-- thumbnail  -->
+                                             <div class="col-md-6">
+                                                <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom05">Thumbnail</label>
+                                                        <input type="file" class="form-control" name="thumbnail" id="validationCustom05" placeholder="Thumbnail" >
+                                                        
+                                                    </div>
+                                             </div>
+
+                                            </div>
+
+
                                             <button class="btn btn-primary" type="submit">Add Resource</button>
                                         </form>
                                     </div>

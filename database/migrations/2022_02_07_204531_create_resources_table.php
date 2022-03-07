@@ -27,7 +27,9 @@ class CreateResourcesTable extends Migration
             $table->string('created_by');
             $table->text('partner_orgnisations');
             $table->text('date');
+            $table->text('description');
             $table->text('attachment');
+            $table->string('thumbnail');
             $table->timestamps();
         });
     }

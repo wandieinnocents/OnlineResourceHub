@@ -4,6 +4,7 @@ namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Resource;
 
 class FrontEndResourceController extends Controller
 {
@@ -14,7 +15,9 @@ class FrontEndResourceController extends Controller
      */
     public function index()
     {
-        return view('frontend.pages_frontend.resources.index'); 
+        $resources = Resource::all();
+        // dd($resources);
+        return view('frontend.pages_frontend.resources.index',compact('resources')); 
     }
 
     /**

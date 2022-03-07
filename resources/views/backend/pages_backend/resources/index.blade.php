@@ -121,9 +121,7 @@
                                         </td>
                                         <td>
                                             <!-- DOWNLOAD FILE -->
-                                            <a href="">
-                                            
-                                            
+                                            <a href="{!! asset($resource->attachment) !!}" target="_blank">
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-whatever="@getbootstrap">
                                             <i class="fas fa-download "></i>
                                         </button></a>

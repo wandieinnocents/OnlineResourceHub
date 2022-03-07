@@ -46,11 +46,11 @@
                                     <!-- <img src="assets/frontend_assets/assets/images/service/service-23.jpg" alt=""> -->
                                     <!-- Image thumbnail -->
 
-                                    @if (($resource->attachment))
-                                                <a href="{!! asset($resource->attachment) !!}" target="_blank">
+                                    @if (($resource->thumbnail))
+                                                <a href="{!! asset($resource->thumbnail) !!}" target="_blank">
                                                     <img 
                                                         onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
-                                                        src="{{ asset($resource->attachment) }}" alt="preview"
+                                                        src="{{ asset($resource->thumbnail) }}" alt="preview"
                                                         style="height:250px !important; width:500px !important; ">
                                                 </a>
 
@@ -72,7 +72,7 @@
                                     </div>
                                     <h3 class="d_block fs_24 lh_30 fw_bold font_family_frank mb_16"><a href="service-details.html" class="d_iblock color_black">{{ $resource->title }}</a></h3>
                                     <p class="fs_16 font_family_poppins mb_12">{{ $resource->audience }}</p>
-                                    <div class="link"><a href="service-details.html" class="d_iblock fs_16 fw_medium font_family_poppins color_black">Read more<i class="icon-4"></i></a></div>
+                                    <div class="link"><a href="/our_resources/{{ $resource->id }}" class="d_iblock fs_16 fw_medium font_family_poppins color_black">Read more<i class="icon-4"></i></a></div>
                                 </div>
                             </div>
                         </div>

@@ -63,8 +63,7 @@ class ResourceController extends Controller
     $resource->created_by                        = $request->created_by;
     $resource->partner_orgnisations              = $request->partner_orgnisations;
     $resource->date                              = $request->date;
-    $resource->thumbnail                         = $request->thumbnail;
-    $resource->description                              = $request->description;
+    $resource->description                       = $request->description;
 
     // resource attachment 
     if($request->hasfile('attachment')){
@@ -79,6 +78,22 @@ class ResourceController extends Controller
         // return $request;
         $resource->attachment  = '';
     }
+
+    // Thumbnail 
+    // resource thumbnail  
+    if($request->hasfile('thumbnail')){
+        $file               = $request->file('thumbnail');
+        $extension          = $file->getClientOriginalExtension();  //get image extension
+        $filename           = time() . '.' .$extension;
+        $file->move('uploads/resource_thumbnails/',$filename);
+        $resource->thumbnail   = url('uploads' . '/resource_thumbnails/'  . $filename);
+    }
+
+    else{
+        // return $request;
+        $resource->thumbnail  = '';
+    }
+
 
     // dd("works");
     $resource->save();

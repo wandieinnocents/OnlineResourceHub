@@ -64,11 +64,12 @@
                                     <th scope="col">#ID</th>
                                     <th scope="col">Category</th>
                                     <th scope="col">Name</th>
-                                    <th scope="col">Photo</th>
+                                    <th scope="col">Thumbnail</th>
                                    
                                     <th scope="col">Price</th>
                                     <th scope="col">Description</th>
                                     <th scope="col">Status</th>
+                                    <th scope="col">Description</th>
                                     <th>Download</th>
                                     <th style="width: 150px; min-width: 80px;">Action</th>
                                   </tr>
@@ -92,11 +93,11 @@
                                         <td>{{ $resource->title }}</td>
                                         <td>  
 
-                                        @if (($resource->attachment))
-                                                <a href="{!! asset($resource->attachment) !!}" target="_blank">
+                                        @if (($resource->thumbnail))
+                                                <a href="{!! asset($resource->thumbnail) !!}" target="_blank">
                                                     <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img" style="width: 100px; height:100px;"
                                                         onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
-                                                        src="{{ asset($resource->attachment) }}" alt="preview"
+                                                        src="{{ asset($resource->thumbnail) }}" alt="preview"
                                                         style="height:120px !important; width:80px !important; margin-left:20px;">
                                                 </a>
 
@@ -119,6 +120,7 @@
                                                 
                                             </div>
                                         </td>
+                                        <td>{{ $resource->description }}</td>
                                         <td>
                                             <!-- DOWNLOAD FILE -->
                                             <a href="{!! asset($resource->attachment) !!}" target="_blank">
@@ -192,7 +194,7 @@
                                     <p>Price : {{ $resource->title }}</p>
                                     <hr>
 
-                                    <p>Description : {{ $resource->title }}</p>
+                                    <p>Description : {{ $resource->description }}</p>
 
                                     </div>
                                     <div class="modal-footer">
@@ -207,7 +209,7 @@
 
 
 
-                <!-- edit  FOOD MENU DETAILS MODEL -->
+                <!-- edit details MODEL -->
                 <div class="modal fade" id="editFoodOrder{{ $resource->id }}" tabindex="-1" aria-labelledby="editFoodOrderLabel" style="display: none;" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-scrollable">
                                 <div class="modal-content">
@@ -263,16 +265,23 @@
                                                 <label for="recipient-name" class="col-form-label">Status:</label>
                                                 <input type="text" class="form-control" name="foodmenu_name" value="" id="recipient-name">
                                             </div> -->
-                                            <div class="col-md-6">
+                                            <div class="col-md-12">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom05">Attachment</label>
                                                         <input type="file" class="form-control" name="attachment" value="{{ $resource->attachment }}"  placeholder="Zip">
                                                         
                                                     </div>
                                                 </div>
+                                                <div class="col-md-12">
+                                                    <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom05">Attachment</label>
+                                                        <input type="file" class="form-control" name="thumbnail" value="{{ $resource->thumbnail }}"  placeholder="Zip">
+                                                        
+                                                    </div>
+                                                </div>
                                             <div class="mb-3">
                                                 <label for="message-text" class="col-form-label">Description:</label>
-                                                <textarea class="form-control" name="topic" value="" id="message-text">{{  $resource->topic }}</textarea>
+                                                <textarea class="form-control" name="topic" value="" id="message-text">{{  $resource->description }}</textarea>
                                             </div>
 
                                             <div class="modal-footer">

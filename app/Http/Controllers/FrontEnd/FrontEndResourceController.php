@@ -49,7 +49,10 @@ class FrontEndResourceController extends Controller
      */
     public function show($id)
     {
-        //
+        // show single resource
+        $resource = Resource::where('id', $id)->first();
+        // dd("adff");
+        return view('frontend.pages_frontend.resources.show',compact('resource')); 
     }
 
     /**

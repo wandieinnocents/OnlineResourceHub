@@ -42,24 +42,24 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                         <div class="service-block-12 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block b_shadow_6 b_radius_10">
-                                <figure class="image-box"><a href="service-details.html">
+                                <figure class="image-box">
                                     <!-- <img src="assets/frontend_assets/assets/images/service/service-23.jpg" alt=""> -->
                                     <!-- Image thumbnail -->
 
                                     @if (($resource->thumbnail))
-                                                <a href="{!! asset($resource->thumbnail) !!}" target="_blank">
+                                                <!-- <a href="{!! asset($resource->thumbnail) !!}" target="_blank"> -->
                                                     <img 
                                                         onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
                                                         src="{{ asset($resource->thumbnail) }}" alt="preview"
                                                         style="height:250px !important; width:500px !important; ">
-                                                </a>
+                                                <!-- </a> -->
 
                                         @else
                                             <p class="text-danger">No Photo</p>
                                         @endif
 
                                     <!-- End of image thumbnail -->
-                                </a></figure>
+                            </figure>
                                 <div class="lower-content p_relative pl_30 pr_30 pb_35">
                                     <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 d_iblock fs_45 centred b_radius_50 z_1 tran_5 mb_25">
                                         <!-- Download icon  -->

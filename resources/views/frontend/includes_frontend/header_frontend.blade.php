@@ -23,7 +23,7 @@
                                 </li>
                                 <li class="p_relative d_iblock float_left lh_40 pl_25 fs_16 font_family_oxygen">
                                     <i class="icon-3"></i>
-                                    <p class="font_family_oxygen">Email: <a href="mailto:sample@example.com">sample@example.com</a></p>
+                                    <p class="font_family_oxygen">Email: <a href="mailto:sample@example.com">wandie@example.com</a></p>
                                 </li>
                             </ul>
                         </div>

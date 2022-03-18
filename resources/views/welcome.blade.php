@@ -67,7 +67,7 @@
                                     <div data-depth="0.40" class="shape-3 p_absolute l_0" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-122.png);"></div>
                                 </div> -->
                                
-                                    <img src="assets/frontend_assets/assets/images/sense/father.png" alt="" style="margin-top:150px;">
+                                    <img src="assets/frontend_assets/assets/images/sense/father.png" alt=""  style="margin-top:250px;">
                                 
 
         
@@ -222,7 +222,9 @@ with deafblindness/MSI.</p>
                     <div class="col-lg-9 col-md-12 col-sm-12 text-column">
                         <div data-animation-box class="text p_relative d_block pt_140 pb_140">
                             <figure class="image p_absolute b_0 wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <img src="assets/frontend_assets/assets/images/resource/men-3.png" alt=""></figure>
+                                <img src="assets/frontend_assets/assets/images/resource/men-3.png" alt="">
+                            
+                            </figure>
                                 <br />
                             <h2 data-animation-text class="overlay-anim-black-bg d_block fs_45 lh_55 fw_bold font_family_spartan" data-animation="overlay-animation">Have a specific Inquiry..</h2>
                         </div>

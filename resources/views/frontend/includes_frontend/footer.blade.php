@@ -1,5 +1,5 @@
 <footer class="footer-nine">
-            <div class="footer-top">
+            <!-- <div class="footer-top">
                 <div class="auto-container">
                     <div class="top-inner clearfix">
                         <figure class="footer-logo pull-left">
@@ -13,7 +13,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="footer-widget-section">
                 <div class="auto-container">
                     <div class="row clearfix">
@@ -57,7 +57,7 @@
                         <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget links-widget">
                                 <div class="widget-title">
-                                    <h4>Services</h4>
+                                    <h4>Pages</h4>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">

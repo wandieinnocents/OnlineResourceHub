@@ -19,11 +19,11 @@
                                 </li>
                                 <li class="p_relative d_iblock float_left mr_30 lh_40 pl_25 fs_16 font_family_oxygen">
                                     <i class="icon-2"></i>
-                                    <p class="font_family_oxygen"><span>Call:</span> <a href="tel:123045615523">+1 (230)- 456-155-23</a></p>
+                                    <p class="font_family_oxygen"><span>Call:</span> <a href="tel:123045615523">+256 75585585</a></p>
                                 </li>
                                 <li class="p_relative d_iblock float_left lh_40 pl_25 fs_16 font_family_oxygen">
                                     <i class="icon-3"></i>
-                                    <p class="font_family_oxygen">Email: <a href="mailto:sample@example.com">wandie@example.com</a></p>
+                                    <p class="font_family_oxygen">Email: <a href="mailto:sample@example.com">info@senseinternational.com</a></p>
                                 </li>
                             </ul>
                         </div>
@@ -111,9 +111,9 @@
                 <div class="contact-info">
                     <h4>Contact Info</h4>
                     <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
-                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                        <li>Kampala, Uganda</li>
+                        <li><a href="tel:+8801682648101">+256 75550055</a></li>
+                        <li><a href="mailto:info@example.com">info@senseinternational.com</a></li>
                     </ul>
                 </div>
                 <div class="social-links">

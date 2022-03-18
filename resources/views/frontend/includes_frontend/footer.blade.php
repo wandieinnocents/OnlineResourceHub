@@ -23,16 +23,18 @@
                                     <h4>About</h4>
                                 </div>
                                 <div class="text">
-                                    <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim.</p>
+                                    <p>
+                                    Sense International Uganda (SIU) was established in 2005 and registered as a local NGO in 2008. SIU is part of Sense International, a UK registered Non-Government global organization that supports people with deafblindness and multi-sensory impairments (MSI) across a range of often resource poor countries, including; India, Bangladesh, Kenya, Uganda, Tanzania, Peru, Nepal and Romania..
+                                    </p>
                                 </div>
-                                <div class="subscribe-inner">
+                                <!-- <div class="subscribe-inner">
                                     <form action="http://azim.commonsupport.com/Atrix/contact.html" method="post" class="subscribe-form">
                                         <div class="form-group">
                                             <input type="email" name="email" placeholder="Your email address" readonly="">
                                             <button type="submit"><i class="icon-4"></i></button>
                                         </div>
                                     </form>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
@@ -76,9 +78,9 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="info-list clearfix">
-                                        <li>Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</li>
-                                        <li><a href="tel:23055873407">+2(305) 587-3407</a></li>
-                                        <li><a href="mailto:sample@example.com">sample@example.com</a></li>
+                                        <li>Kampala, Uganda</li>
+                                        <li><a href="tel:23055873407">+256 706382817</a></li>
+                                        <li><a href="mailto:sample@example.com">info@senseinternational.org</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -90,7 +92,7 @@
                 <div class="auto-container">
                     <div class="bottom-inner clearfix">
                         <div class="copyright pull-left">
-                            <p><a href="index.html">ATRIX</a> &copy; 2022 All Right Reserved</p>
+                            <p><a href="index.html">SENSE</a> &copy; 2022 All Right Reserved</p>
                         </div>
                         <ul class="footer-nav clearfix pull-right">
                             <li><a href="index.html">Terms of Service</a></li>

@@ -10,7 +10,7 @@
 
         <!-- Page Title -->
         <section class="page-title about-page-3 p_relative centred">
-            <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/frontend_assets/assets/images/background/page-title-2.jpg);"></div>
+            <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/frontend_assets/assets/images/sense/carpenter.JPG);"></div>
             <div class="auto-container">
                 <div class="content-box">
                     <h1 class="d_block fs_60 lh_70 fw_bold mb_10">RESOURCES Us </h1>

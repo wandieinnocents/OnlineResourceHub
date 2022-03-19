@@ -35,7 +35,8 @@
                 <div class="auto-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="index.html"><img src="assets/frontend_assets/assets/images/logo-11.png" alt=""></a></figure>
+                            <!-- <figure class="logo"><a href="index.html"><img src="assets/frontend_assets/assets/images/logo-11.png" alt=""></a></figure> -->
+                            <h2 class="text-white">SENSE</h2>
                         </div>
                         <div class="menu-area clearfix">
                             <!--Mobile Navigation Toggler-->
@@ -45,6 +46,7 @@
                                 <i class="icon-bar"></i>
                             </div>
                             <nav class="main-menu navbar-expand-md navbar-light">
+                                
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix home-menu">
                                         <li class="current ">
@@ -52,6 +54,7 @@
                                            
                                         </li>
                                         <li><a href="/about">About</a></li>
+                                        <li><a href="/about">dddd</a></li>
 										<li><a href="/our_resources">Resources</a></li>
                                         
 										<li><a href="/careers">Careers</a></li>
@@ -85,7 +88,10 @@
                 <div class="auto-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="index.html"><img src="assets/frontend_assets/assets/images/logo-11.png" alt=""></a></figure>
+                            <figure class="logo">
+                                <!-- <a href="index.html"><img src="assets/frontend_assets/assets/images/logo-11.png" alt=""> -->
+                                <h2 class="text-white">SENSE</h2>
+                        </a></figure>
                         </div>
                         <div class="menu-area clearfix">
                             <nav class="main-menu clearfix">
@@ -106,7 +112,12 @@
             <div class="close-btn"><i class="fas fa-times"></i></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/frontend_assets/assets/images/mobile-logo.png" alt="" title=""></a></div>
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <!-- <img src="assets/frontend_assets/assets/images/mobile-logo.png" alt="" title=""> -->
+                        <h2 class="text-white">SENSE</h2>
+                    </a>
+            </div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>

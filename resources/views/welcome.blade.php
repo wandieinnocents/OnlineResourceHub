@@ -82,16 +82,16 @@
                                 </div>
                                 <div class="text p_relative d_block mb_35">
                                     <p class="font_family_oxygen mb_25">Sense International Uganda (SIU) was established in 2005 and registered as a local NGO in
-2008. SIU is part of Sense International, a UK registered Non-Government global
-organization that supports people with deafblindness and multi-sensory impairments (MSI)
-across a range of often resource poor countries, including; India, Bangladesh, Kenya,
-Uganda, Tanzania, Peru, Nepal and Romania..</p>
-                                    <p class="font_family_oxygen">Children with deafblindness in Uganda
-desperately need to receive education and healthcare. Without this, many will lead short,
-lonely lives. By working with a variety of partners, we can support people with
-deafblindness/MSI and their families to communicate, learn skills for activities of daily living,
-as well as receive an education and vocational training – to thrive. </p>
-                                </div>
+                                                2008. SIU is part of Sense International, a UK registered Non-Government global
+                                                organization that supports people with deafblindness and multi-sensory impairments (MSI)
+                                                across a range of often resource poor countries, including; India, Bangladesh, Kenya,
+                                                Uganda, Tanzania, Peru, Nepal and Romania..</p>
+                                                                                    <p class="font_family_oxygen">Children with deafblindness in Uganda
+                                                desperately need to receive education and healthcare. Without this, many will lead short,
+                                                lonely lives. By working with a variety of partners, we can support people with
+                                                deafblindness/MSI and their families to communicate, learn skills for activities of daily living,
+                                                as well as receive an education and vocational training – to thrive. </p>
+                                                                                </div>
                                 <!-- <ul class="list-style-two clearfix p_relative d_block mb_30">
                                     <li class="p_relative d_block fs_16 fw_bold font_family_oxygen mb_10 pl_30">Clients Focused</li>
                                     <li class="p_relative d_block fs_16 fw_bold font_family_oxygen pl_30">We Can Save You Money.</li>

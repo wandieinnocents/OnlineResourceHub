@@ -36,9 +36,9 @@
                                     <div class="card-body bg-gradient bg-success">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Bookings</span>
+                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Resources</span>
                                                 <h4 class="mb-3 text-light">
-                                                    <span class="counter-value" data-target="10">0</span>
+                                                    <span class="counter-value" data-target="{{ $resources }}"></span>
                                                 </h4>
                                             </div>
         
@@ -47,7 +47,7 @@
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-primary text-success">10</span>
+                                            <span class="badge bg-soft-primary text-success">{{ $resources }}</span>
                                             <span class="ms-1 text-muted font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->
@@ -63,7 +63,7 @@
                                             <div class="col-6">
                                                 <span class="text-light mb-3 lh-1 d-block text-truncate">Users</span>
                                                 <h4 class="mb-3 text-light">
-                                                    <span class="counter-value" data-target="5">0</span>
+                                                    <span class="counter-value" data-target="{{ $users }}"></span>
                                                 </h4>
                                             </div>
                                             <div class="col-6 text-light">
@@ -71,7 +71,7 @@
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-danger text-light">5</span>
+                                            <span class="badge bg-soft-danger text-light">{{ $users }}</span>
                                             <span class="ms-1 text-light font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->
@@ -85,9 +85,9 @@
                                     <div class="card-body bg-gradient bg-warning">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Food Menus</span>
+                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Photos</span>
                                                 <h4 class="mb-3">
-                                                    <span class="counter-value" data-target="20">0</span>
+                                                    <span class="counter-value" data-target="{{ $photos }}"></span>
                                                 </h4>
                                             </div>
                                             <div class="col-6">
@@ -95,7 +95,7 @@
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-success text-success">20</span>
+                                            <span class="badge bg-soft-success text-success">{{ $photos }}</span>
                                             <span class="ms-1 text-muted font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->
@@ -109,9 +109,9 @@
                                     <div class="card-body bg-gradient bg-danger">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Drink Menus</span>
+                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Services</span>
                                                 <h4 class="mb-3">
-                                                    <span class="counter-value" data-target="30">0</span>
+                                                    <span class="counter-value" data-target="{{ $services }}"></span>
                                                 </h4>
                                             </div>
                                             <div class="col-6">
@@ -119,7 +119,7 @@
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-primary text-success">30</span>
+                                            <span class="badge bg-soft-primary text-success">{{ $services }}</span>
                                             <span class="ms-1 text-light font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->
@@ -138,7 +138,7 @@
                                     <div class="card-body bg-gradient bg-success">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Bookings</span>
+                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Permissions</span>
                                                 <h4 class="mb-3 text-light">
                                                     <span class="counter-value" data-target="10">0</span>
                                                 </h4>
@@ -163,7 +163,7 @@
                                     <div class="card-body bg-gradient bg-primary">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Users</span>
+                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Roles</span>
                                                 <h4 class="mb-3 text-light">
                                                     <span class="counter-value" data-target="5">0</span>
                                                 </h4>
@@ -187,7 +187,7 @@
                                     <div class="card-body bg-gradient bg-warning">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Food Menus</span>
+                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Projects</span>
                                                 <h4 class="mb-3">
                                                     <span class="counter-value" data-target="20">0</span>
                                                 </h4>
@@ -211,7 +211,7 @@
                                     <div class="card-body bg-gradient bg-danger">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Drink Menus</span>
+                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Careers</span>
                                                 <h4 class="mb-3">
                                                     <span class="counter-value" data-target="30">0</span>
                                                 </h4>

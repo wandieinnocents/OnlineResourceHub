@@ -1,29 +1,29 @@
 <header id="page-topbar">
                 <div class="navbar-header">
-                    <div class="d-flex">
+                <div class="d-flex">
                         <!-- LOGO -->
-                        <div class="navbar-brand-box bg-primary text-white">
-                            <a href="index-2.html" class="logo logo-dark">
+                        <div class="navbar-brand-box">
+                            <a href="/dashboard" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="assets/backend_assets/assets/images/logo-sm.svg" alt="" height="24">
+                                    <b>S</b>
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/backend_assets/assets/images/logo-sm.svg" alt="" height="24"> <span class="logo-txt">Administrator</span>
+                                    <b>SENSE</b>
                                 </span>
                             </a>
 
-                            <a href="index-2.html" class="logo logo-light">
-                                <span class="logo-sm">
-                                    <img src="assets/backend_assets/assets/images/logo-sm.svg" alt="" height="24">
+                            <a href="/dashboard" class="logo logo-light">
+                            <span class="logo-sm">
+                                    <b>S</b>
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/backend_assets/assets/images/logo-sm.svg" alt="" height="24"> <span class="logo-txt">Restaurant</span>
+                                    <b>SENSE</b>
                                 </span>
                             </a>
                         </div>
 
                         <button type="button" class="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn">
-                            <i class="fa fa-fw fa-bars text-white"></i>
+                            <i class="fa fa-fw fa-bars"></i>
                         </button>
 
                         <!-- App Search-->

@@ -65,7 +65,11 @@
                                 <div class="lower-content p_relative pl_30 pr_30 pb_35">
                                     <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 d_iblock fs_45 centred b_radius_50 z_1 tran_5 mb_25">
                                         <!-- Download icon  -->
-                                        <a href="{!! asset($resource->attachment) !!}" target="_blank" style="color:white;"><div class="icon"><i class="icon-120"></i></div></a>
+                                        <a href="{!! asset($resource->attachment) !!}" target="_blank" style="color:white;">
+                                        <div class="icon">
+                                        <img class="user-img" src="{{ asset('assets/frontend_assets/assets/images/sense/downloading.png') }}">
+                                        </div>
+                                    </a>
                                     <!-- End of download icon -->
 
                                         <div class="icon-img hidden-icon">

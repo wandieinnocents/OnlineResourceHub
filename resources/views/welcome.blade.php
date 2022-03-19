@@ -222,7 +222,7 @@ with deafblindness/MSI.</p>
                     <div class="col-lg-9 col-md-12 col-sm-12 text-column">
                         <div data-animation-box class="text p_relative d_block pt_140 pb_140">
                             <figure class="image p_absolute b_0 wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <img src="assets/frontend_assets/assets/images/resource/men-3.png" alt="">
+                                <img src="assets/frontend_assets/assets/images/sense/1.png" alt="" style="width:400px; height:400px; ">
                             
                             </figure>
                                 <br />

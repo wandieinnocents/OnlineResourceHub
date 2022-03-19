@@ -54,7 +54,6 @@
                                            
                                         </li>
                                         <li><a href="/about">About</a></li>
-                                        <li><a href="/about">dddd</a></li>
 										<li><a href="/our_resources">Resources</a></li>
                                         
 										<li><a href="/careers">Careers</a></li>

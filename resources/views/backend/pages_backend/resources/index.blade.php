@@ -102,7 +102,9 @@
                                                 </a>
 
                                         @else
-                                            <p class="text-danger">No Photo</p>
+                                            <!-- <p class="text-danger">No Photo</p> -->
+                                            <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img" style="width: 100px; height:100px;" src="{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}">
+
                                         @endif
                                             
                                         

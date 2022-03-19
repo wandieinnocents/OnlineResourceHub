@@ -55,7 +55,9 @@
                                                 <!-- </a> -->
 
                                         @else
-                                            <p class="text-danger">No Photo</p>
+                                            <!-- <p class="text-danger">No Photo</p> -->
+                                            <img class="user-img" width="500px;" style="height:330px !important;" src="{{ asset('assets/frontend_assets/assets/images/sense/docicon.png') }}">
+
                                         @endif
 
                                     <!-- End of image thumbnail -->

@@ -9,6 +9,8 @@ use App\Models\User;
 use App\Models\Gallery;
 use App\Models\Service;
 use App\Models\Career;
+use App\Models\Feedback;
+use App\Models\FrontEndContact;
 
 
 
@@ -24,19 +26,19 @@ class DashboardController extends Controller
     {
 
         // fetch count - resurces
-        $resources = Resource::all()->count();
+        $resources      = Resource::all()->count();
         // users 
-        $users =  User::all()->count();
+        $users          =  User::all()->count();
         // photos
-        $photos = Gallery::all()->count();
+        $photos         = Gallery::all()->count();
         // services
-        $services = Service::all()->count();
-        // permissions
+        $services       = Service::all()->count();
+        // feedback
+        $feedbacks      = FrontEndContact::all()->count();
 
 
 
-        // dd($resources,$users,$photos, $services);
-        return view('backend.pages_backend.dashboard.index', compact('resources','users','photos','services'));
+        return view('backend.pages_backend.dashboard.index', compact('resources','users','photos','services','feedbacks'));
     }
 
     /**

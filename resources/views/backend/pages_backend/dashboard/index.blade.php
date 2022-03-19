@@ -140,7 +140,7 @@
                                             <div class="col-6">
                                                 <span class="text-light mb-3 lh-1 d-block text-truncate">Permissions</span>
                                                 <h4 class="mb-3 text-light">
-                                                    <span class="counter-value" data-target="10">0</span>
+                                                    <span class="counter-value" data-target="{{ $feedbacks }}">0</span>
                                                 </h4>
                                             </div>
         
@@ -149,7 +149,7 @@
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-primary text-success">10</span>
+                                            <span class="badge bg-soft-primary text-success">{{ $feedbacks }}</span>
                                             <span class="ms-1 text-muted font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->
@@ -189,7 +189,7 @@
                                             <div class="col-6">
                                                 <span class="text-muted mb-3 lh-1 d-block text-truncate">Projects</span>
                                                 <h4 class="mb-3">
-                                                    <span class="counter-value" data-target="20">0</span>
+                                                    <span class="counter-value" data-target="5">0</span>
                                                 </h4>
                                             </div>
                                             <div class="col-6">
@@ -197,7 +197,7 @@
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-success text-success">20</span>
+                                            <span class="badge bg-soft-success text-success">5</span>
                                             <span class="ms-1 text-muted font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->
@@ -213,7 +213,7 @@
                                             <div class="col-6">
                                                 <span class="text-muted mb-3 lh-1 d-block text-truncate">Careers</span>
                                                 <h4 class="mb-3">
-                                                    <span class="counter-value" data-target="30">0</span>
+                                                    <span class="counter-value" data-target="8">0</span>
                                                 </h4>
                                             </div>
                                             <div class="col-6">
@@ -221,7 +221,7 @@
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-primary text-success">30</span>
+                                            <span class="badge bg-soft-primary text-success">8</span>
                                             <span class="ms-1 text-light font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->

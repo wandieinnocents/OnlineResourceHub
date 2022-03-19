@@ -46,6 +46,7 @@ class FrontEndContactController extends Controller
 
         // save to DB
         $contact->save();
+        // dd($contact);
         return redirect()->back()->with('message', 'Thank you for Contacting us!');;
     }
 

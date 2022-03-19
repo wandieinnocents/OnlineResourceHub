@@ -94,10 +94,18 @@
                                 <p class="font_family_poppins">Get in touch with us to know more.</p>
                             </div>
                             <div class="form-inner p_relative ml_5 mr_5">
-                                <form method="post" action="http://azim.commonsupport.com/Atrix/sendemail.php" id="contact-form"> 
+                                <!-- success message -->
+                                @if(session()->has('message'))
+                                    <div class="alert alert-success">
+                                        {{ session()->get('message') }}
+                                    </div>
+                                @endif
+                                
+                                <form method="post" action="{{ route('contact.store') }}" id="contact-form"> 
+                                    @csrf()
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="text" name="username" placeholder="Your Name" required="">
+                                            <input type="text" name="name" placeholder="Your Name" required="">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                             <input type="email" name="email" placeholder="Email Address" required="">
@@ -109,7 +117,7 @@
                                             <input type="text" name="subject" required="" placeholder="Subject">
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <textarea name="message" placeholder="Leave A Comment"></textarea>
+                                            <textarea name="description" placeholder="Leave A Comment"></textarea>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                                             <button class="theme-btn theme-btn-eight" type="submit" name="submit-form">Send Message <i class="icon-4"></i></button>

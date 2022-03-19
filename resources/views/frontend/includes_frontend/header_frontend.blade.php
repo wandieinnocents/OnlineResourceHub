@@ -75,9 +75,9 @@
                                 </div>
                             </nav>
                         </div>
-                        <div class="btn-box">
+                        <!-- <div class="btn-box">
                             <a href="index-9.html" class="theme-btn theme-btn-eight">Get A Quote</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

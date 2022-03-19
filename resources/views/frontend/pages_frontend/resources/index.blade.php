@@ -78,7 +78,8 @@
                                     </div>
                                     <h3 class="d_block fs_24 lh_30 fw_bold font_family_frank mb_16"><a href="service-details.html" class="d_iblock color_black">{{ $resource->title }}</a></h3>
                                     <p class="fs_16 font_family_poppins mb_12">{{ $resource->audience }}</p>
-                                    <div class="link"><a href="/our_resources/{{ $resource->id }}" class="d_iblock fs_16 fw_medium font_family_poppins color_black">Read more<i class="icon-4"></i></a></div>
+                                    <hr>
+                                    <div class="link"><a href="/our_resources/{{ $resource->id }}" class="d_iblock fs_16 fw_medium font_family_poppins color_black">View Details<i class="icon-4"></i></a></div>
                                 </div>
                             </div>
                         </div>

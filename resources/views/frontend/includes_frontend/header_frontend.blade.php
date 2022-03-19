@@ -19,7 +19,7 @@
                                 </li>
                                 <li class="p_relative d_iblock float_left mr_30 lh_40 pl_25 fs_16 font_family_oxygen">
                                     <i class="icon-2"></i>
-                                    <p class="font_family_oxygen"><span>Call:</span> <a href="tel:123045615523">+256 75585585</a></p>
+                                    <p class="font_family_oxygen"><span>Call:</span> <a href="tel:0706382817">+256 75585585</a></p>
                                 </li>
                                 <li class="p_relative d_iblock float_left lh_40 pl_25 fs_16 font_family_oxygen">
                                     <i class="icon-3"></i>
@@ -58,19 +58,7 @@
                                         
 										<li><a href="/careers">Careers</a></li>
 										<li><a href="/contact/create">Support</a></li>
-                                        
-                                        <!-- <li><a href="index.html">Know Us</a>
-                                            <ul>
-                                                <li><a href="shop.html">Shop 1</a></li>
-                                                <li><a href="shop-2.html">Shop 2</a></li>
-                                                <li><a href="shop-details.html">shop Details 1</a></li>
-                                                <li><a href="shop-details-2.html">shop Details 2</a></li>
-                                                <li><a href="cart.html">Cart Page</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                            </ul>
-                                        </li>
-                                         -->
-                                          
+                                    
                                     </ul>
                                 </div>
                             </nav>
@@ -97,9 +85,9 @@
                                 <!--Keep This Empty / Menu will come through Javascript-->
                             </nav>
                         </div>
-                        <div class="btn-box">
+                        <!-- <div class="btn-box">
                             <a href="index-9.html" class="theme-btn theme-btn-eight">Get A Quote</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -136,4 +124,6 @@
                     </ul>
                 </div>
             </nav>
-        </div><!-- End Mobile Menu -->
+        </div>
+        
+        <!-- End Mobile Menu -->

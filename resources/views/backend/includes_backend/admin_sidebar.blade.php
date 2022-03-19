@@ -9,7 +9,7 @@
                     <a href="/dashboard">
                     <i class="fas fa-home"></i>
                         
-                        <span data-key="t-dashboard">Dashboard1</span>
+                        <span data-key="t-dashboard">Dashboard</span>
                     </a>
                 </li>
               

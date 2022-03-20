@@ -172,7 +172,7 @@
                             <div class="modal-dialog modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Resource Details</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                
@@ -196,19 +196,50 @@
                                     <!-- <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img" style="width: 100px; height:100px;" src="{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}"> -->
 
                                     <hr>
-                                    <p>Food : {{ $resource->title }}</p>
+                                    <p>Title : {{ $resource->title }}</p>
                                     <hr>
 
                                     <p>Category : {{ $resource->resource_category_r->name }}</p>
+                                
                                     <hr>
-                                    <p>Status :
-                                    <a href="#" class="badge badge-soft-primary font-size-11">{{ $resource->date }}</a>
+                                    <p>Audience : {{ $resource->audience }}</p>
+
+                                    <hr>
+                                    <p>Written Permission : {{ $resource->written_permission }}</p>
+                                    <hr>
+
+                                    <hr>
+                                    <p>Written Permission Storage : {{ $resource->written_permission_storage }}</p>
+                                    <hr>
+
+                                    <p> Permission Resource Usage  : {{ $resource->written_permission_storage }}</p>
+                                    <hr>
+
+                                    <p>Who to contact for permission : {{ $resource->contact_person_written_permission }}</p>
+
+                                    <hr>
+                                    <p>Topic : {{ $resource->topic }}</p>
+                                    
+
+                                    <hr>
+                                    <p>Link : {{ $resource->link }}</p>
+                                    <hr>
+
+
+                                    <p>Created By : {{ $resource->created_by }}</p>
+                                    <hr>
+
+                                    <p>Date : {{ $resource->date }}</p>
+                                    <hr>
+
+                                    <p>Description : {{ $resource->description }}</p>
+                                    <hr>
+
+                                    <p>Permission Status :
+                                    <a href="#" class="badge badge-soft-primary font-size-11">{{ $resource->permission_status }}</a>
                                     </p>
                                     <hr>
 
-
-                                    <p>Price : {{ $resource->title }}</p>
-                                    <hr>
 
                                     <p>Description : {{ $resource->description }}</p>
 

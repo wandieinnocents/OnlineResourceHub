@@ -169,9 +169,6 @@
                                                 <!-- Hidden status on create , visible on update -->
                                             </div>
                                             <!-- END OF ROW 4 -->
-
-
-
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
@@ -189,7 +186,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-
                                             <div class="row">
                                                 <div class="col-md-12">
                                                 <div class="mb-3">

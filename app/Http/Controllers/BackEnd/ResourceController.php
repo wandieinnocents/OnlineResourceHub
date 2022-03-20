@@ -135,13 +135,13 @@ class ResourceController extends Controller
     public function update(Request $request, $id)
     {
         // update resource
-        $validatedData = $request->validate([
+        // $validatedData = $request->validate([
             
-            'attachment' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
+        //     'attachment' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
             
-        ]);
+        // ]);
 
-        $resource = new Resource;
+        $resource = Resource::find($id);
         $resource->resource_category_id              = $request->resource_category_id;
         $resource->title                             = $request->title;
         $resource->audience                          = $request->audience;

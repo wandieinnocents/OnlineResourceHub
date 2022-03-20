@@ -256,7 +256,7 @@
 
 
 
-                <!-- edit details MODEL -->
+                <!-- EDIT RESOURCE MODEL -->
                 <div class="modal fade" id="editFoodOrder{{ $resource->id }}" tabindex="-1" aria-labelledby="editFoodOrderLabel" style="display: none;" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-scrollable">
                                 <div class="modal-content">
@@ -267,79 +267,187 @@
                                     <div class="modal-body">
 
 
-                                        <!-- form update food menu items -->
+                            <!-- form update food menu items -->
                                     
                             <form action="{{ route('resources.update', $resource->id) }}" method="post" enctype="multipart/form-data">
                             @csrf
                             @method('PATCH')
 
-                                            <div class="mb-3">
-                                                    <label class="form-label" for="validationCustom01">Category</label>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                    <label class="form-label" for="validationCustom01">Category</label>
 
-                                                    <select name="foodmenu_category_id" class="form-select">
-                                                        @foreach($categories as $category)
-                                                            <option value="{{ $category->id }}">{{ $category->name }}</option>
-                                                           
-                                                            @endforeach
-                                                        </select>
+                                    <select name="resource_category_id" class="form-select">
+                                        @foreach($categories as $category)
+                                            <option value="{{ $category->id }}">{{ $category->name }}</option>
+                                           
+                                            @endforeach
+                                    </select>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="validationCustom02">Title</label>
+                                        <input type="text" class="form-control"  name="title" id="validationCustom02" placeholder="Enter Resource Title" value="{{ $resource->title }}" required>
+                                        
+                                    </div>
+                                </div>
 
                 
-                                                    </div>
+                            </div>
 
-                                                    <div class="mb-3">
-                                                    <label class="form-label" for="validationCustom01">permission_status</label>
-
-                                                    <select name="permission_status" class="form-select">
-                                                        
-                                                        <option value="Yes" selected >Yes</option>
-                                                        <option value="No">No</option>
-                                                        
-           
-                                                        
-                                                </select>
-
-                
-                                                    </div>
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Name:</label>
-                                                <input type="text" class="form-control" name="title" value="{{  $resource->title }}" id="recipient-name">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Topic:</label>
-                                                <input type="text" class="form-control" name="topic" value="{{  $resource->topic }}" id="recipient-name">
-                                            </div>
-                                            <!-- <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Status:</label>
-                                                <input type="text" class="form-control" name="foodmenu_name" value="" id="recipient-name">
-                                            </div> -->
-                                            <div class="col-md-12">
-                                                    <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom05">Attachment</label>
-                                                        <input type="file" class="form-control" name="attachment" value="{{ $resource->attachment }}"  placeholder="Zip">
-                                                        
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom05">Attachment</label>
-                                                        <input type="file" class="form-control" name="thumbnail" value="{{ $resource->thumbnail }}"  placeholder="Zip">
-                                                        
-                                                    </div>
-                                                </div>
-                                            <div class="mb-3">
-                                                <label for="message-text" class="col-form-label">Description:</label>
-                                                <textarea class="form-control" name="topic" value="" id="message-text">{{  $resource->description }}</textarea>
-                                            </div>
-
-                                            <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <!-- <button  type="submit" class="btn btn-primary">Submit</button> -->
-                                        <button class="btn btn-primary" type="submit">Update Resource</button>
+                            <!-- ROW 2 -->
+                            <div class="row">
+                            <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="validationCustom02">Audience</label>
+                                        <input type="text" class="form-control"  name="audience" id="validationCustom02" placeholder="Add audience" value="{{ $resource->audience }}" >
+                                        
                                     </div>
+                                </div>
+                                <!-- Hidden status on create , visible on update -->
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                    <label class="form-label" for="validationCustom01">Written Permission</label>
 
-
-                                        </form>
+                                    <select name="written_permission" class="form-select">
+                                        
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+         
+                                    </select>
                                     </div>
+                                </div>
+                                <!-- Hidden status on create , visible on update -->
+                            </div>
+                            <!-- END OF ROW 2 -->
+
+                             <!-- ROW 3 -->
+                             <div class="row">
+                            <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="validationCustom02">Written Permission Storage</label>
+                                        <input type="text" class="form-control"  name="written_permission_storage" id="validationCustom02" placeholder="Written Permission Storage" value="{{ $resource->written_permission_storage }}" >
+                                        
+                                    </div>
+                                </div>
+                                <!-- Hidden status on create , visible on update -->
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                    <label class="form-label" for="validationCustom01">Permission Resource Usage </label>
+
+                                    <select name="permission_status" class="form-select">
+                                        
+                                            <option value="Yes" selected >Yes</option>
+                                            <option value="No">No</option>
+                                           
+         
+                                    </select>
+                                    </div>
+                                </div>
+                                <!-- Hidden status on create , visible on update -->
+                            </div>
+                            <!-- END OF ROW 3 -->
+
+                             <!-- ROW 3 -->
+                             <div class="row">
+                            <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="validationCustom02">Who to contact for permission</label>
+                                        <input type="text" class="form-control"  name="contact_person_written_permission" id="validationCustom02" placeholder="Who to contact for permission" value="{{ $resource->contact_person_written_permission }}" >
+                                        
+                                    </div>
+                                </div>
+                                <!-- Hidden status on create , visible on update -->
+                                <div class="col-md-6">
+                                <div class="mb-3">
+                                        <label class="form-label" for="validationCustom02">Topic</label>
+                                        <input type="text" class="form-control"  name="topic" id="validationCustom02" placeholder="Enter Topic" value="{{ $resource->topic }}" >
+                                        
+                                    </div>
+                                </div>
+                                <!-- Hidden status on create , visible on update -->
+                            </div>
+                            <!-- END OF ROW 3 -->
+
+                             <!-- ROW 4 -->
+                             <div class="row">
+                            <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="validationCustom02">Link</label>
+                                        <input type="text" class="form-control"  name="link" id="validationCustom02" placeholder="Enter Link" value="{{ $resource->link }}" >
+                                        
+                                    </div>
+                                </div>
+                                <!-- Hidden status on create , visible on update -->
+                                <div class="col-md-6">
+                                <div class="mb-3">
+                                        <label class="form-label" for="validationCustom02">Created By</label>
+                                        <input type="text" class="form-control"  name="created_by" id="validationCustom02" placeholder="Created By" value="{{ $resource->created_by }}" >
+                                        
+                                    </div>
+                                </div>
+                                <!-- Hidden status on create , visible on update -->
+                            </div>
+                            <!-- END OF ROW 4 -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="validationCustom03">Partner Organisations</label>
+                                        <input type="text" class="form-control"  name="partner_orgnisations" id="validationCustom03" placeholder="Partner Organisations" value="{{ $resource->partner_orgnisations }}">
+                                        
+                                    </div>
+                                </div>
+                              
+                                <div class="col-md-6">
+                                <div class="mb-3">
+                                        <label class="form-label" for="validationCustom03">Date</label>
+                                        <input type="date" class="form-control"  name="date" id="validationCustom03" placeholder="Date" value="{{ $resource->date }}">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                <div class="mb-3">
+                                        <label class="form-label">Description</label>
+                                        <textarea class="form-control" name="description" id="exampleFormControlTextarea5" placeholder="Enter Resource Description" rows="3">{{ $resource->description }}</textarea>
+                                    </div>
+                                </div>
+                              
+                                
+                            </div>
+                            
+                            <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                        <label class="form-label" for="validationCustom05">Attachment</label>
+                                        <input type="file" class="form-control" name="attachment" id="validationCustom05" placeholder="Attachment" >
+                                        
+                                    </div>
+                             </div>
+
+                             <!-- thumbnail  -->
+                             <div class="col-md-6">
+                                <div class="mb-3">
+                                        <label class="form-label" for="validationCustom05">Thumbnail</label>
+                                        <input type="file" class="form-control" name="thumbnail" id="validationCustom05" placeholder="Thumbnail" >
+                                        
+                                    </div>
+                             </div>
+
+                            </div>
+
+
+                            <button class="btn btn-primary" type="submit">Update Resource</button>
+
+
+
+                           </form>
+                        </div>
                                   
 
                                 </div>

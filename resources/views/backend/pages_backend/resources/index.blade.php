@@ -179,8 +179,22 @@
                                     
 
                                     <div class="modal-body">
+                                    @if (($resource->thumbnail))
+                                                <!-- <a href="{!! asset($resource->thumbnail) !!}" target="_blank"> -->
+                                                    <img 
+                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
+                                                        src="{{ asset($resource->thumbnail) }}" alt="preview"
+                                                        style="height:250px !important; width:500px !important; ">
+                                                <!-- </a> -->
 
-                                    <img src="{{ asset($resource->attachment) }} " style="width: 100%; height:60%;">
+                                        @else
+                                            <!-- <p class="text-danger">No Photo</p> -->
+                                            <img class="user-img" width="500px;" style="height:330px !important;" src="{{ asset('assets/frontend_assets/assets/images/sense/docicon.png') }}">
+
+                                        @endif
+
+                                    <!-- <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img" style="width: 100px; height:100px;" src="{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}"> -->
+
                                     <hr>
                                     <p>Food : {{ $resource->title }}</p>
                                     <hr>

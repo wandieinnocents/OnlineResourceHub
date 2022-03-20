@@ -197,6 +197,9 @@ class ResourceController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $resource = Resource::findOrFail($id);
+        $resource->delete();
+
+        return redirect('/resources')->with('success', 'Resource is successfully deleted');
     }
 }

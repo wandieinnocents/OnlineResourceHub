@@ -26,8 +26,9 @@
 
         <!-- service-15 -->
         
-        <section class="shop-details p_relative pt_140 pb_80">
+        <section class="shop-details p_relative pt_40 pb_50">
             <div class="auto-container">
+               
                 <div class="product-details-content p_relative d_block mb_100">
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-12 col-sm-12 image-column">
@@ -45,9 +46,10 @@
                                 </div>
                                 <div class="other-option">
                                     <ul class="list">
-                                        <li class="p_relative d_block fs_16 font_family_poppins mb_5"><span class="fw_medium color_black">Product ID:</span> AZ-2305</li>
-                                        <li class="p_relative d_block fs_16 font_family_poppins mb_5"><span class="fw_medium color_black">Category</span> Accessories</li>
-                                        <li class="p_relative d_block fs_16 font_family_poppins"><span class="fw_medium color_black">Tags:</span> <a href="shop-details.html">Laptop</a>, <a href="shop-details.html">Device</a>, <a href="shop-details.html">Desktop</a></li>
+                                        <li class="p_relative d_block fs_16 font_family_poppins mb_5"><span class="fw_medium color_black">Audience:</span> {{ $resource->audience }}</li>
+                                        <li class="p_relative d_block fs_16 font_family_poppins mb_5"><span class="fw_medium color_black">Link :</span> {{ $resource->link }}</li>
+                                        <li class="p_relative d_block fs_16 font_family_poppins mb_5"><span class="fw_medium color_black">Written Permission:</span> {{ $resource->written_permission }}</li>
+                                        <li class="p_relative d_block fs_16 font_family_poppins mb_5"><span class="fw_medium color_black">Created By:</span> {{ $resource->created_by }}</li>
                                     </ul>
                                 </div>
                                 <!-- download -->

@@ -210,7 +210,6 @@
 
                                     <hr>
                                     <p>Written Permission : {{ $resource->written_permission }}</p>
-                                    <hr>
 
                                     <hr>
                                     <p>Written Permission Storage : {{ $resource->written_permission_storage }}</p>
@@ -236,8 +235,7 @@
                                     <p>Date : {{ $resource->date }}</p>
                                     <hr>
 
-                                    <p>Description : {{ $resource->description }}</p>
-                                    <hr>
+                                    
 
                                     <p>Permission Status :
                                     <a href="#" class="badge badge-soft-primary font-size-11">{{ $resource->permission_status }}</a>

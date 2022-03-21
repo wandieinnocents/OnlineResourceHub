@@ -13,7 +13,7 @@
             <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/frontend_assets/assets/images/sense/carpenter.JPG);"></div>
             <div class="auto-container">
                 <div class="content-box">
-                    <h1 class="d_block fs_60 lh_70 fw_bold mb_10">RESOURCES Us </h1>
+                    <h1 class="d_block fs_60 lh_70 fw_bold mb_10">RESOURCES </h1>
                     <ul class="bread-crumb p_relative d_block mb_8 clearfix">
                         <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="/">Home</a></li>
                         <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Resources</li>
@@ -29,7 +29,7 @@
         <section class="service-15 p_relative pt_110 pb_150 centred">
         <div class="sec-title p_relative d_block mb_45 centred">
                     <h2 class="d_block fs_45 fw_bold lh_55 fw_bold font_family_spartan">Our Resources</h2>
-                    <p class="text-center">Great Business Solutions System</p>
+                    <p class="text-center">Browse through our resources</p>
 
 
                 </div>

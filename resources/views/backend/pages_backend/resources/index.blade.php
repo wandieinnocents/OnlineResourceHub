@@ -62,15 +62,16 @@
                                         </div>
                                     </th>
                                     <th scope="col">#ID</th>
+                                    <th scope="col">Date</th>
                                     <th scope="col">Category</th>
-                                    <th scope="col">Name</th>
+                                    <th scope="col">Title</th>
                                     <th scope="col">Thumbnail</th>
                                    
-                                    <th scope="col">Price</th>
+                                    <th scope="col">Topic</th>
+                                    <th scope="col">Created By</th>
+                                    <th scope="col">Permission Status</th>
                                     <th scope="col">Description</th>
-                                    <th scope="col">Status</th>
-                                    <th scope="col">Description</th>
-                                    <th>Download</th>
+                                    <th>Resource</th>
                                     <th style="width: 150px; min-width: 80px;">Action</th>
                                   </tr>
                                 </thead>
@@ -85,7 +86,9 @@
                                                 <label class="form-check-label" for="contacusercheck11"></label>
                                             </div>
                                         </th>
+
                                         <td>{{ $resource->id }}</td>
+                                        <td>{{ $resource->date }}</td>
 
                                         <td>
                                             <a href="#" class="text-body">{{ $resource->resource_category_r->name }} </a>
@@ -114,15 +117,16 @@
                                     </td> 
                                       
                                        
-                                        <td>{{ $resource->permission_status }}</td>
-                                        <td>{{ $resource->permission_status }}</td>
+                                        <td>{{ $resource->topic }}</td>
+                                        <td>{{ $resource->created_by }}</td>
                                         <td>
                                             <div class="d-flex gap-2">
                                                 <a href="#" class="badge badge-soft-primary font-size-11">{{ $resource->permission_status }}</a>
                                                 
                                             </div>
                                         </td>
-                                        <td>{{ $resource->description }}</td>
+                                        <td>  {{ \Illuminate\Support\Str::limit($resource->description, 80, $end='...') }}</td>
+                                      
                                         <td>
                                             <!-- DOWNLOAD FILE -->
                                             <a href="{!! asset($resource->attachment) !!}" target="_blank">

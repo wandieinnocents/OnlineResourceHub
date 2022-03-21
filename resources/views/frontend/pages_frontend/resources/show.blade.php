@@ -13,10 +13,10 @@
             <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url({{ asset('assets/frontend_assets/assets/images/background/page-title-2.jpg') }});"></div>
             <div class="auto-container">
                 <div class="content-box">
-                    <h1 class="d_block fs_60 lh_70 fw_bold mb_10">RESOURCES Us </h1>
+                    <h1 class="d_block fs_60 lh_70 fw_bold mb_10">RESOURCES </h1>
                     <ul class="bread-crumb p_relative d_block mb_8 clearfix">
                         <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="/">Home</a></li>
-                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Resource</li>
+                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Resource Detail</li>
                     </ul>
                 </div>
             </div>

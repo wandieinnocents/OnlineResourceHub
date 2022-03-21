@@ -14,9 +14,9 @@
                         </div>
                         <div class="top-right pull-right">
                             <ul class="info clearfix">
-                                <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_30 lh_40">
+                                <!-- <li class="search-box-outer search-toggler p_relative d_iblock float_left mr_30 lh_40">
                                     <i class="icon-1"></i>
-                                </li>
+                                </li> -->
                                 <li class="p_relative d_iblock float_left mr_30 lh_40 pl_25 fs_16 font_family_oxygen">
                                     <i class="icon-2"></i>
                                     <p class="font_family_oxygen"><span>Call:</span> <a href="tel:0706382817">+256 75585585</a></p>

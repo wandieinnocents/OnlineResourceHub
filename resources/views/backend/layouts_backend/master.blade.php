@@ -10,7 +10,7 @@
         <meta content="Quality at its best" name="description" />
         <meta content="Wanran" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico"/>
+        <link rel="shortcut icon" href=""/>
 
         <!-- plugin css -->
         <link href="{{ asset('assets/backend_assets/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css') }}" rel="stylesheet" type="text/css" />

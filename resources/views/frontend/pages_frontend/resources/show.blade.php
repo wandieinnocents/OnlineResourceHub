@@ -33,7 +33,22 @@
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div class="image-box p_relative d_block">
-                                <figure class="image"><img src="{{ asset('assets/frontend_assets/assets/images/sense/carpenter.JPG') }}" alt=""></figure>
+                                <br><br>
+                                <figure class="image-box">
+                                    <!-- <img src="assets/frontend_assets/assets/images/service/service-23.jpg" alt=""> -->
+                                    <!-- Image thumbnail -->
+
+                                        @if (($resource->thumbnail))
+                                                    <img 
+                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
+                                                        src="{{ asset($resource->thumbnail) }}" alt="preview"
+                                                        style="height:250px !important; width:500px !important; ">
+                                        @else
+                                            <img class="user-img" width="500px;" style="height:330px !important;" src="{{ asset('assets/frontend_assets/assets/images/sense/docicon.png') }}">
+                                        @endif
+                                    <!-- End of image thumbnail -->
+                            </figure>
+
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12 content-column">

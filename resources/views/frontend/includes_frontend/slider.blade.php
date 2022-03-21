@@ -10,7 +10,7 @@
                                 <span class="slider-text-anim">A youth is guided during a carpentry class.</span>
                                 <span class="slider-text-anim"></span></h2>
                             <div class="btn-box clearfix">
-                                <a href="/" class="theme-btn theme-btn-eight">Get Started</a>
+                                <a href="/contact/create" class="theme-btn theme-btn-eight">Talk to Us</a>
                             </div>
                         </div> 
                     </div>
@@ -25,7 +25,7 @@
                                 <span class="slider-text-anim">A youth at Mafuubira VTC being guided on toiloring.</span>
                                 <span class="slider-text-anim"></span></h2>
                             <div class="btn-box clearfix">
-                                <a href="/" class="theme-btn theme-btn-eight">Get Started</a>
+                            <a href="/contact/create" class="theme-btn theme-btn-eight">Talk to Us</a>
                             </div>
                         </div> 
                     </div>
@@ -41,7 +41,7 @@
                                 <span class="slider-text-anim">Teachers and parents training in Kalaki.</span>
                                 <span class="slider-text-anim"></span></h2>
                             <div class="btn-box clearfix">
-                                <a href="/" class="theme-btn theme-btn-eight">Get Started</a>
+                            <a href="/contact/create" class="theme-btn theme-btn-eight">Talk to Us</a>
                             </div>
                         </div> 
                     </div>

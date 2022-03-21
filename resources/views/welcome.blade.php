@@ -120,7 +120,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
                         <div class="feature-block-three wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block b_radius_10 b_shadow_6 pl_40 pt_40 pr_30 pb_35">
-                                <div class="icon-box p_relative d_iblock w_80 h_80 lh_85 fs_45 centred b_radius_50 mb_20"><i class="icon-7"></i></div>
+                                <div class="icon-box p_relative d_iblock w_80 h_80 lh_85 fs_45 centred b_radius_50 mb_20"><i class="icon-12"></i></div>
                                 <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_15 tran_5">Promote Awareness </h4>
                                 <p class="font_family_oxygen tran_5">To promote awareness of the needs and opportunities of the Children and young people
 with deafblindness/MSI.</p>
@@ -231,7 +231,7 @@ with deafblindness/MSI.</p>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 btn-column">
                         <div class="btn-box text-right">
-                            <a href="index-6.html" class="theme-btn theme-btn-eight">Talk to Us</a>
+                            <a href="/contact/create" class="theme-btn theme-btn-eight">Talk to Us</a>
                         </div>
                     </div>
                 </div>

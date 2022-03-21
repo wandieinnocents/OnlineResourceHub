@@ -105,12 +105,13 @@
                         <h2 class="text-white">SENSE</h2>
                     </a>
             </div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="menu-outer">
+                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>
                     <ul>
                         <li>Kampala, Uganda</li>
-                        <li><a href="tel:+8801682648101">+256 75550055</a></li>
+                        <li><a href="tel:+8801682648101">+256 786 345295</a></li>
                         <li><a href="mailto:info@example.com">info@senseinternational.com</a></li>
                     </ul>
                 </div>

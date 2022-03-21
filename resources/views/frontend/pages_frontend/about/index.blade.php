@@ -16,7 +16,7 @@
                     <h1 class="d_block fs_60 lh_70 fw_bold mb_10">About Us </h1>
                     <ul class="bread-crumb p_relative d_block mb_8 clearfix">
                         <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="/">Home</a></li>
-                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">About</li>
+                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">About Us</li>
                     </ul>
                 </div>
             </div>
@@ -174,7 +174,7 @@
                                     <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-113.png" alt=""></div>
                                 </div>
                                 <div class="count-outer count-box p_relative d_block fs_60 lh_70 fw_bold mb_12 font_family_inter">
-                                    <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="2">0</span><span class="font_family_inter">M</span>
+                                    <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="200">0</span><span class="font_family_inter">+</span>
                                 </div>
                                 <p class="p_relative d_block font_family_poppins">Trainees</p>
                             </div>
@@ -202,7 +202,7 @@
                                     <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-115.png" alt=""></div>
                                 </div>
                                 <div class="count-outer count-box p_relative d_block fs_60 lh_70 fw_bold mb_12 font_family_inter">
-                                    <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="10">0</span>
+                                    <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="50">0</span>
                                 </div>
                                 <p class="p_relative d_block font_family_poppins">Resources</p>
                             </div>

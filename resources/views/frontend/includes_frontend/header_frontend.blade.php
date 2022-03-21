@@ -100,7 +100,7 @@
             
             <nav class="menu-box">
                 <div class="nav-logo">
-                    <a href="index.html">
+                    <a href="/">
                         <!-- <img src="assets/frontend_assets/assets/images/mobile-logo.png" alt="" title=""> -->
                         <h2 class="text-white">SENSE</h2>
                     </a>

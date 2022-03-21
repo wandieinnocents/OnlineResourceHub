@@ -165,7 +165,7 @@ class ResourceController extends Controller
             $resource->attachment   = url('uploads' . '/resource_attachments/'  . $filename);
         } else {
             // return $request;
-            $resource->attachment  = '';
+            // $resource->attachment  = '';
         }
 
         // Thumbnail
@@ -178,7 +178,7 @@ class ResourceController extends Controller
             $resource->thumbnail   = url('uploads' . '/resource_thumbnails/'  . $filename);
         } else {
             // return $request;
-            $resource->thumbnail  = '';
+            // $resource->thumbnail  = '';
         }
 
 

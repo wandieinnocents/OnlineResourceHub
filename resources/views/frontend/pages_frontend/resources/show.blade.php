@@ -60,6 +60,7 @@
                                         </li>
                                     </ul>
                                 </div>
+                                <!-- end of download -->
                                 
                                
                             </div>

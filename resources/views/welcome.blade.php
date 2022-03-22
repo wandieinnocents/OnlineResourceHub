@@ -1,7 +1,7 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-
+Home - Sense Online Portal
 @endsection
 
 @section('content')

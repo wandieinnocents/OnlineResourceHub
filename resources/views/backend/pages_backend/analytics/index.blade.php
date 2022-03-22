@@ -36,7 +36,7 @@
                         <!-- fetch total visits -->
                         <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Total Visits</button>
                         <!-- fetch top browsers -->
-                        <button class="nav-link" id="nav-topbrowsers-tab" data-bs-toggle="tab" data-bs-target="#nav-topbrowsers" type="button" role="tab" aria-controls="nav-topbrowsers" aria-selected="false">browsers</button>
+                        <button class="nav-link" id="nav-topbrowsers-tab" data-bs-toggle="tab" data-bs-target="#nav-topbrowsers" type="button" role="tab" aria-controls="nav-topbrowsers" aria-selected="false">Top Browsers</button>
                     </div>
 
                     </nav>
@@ -180,10 +180,9 @@
                                             <label>Show <select name="datatable_length" aria-controls="datatable" class="custom-select custom-select-sm form-control form-control-sm form-select form-select-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-12 col-md-6"><div id="datatable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="datatable"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="datatable" class="table table-bordered dt-responsive nowrap w-100 dataTable no-footer dtr-inline" role="grid" aria-describedby="datatable_info" style="width: 1216px;">
                                     <thead>
                                     <th>#</th>
-                                    <th>Date</th>
-                                    <th>Visitors</th>
-                                    <th>Page Title</th>
-                                    <th>Page Views</th>
+                                    <th>Browser</th>
+                                    <th>Sessions</th>
+                                  
                                 </thead>
                                     <tbody>
                                     @php

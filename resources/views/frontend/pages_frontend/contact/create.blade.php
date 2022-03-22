@@ -2,6 +2,8 @@
 
 @section('title')
 
+Support 
+
 @endsection
 
 @section('content')

@@ -6,6 +6,7 @@ use App\Http\Controllers;
 use App\Models\DrinkMenu;
 use App\Models\FoodMenu;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

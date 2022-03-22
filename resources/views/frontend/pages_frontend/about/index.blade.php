@@ -2,6 +2,7 @@
 
 @section('title')
 
+About Us
 @endsection
 
 @section('content')

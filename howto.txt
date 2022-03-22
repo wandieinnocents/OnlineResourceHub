@@ -1,0 +1,4 @@
+1. analytics url : https://analytics.google.com 
+ - go to admin area on bottom left
+
+2. json file : cloud.google.com

@@ -10,6 +10,7 @@ class AnalyticsController extends Controller
     //analytics
     public function analytics(){
         
-        return "This is analytics view";
+        return view('backend.pages_backend.analytics.index');
+
     }
 }

@@ -21,8 +21,10 @@ class AnalyticsController extends Controller
         $total_visitors = Analytics::fetchTotalVisitorsAndPageViews(Period::days(20))->sortByDesc('date');
         // most top browsers
         $fetch_top_browsers = Analytics::fetchTopBrowsers(Period::days(365));
+        // fetch top countries
+        // $fetch_top_countries = Analytics::fetchCountries(Period::days(365));
 
-        // dd($fetch_top_browsers);
+        // dd($fetch_top_countries);
         return view('backend.pages_backend.analytics.index',compact('analyticsData','popular','total_visitors','fetch_top_browsers'));
 
     }

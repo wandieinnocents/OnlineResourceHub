@@ -131,8 +131,8 @@ with deafblindness/MSI.</p>
                         <div class="feature-block-three wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block b_radius_10 b_shadow_6 pl_40 pt_40 pr_30 pb_35">
                                 <div class="icon-box p_relative d_iblock w_80 h_80 lh_85 fs_45 centred b_radius_50 mb_20"><i class="icon-8"></i></div>
-                                <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_15 tran_5">Access to Resources</h4>
-                                <p class="font_family_oxygen tran_5">To provide quick and easy access to resources to the young children with deafblindness.</p>
+                                <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_15 tran_5" >Access to Resources</h4>
+                                <p class="font_family_oxygen tran_5" style="color:#fff">To provide quick and easy access to resources to the young children with deafblindness.</p>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ with deafblindness/MSI.</p>
                             <h2 class="d_block fs_45 fw_bold lh_55 fw_bold font_family_spartan">Access to Resources.</h2>
                         </div>
                         <div class="text p_relative d_block mb_30">
-                            <p class="font_family_oxygen">We are simplifying access to resources to the general community.</p>
+                            <p class="font_family_oxygen" style="color:#fff">We are simplifying access to resources to the general community.</p>
                         </div>
                         <div class="inner-box">
                             <div class="row clearfix">
@@ -165,7 +165,7 @@ with deafblindness/MSI.</p>
                                             <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/icons/hid-icon-18.png" alt=""></div>
                                         </div>
                                         <h4 class="d_block fs_20 lh_30 mb_6 font_family_spartan fw_sbold">Downlodable</h4>
-                                        <p class="mb_0 fs_16 font_family_oxygen">Easily downlodable.</p>
+                                        <p class="mb_0 fs_16 font_family_oxygen" style="color:#fff">Easily downlodable.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 single-column">
@@ -175,7 +175,7 @@ with deafblindness/MSI.</p>
                                             <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/icons/hid-icon-18.png" alt=""></div>
                                         </div>
                                         <h4 class="d_block fs_20 lh_30 mb_6 font_family_spartan fw_sbold">Efficient</h4>
-                                        <p class="mb_0 fs_16 font_family_oxygen">We have efficient accessibility.</p>
+                                        <p class="mb_0 fs_16 font_family_oxygen" style="color:#fff">We have efficient accessibility.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 single-column">
@@ -185,7 +185,7 @@ with deafblindness/MSI.</p>
                                             <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/icons/hid-icon-18.png" alt=""></div>
                                         </div>
                                         <h4 class="d_block fs_20 lh_30 mb_6 font_family_spartan fw_sbold">Full Support</h4>
-                                        <p class="mb_0 fs_16 font_family_oxygen">We have realtime support</p>
+                                        <p class="mb_0 fs_16 font_family_oxygen" style="color:#fff">We have realtime support</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 single-column">
@@ -195,7 +195,7 @@ with deafblindness/MSI.</p>
                                             <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/icons/hid-icon-18.png" alt=""></div>
                                         </div>
                                         <h4 class="d_block fs_20 lh_30 mb_6 font_family_spartan fw_sbold">Reliable</h4>
-                                        <p class="mb_0 fs_16 font_family_oxygen">We have a reliable team</p>
+                                        <p class="mb_0 fs_16 font_family_oxygen" style="color:#fff">We have a reliable team</p>
                                     </div>
                                 </div>
                             </div>

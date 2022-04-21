@@ -34,8 +34,8 @@
                 <div class="auto-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <!-- <figure class="logo"><a href="index.html"><img src="assets/frontend_assets/assets/images/logo-11.png" alt=""></a></figure> -->
-                            <h2 class="text-white">SENSE</h2>
+                            <figure class="logo"><a href="/"><img src="assets/frontend_assets/assets/sense/white.png" alt=""></a></figure>
+                            <!-- <h2 class="text-white">SENSE</h2> -->
                         </div>
                         <div class="menu-area clearfix">
                             <!--Mobile Navigation Toggler-->
@@ -75,10 +75,8 @@
                 <div class="auto-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo">
-                                <!-- <a href="index.html"><img src="assets/frontend_assets/assets/images/logo-11.png" alt=""> -->
-                                <h2 class="text-white">SENSE</h2>
-                        </a></figure>
+                        <figure class="logo"><a href="/"><img src="assets/frontend_assets/assets/sense/white.png"  width="150" alt=""></a></figure>
+
                         </div>
                         <div class="menu-area clearfix">
                             <nav class="main-menu clearfix">

@@ -6806,7 +6806,7 @@ div[class^="bubble-"] {
 /** slider-seven **/
 
 .slider-seven{
-  border-bottom: 7px solid #494949;
+  /* border-bottom: 7px solid #494949; */
 }
 
 .slider-seven .slide-item{

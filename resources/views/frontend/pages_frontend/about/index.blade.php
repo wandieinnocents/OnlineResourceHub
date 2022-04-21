@@ -238,17 +238,19 @@ About Us
                     </div>
                     
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <div class="image_block_22">
-                             
-                        <div class="inner-box">
-                                   
+                    <div class="content_block_26">
+                            <div class="content-box p_relative d_block mr_70">
+                                
+                                <div class="inner-box">
                                     <div class="single-item p_relative d_block pl_100 mb_25">
                                         <div class="icon-box p_absolute l_0 t_5 w_70 h_70 lh_70 fs_20 centred b_radius_50"><i class="icon-16"></i></div>
-                                        <h4 class="d_block fs_20 lh_30 fw_sbold mb_13">Our Mission</h4>
-                                        <p class="font_family_poppins">We work in partnership with others across the globe- people with deafblindness, their families, carers, and other professionals to ensure anyone facing challenges because of deafblindness has access to advice, guidance, and support.</p>
+                                        <h4 class="d_block fs_20 lh_30 fw_sbold mb_13">Our Vision</h4>
+                                        <p class="font_family_poppins">
+                                        We work in partnership with others across the globe- people with deafblindness, their families, carers, and other professionals to ensure anyone facing challenges because of deafblindness has access to advice, guidance, and support.                                        </p>
                                     </div>
-                                   
+                                    
                                 </div>
+                            </div>
                         </div>
                     </div>
 

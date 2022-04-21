@@ -18,7 +18,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <h5 class="card-title">Food Menu Categories</h5>
+                                    <h5 class="card-title">Resource Categories</h5>
                                 </div>
                             </div>
 

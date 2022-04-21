@@ -4,6 +4,16 @@ namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Resource;
+use App\Models\User;
+use App\Models\Gallery;
+use App\Models\Service;
+use App\Models\Career;
+use App\Models\Feedback;
+use App\Models\FrontEndContact;
+
+
+
 
 class DashboardController extends Controller
 {
@@ -15,7 +25,20 @@ class DashboardController extends Controller
     public function index()
     {
 
-        return view('backend.pages_backend.dashboard.index');
+        // fetch count - resurces
+        $resources      = Resource::all()->count();
+        // users 
+        $users          =  User::all()->count();
+        // photos
+        $photos         = Gallery::all()->count();
+        // services
+        $services       = Service::all()->count();
+        // feedback
+        $feedbacks      = FrontEndContact::all()->count();
+
+
+
+        return view('backend.pages_backend.dashboard.index', compact('resources','users','photos','services','feedbacks'));
     }
 
     /**

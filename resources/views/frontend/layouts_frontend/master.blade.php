@@ -2,11 +2,25 @@
 <html lang="en">
 
 <head>
+<!-- GOOGLE ANALYTICS TRACKER -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-223606149-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-223606149-1');
+</script>
+
+
+<!-- END OF ANALYTICS TRACKER -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Online Portal</title>
+<title>@yield('title')</title>
 
 <!-- Fav Icon -->
 <link rel="icon" href="{{ asset('assets/frontend_assets/assets/images/favicon-9.ico') }}" type="image/x-icon">

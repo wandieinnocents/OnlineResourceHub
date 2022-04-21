@@ -6,6 +6,7 @@ use App\Http\Controllers;
 use App\Models\DrinkMenu;
 use App\Models\FoodMenu;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -63,6 +64,9 @@ Route::group(['middleware' => ['auth']], function() {
 
 // users
 Route::resource('/users', 'App\Http\Controllers\UserController');
+
+// analytics
+Route::get('/analytics', 'App\Http\Controllers\BackEnd\AnalyticsController@analytics');
 // Roles
 Route::resource('/roles', 'App\Http\Controllers\RoleController');
 // permissions

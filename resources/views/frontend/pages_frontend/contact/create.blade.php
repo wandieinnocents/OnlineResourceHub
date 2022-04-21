@@ -2,6 +2,8 @@
 
 @section('title')
 
+Support 
+
 @endsection
 
 @section('content')
@@ -9,14 +11,13 @@
 
         <!-- Page Title -->
         <section class="page-title about-page-3 p_relative centred">
-            <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url({{ asset('assets/frontend_assets/assets/images/background/page-title-2.jpg') }});"></div>
+            <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url({{ asset('assets/frontend_assets/assets/images/sense/carpenter.JPG') }});"></div>
             <div class="auto-container">
                 <div class="content-box">
-                    <h1 class="d_block fs_60 lh_70 fw_bold mb_10">CONTACT Us </h1>
+                    <h1 class="d_block fs_60 lh_70 fw_bold mb_10">CONTACT US</h1>
                     <ul class="bread-crumb p_relative d_block mb_8 clearfix">
-                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="index.html">Home</a></li>
-                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Pages</li>
-                        <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter">About Us Modern</li>
+                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="/">Home</a></li>
+                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Contact Us</li>
                     </ul>
                 </div>
             </div>
@@ -29,7 +30,7 @@
             <div class="auto-container">
                 <div class="sec-title p_relative d_block mb_50">
                     <h5 class="d_block fs_17 lh_20 fw_sbold uppercase mb_15">Get In Touch</h5>
-                    <h2 class="d_block fs_40 fw_bold">Have a Project in Mind? <br/>Let’s Contact</h2>
+                    <h2 class="d_block fs_40 fw_bold">We shall revert in time </h2>
                 </div>
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-6 col-sm-12 info-column">
@@ -40,7 +41,8 @@
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-133.png" alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Office Location</h4>
-                                <p class="font_family_poppins">629 12th St, Modesto, CA 95354 United States</p>
+                                <p class="font_family_poppins">Kampala , Uganda</p>
+                                <p class="font_family_poppins">Bweyogerere</p>
                             </div>
                         </div>
                     </div>
@@ -52,7 +54,7 @@
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-134.png" alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Company Email</h4>
-                                <p class="font_family_poppins"><a href="mailto:example@gmail.com">example@gmail.com</a><br /><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                <p class="font_family_poppins"><a href="mailto:example@gmail.com">info@senseinternational.com</a><br /><a href="mailto:example@gmail.com">example@gmail.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -64,7 +66,7 @@
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-135.png" alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Contact Us</h4>
-                                <p class="font_family_poppins"><a href="tel:11165458856">+(111)65-458-856</a><br /><a href="tel:11165458856">+(111)65-458-856</a></p>
+                                <p class="font_family_poppins"><a href="tel:11165458856">+256 706382817 </a><br /><a href="tel:11165458856">+256 78855225</a></p>
                             </div>
                         </div>
                     </div>
@@ -91,13 +93,21 @@
                         <div class="content-box p_relative d_block pl_50">
                             <div class="text p_relative d_block mb_30">
                                 <h3 class="d_block fs_30 lh_40 fw_bold mb_15">Send a Message</h3>
-                                <p class="font_family_poppins">We support businesses through periods of expansion succession, and all other important transitions.</p>
+                                <p class="font_family_poppins">Get in touch with us to know more.</p>
                             </div>
                             <div class="form-inner p_relative ml_5 mr_5">
-                                <form method="post" action="http://azim.commonsupport.com/Atrix/sendemail.php" id="contact-form"> 
+                                <!-- success message -->
+                                @if(session()->has('message'))
+                                    <div class="alert alert-success">
+                                        {{ session()->get('message') }}
+                                    </div>
+                                @endif
+                                
+                                <form method="post" action="{{ route('contact.store') }}" id="contact-form"> 
+                                    @csrf()
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="text" name="username" placeholder="Your Name" required="">
+                                            <input type="text" name="name" placeholder="Your Name" required="">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                             <input type="email" name="email" placeholder="Email Address" required="">
@@ -109,7 +119,7 @@
                                             <input type="text" name="subject" required="" placeholder="Subject">
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <textarea name="message" placeholder="Leave A Comment"></textarea>
+                                            <textarea name="description" placeholder="Leave A Comment"></textarea>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                                             <button class="theme-btn theme-btn-eight" type="submit" name="submit-form">Send Message <i class="icon-4"></i></button>

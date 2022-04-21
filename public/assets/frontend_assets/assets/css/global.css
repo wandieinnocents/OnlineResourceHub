@@ -1253,7 +1253,7 @@ img {
 }
 
 .main-menu .navigation > li > a{
-  position:relative;
+  /* position:relative; */
   display:block;
   text-align:center;
   font-size:16px;

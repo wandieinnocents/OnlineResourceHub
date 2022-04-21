@@ -109,7 +109,9 @@ class ResourceController extends Controller
      */
     public function show($id)
     {
-        //
+        $resource_single = Resource::find($id);
+        // dd($foodmenu_single);
+        return view('backend.pages_backend.resources.show',compact('resource_single'));
     }
 
     /**
@@ -120,7 +122,7 @@ class ResourceController extends Controller
      */
     public function edit($id)
     {
-        //
+        
     }
 
     /**
@@ -132,7 +134,59 @@ class ResourceController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        // update resource
+        // $validatedData = $request->validate([
+            
+        //     'attachment' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
+            
+        // ]);
+
+        $resource = Resource::find($id);
+        $resource->resource_category_id              = $request->resource_category_id;
+        $resource->title                             = $request->title;
+        $resource->audience                          = $request->audience;
+        $resource->written_permission                = $request->written_permission;
+        $resource->written_permission_storage        = $request->written_permission_storage;
+        $resource->contact_person_written_permission = $request->contact_person_written_permission;
+        $resource->permission_status                 = $request->permission_status;
+        $resource->topic                             = $request->topic;
+        $resource->link                              = $request->link;
+        $resource->created_by                        = $request->created_by;
+        $resource->partner_orgnisations              = $request->partner_orgnisations;
+        $resource->date                              = $request->date;
+        $resource->description                       = $request->description;
+
+        // resource attachment
+        if ($request->hasfile('attachment')) {
+            $file               = $request->file('attachment');
+            $extension          = $file->getClientOriginalExtension();  //get image extension
+            $filename           = time() . '.' .$extension;
+            $file->move('uploads/resource_attachments/', $filename);
+            $resource->attachment   = url('uploads' . '/resource_attachments/'  . $filename);
+        } else {
+            // return $request;
+            // $resource->attachment  = '';
+        }
+
+        // Thumbnail
+        // resource thumbnail
+        if ($request->hasfile('thumbnail')) {
+            $file               = $request->file('thumbnail');
+            $extension          = $file->getClientOriginalExtension();  //get image extension
+            $filename           = time() . '.' .$extension;
+            $file->move('uploads/resource_thumbnails/', $filename);
+            $resource->thumbnail   = url('uploads' . '/resource_thumbnails/'  . $filename);
+        } else {
+            // return $request;
+            // $resource->thumbnail  = '';
+        }
+
+
+        // dd("works");
+        $resource->save();
+
+        return redirect('/resources');
+
     }
 
     /**
@@ -143,6 +197,9 @@ class ResourceController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $resource = Resource::findOrFail($id);
+        $resource->delete();
+
+        return redirect('/resources')->with('success', 'Resource is successfully deleted');
     }
 }

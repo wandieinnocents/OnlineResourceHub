@@ -4,13 +4,25 @@
     
 <head>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-223606149-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-223606149-1');
+  
+</script>
+
+
         <meta charset="utf-8" />
         <title>Backend </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Quality at its best" name="description" />
         <meta content="Wanran" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico"/>
+        <link rel="shortcut icon" href=""/>
 
         <!-- plugin css -->
         <link href="{{ asset('assets/backend_assets/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css') }}" rel="stylesheet" type="text/css" />

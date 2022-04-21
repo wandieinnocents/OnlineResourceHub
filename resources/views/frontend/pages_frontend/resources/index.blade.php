@@ -1,7 +1,7 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-
+Resources
 @endsection
 
 @section('content')
@@ -10,14 +10,13 @@
 
         <!-- Page Title -->
         <section class="page-title about-page-3 p_relative centred">
-            <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/frontend_assets/assets/images/background/page-title-2.jpg);"></div>
+            <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/frontend_assets/assets/images/sense/carpenter.JPG);"></div>
             <div class="auto-container">
                 <div class="content-box">
-                    <h1 class="d_block fs_60 lh_70 fw_bold mb_10">RESOURCES Us </h1>
+                    <h1 class="d_block fs_60 lh_70 fw_bold mb_10">RESOURCES </h1>
                     <ul class="bread-crumb p_relative d_block mb_8 clearfix">
-                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="index.html">Home</a></li>
-                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Pages</li>
-                        <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter">About Us Modern</li>
+                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="/">Home</a></li>
+                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Resources</li>
                     </ul>
                 </div>
             </div>
@@ -30,7 +29,7 @@
         <section class="service-15 p_relative pt_110 pb_150 centred">
         <div class="sec-title p_relative d_block mb_45 centred">
                     <h2 class="d_block fs_45 fw_bold lh_55 fw_bold font_family_spartan">Our Resources</h2>
-                    <p class="text-center">Great Business Solutions System</p>
+                    <p class="text-center">Browse through our resources</p>
 
 
                 </div>
@@ -55,7 +54,9 @@
                                                 <!-- </a> -->
 
                                         @else
-                                            <p class="text-danger">No Photo</p>
+                                            <!-- <p class="text-danger">No Photo</p> -->
+                                            <img class="user-img" width="500px;" style="height:330px !important;" src="{{ asset('assets/frontend_assets/assets/images/sense/docicon.png') }}">
+
                                         @endif
 
                                     <!-- End of image thumbnail -->
@@ -63,7 +64,11 @@
                                 <div class="lower-content p_relative pl_30 pr_30 pb_35">
                                     <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 d_iblock fs_45 centred b_radius_50 z_1 tran_5 mb_25">
                                         <!-- Download icon  -->
-                                        <a href="{!! asset($resource->attachment) !!}" target="_blank" style="color:white;"><div class="icon"><i class="icon-120"></i></div></a>
+                                        <a href="{!! asset($resource->attachment) !!}" target="_blank" style="color:white;">
+                                        <div class="icon">
+                                        <img class="user-img" src="{{ asset('assets/frontend_assets/assets/images/sense/downloading.png') }}">
+                                        </div>
+                                    </a>
                                     <!-- End of download icon -->
 
                                         <div class="icon-img hidden-icon">
@@ -72,7 +77,8 @@
                                     </div>
                                     <h3 class="d_block fs_24 lh_30 fw_bold font_family_frank mb_16"><a href="service-details.html" class="d_iblock color_black">{{ $resource->title }}</a></h3>
                                     <p class="fs_16 font_family_poppins mb_12">{{ $resource->audience }}</p>
-                                    <div class="link"><a href="/our_resources/{{ $resource->id }}" class="d_iblock fs_16 fw_medium font_family_poppins color_black">Read more<i class="icon-4"></i></a></div>
+                                    <hr>
+                                    <div class="link"><a href="/our_resources/{{ $resource->id }}" class="d_iblock fs_16 fw_medium font_family_poppins color_black">View Details<i class="icon-4"></i></a></div>
                                 </div>
                             </div>
                         </div>

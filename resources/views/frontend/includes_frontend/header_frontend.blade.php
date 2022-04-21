@@ -6,10 +6,9 @@
                         <div class="top-left pull-left">
                             <ul class="social-links-two clearfix">
                                 <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40 font_family_oxygen fw_bold">Follow Us:</li>
-                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-twitter"></i></a></li>
-                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li class="p_relative d_iblock fs_16 float_left lh_40"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40"><a href="https://twitter.com/SenseUganda" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40"><a href="https://www.facebook.com/Sense-International-Uganda-106911491178468" class="p_relative d_iblock fs_16"><i class="fab fa-twitter"></i></a></li>
+                                <!-- <li class="p_relative d_iblock fs_16 float_left mr_25 lh_40"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-linkedin-in"></i></a></li> -->
                             </ul>
                         </div>
                         <div class="top-right pull-right">

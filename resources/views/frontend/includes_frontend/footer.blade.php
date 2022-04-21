@@ -10,8 +10,7 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                    Sense International Uganda (SIU) was established in 2005 and registered as a local NGO in 2008. SIU is part of Sense International, a UK registered Non-Government global organization that supports people with deafblindness.
-                                    </p>
+                                    Sense International Uganda is part of Sense International, a global charity that supports people with Deafblindness/ Multi-Sensory Impairments (MSI) and their families to Live, Learn and Thrive.                                    </p>
                                 </div>
                                 
                             </div>

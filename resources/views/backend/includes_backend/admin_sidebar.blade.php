@@ -7,8 +7,9 @@
                 <!-- <li class="menu-title" data-key="t-menu">Menu</li> -->
                 <li>
                     <a href="/dashboard">
-                        <i data-feather="home"></i>
-                        <span data-key="t-dashboard">Dashboard</span>
+                    <i class="fas fa-home"></i>
+                        
+                        <span data-key="t-dashboard">Dashboard1</span>
                     </a>
                 </li>
               
@@ -16,7 +17,7 @@
                 <!-- Feedback -->
                 <li>
                     <a href="/feedbacks">
-                        <i data-feather="users"></i>
+                    <i class="fas fa-comment-alt "></i>
                         <span data-key="t-dashboard">Feedback</span>
                     </a>
                 </li>
@@ -25,7 +26,7 @@
                 <!-- Resources -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
+                    <i class=" fas fa-file-alt"></i>
                         <span data-key="t-apps">Resources</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -62,7 +63,8 @@
                 <!-- Gallery -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
+                        <i class="fas fa-photo-video"></i>
+                        
                         <span data-key="t-apps">Gallery</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -97,7 +99,7 @@
                 <!-- Services -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
+                        <i class="fas fa-people-carry"></i>
                         <span data-key="t-apps">Services</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -132,7 +134,7 @@
                 <!-- Projects -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
+                        <i class="fas fa-university"></i>
                         <span data-key="t-apps">Projects</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -173,7 +175,7 @@
                 @if (Route::has('login'))
                 <li>
                     <a href="{{ route('login') }}">
-                        <i data-feather="grid"></i>
+                        <i class="fas fa-user-check"></i>
                         <span data-key="t-apps">Login</span>
                     </a>
                     
@@ -184,7 +186,7 @@
                 @if (Route::has('register'))
                 <li>
                     <a href="{{ route('register') }}">
-                        <i data-feather="grid"></i>
+                    <i class="fas fa-user-check"></i>
                         <span data-key="t-apps">Register</span>
                     </a>
                     
@@ -198,7 +200,7 @@
                     @can('user-list')
                     <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
+                    <i class="fas fa-user-check"></i>
                         <span data-key="t-apps">Users</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -225,7 +227,7 @@
                 @can('role-list')
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
+                        <i class=" fas fa-user-plus"></i>
                         <span data-key="t-apps">Roles</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -252,7 +254,7 @@
                 @can('permission-list')
                  <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="grid"></i>
+                        <i class=" fas fa-user-lock"></i>
                         <span data-key="t-apps">Permissions</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -331,7 +333,7 @@
 
                 <li>
                     <a href="{{ route('logout') }}">
-                        <i data-feather="grid"></i>
+                        <i class="fas fa-power-off"></i>
                         <span data-key="t-apps">Logout</span>
                     </a>
                     

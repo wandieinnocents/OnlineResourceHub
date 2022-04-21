@@ -20,9 +20,9 @@
                             <div class="inner-box p_relative d_block">
                                 <div class="icon-box p_relative text fs_45 mb_25">
                                     <div class="icon"><i class="icon-62"></i></div>
-                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-45.png" alt=""></div>
+                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/senseimages/1.jpg" alt=""></div>
                                 </div>
-                                <h6 class="fs_15 fw_medium font_family_spartan">Monday - Friday: 08:00 - 16:00 <br />Sunday: Closed.</h6>
+                                <h6 class="fs_15 fw_medium font_family_spartan">Saturday - Friday: 08:00 - 16:00 <br />Sunday: Closed.</h6>
                             </div>
                         </div>
                     </div>

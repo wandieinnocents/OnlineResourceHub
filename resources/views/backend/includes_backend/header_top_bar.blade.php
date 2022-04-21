@@ -8,7 +8,7 @@
                                     <b>S</b>
                                 </span>
                                 <span class="logo-lg">
-                                    <b>SENSE</b>
+                                    <b><strong>SENSE INT</strong></b>
                                 </span>
                             </a>
 
@@ -22,7 +22,8 @@
                             </a>
                         </div>
 
-                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn">
+                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn"
+                        style="position: sticky;">
                             <i class="fa fa-fw fa-bars"></i>
                         </button>
 

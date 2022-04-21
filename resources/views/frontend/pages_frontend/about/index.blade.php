@@ -216,51 +216,46 @@ About Us
 
 
         <!-- chooseus-12 -->
-        <!-- <section class="chooseus-12 p_relative sec-pad">
+         <section class="chooseus-12 p_relative sec-pad">
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div class="content_block_26">
                             <div class="content-box p_relative d_block mr_70">
-                                <div class="sec-title-13 p_relative d_block mb_50">
-                                    <h5 class="p_relative d_iblock fs_17 lh_30 fw_sbold mb_16 uppercase">Why Choose Us</h5>
-                                    <h2 class="d_block fs_40 fw_bold lh_50">Few Reasons why Should You Choose Us</h2>
-                                </div>
+                                
                                 <div class="inner-box">
                                     <div class="single-item p_relative d_block pl_100 mb_25">
                                         <div class="icon-box p_absolute l_0 t_5 w_70 h_70 lh_70 fs_20 centred b_radius_50"><i class="icon-16"></i></div>
-                                        <h4 class="d_block fs_20 lh_30 fw_sbold mb_13">Perfect Design</h4>
-                                        <p class="font_family_poppins">Enim ad minim veniam quis nostrud exercit laboris nisi ut aliquip ex ea commodo conseq uat aute  velit.</p>
+                                        <h4 class="d_block fs_20 lh_30 fw_sbold mb_13">Our Vision</h4>
+                                        <p class="font_family_poppins">
+                                        Our Vision is of a world in which people with deafblindness,  multi-sensory impairments are empowered to be equal and active members of society.
+                                        </p>
                                     </div>
-                                    <div class="single-item p_relative d_block pl_100 mb_25">
-                                        <div class="icon-box p_absolute l_0 t_5 w_70 h_70 lh_70 fs_20 centred b_radius_50"><i class="icon-16"></i></div>
-                                        <h4 class="d_block fs_20 lh_30 fw_sbold mb_13">Top Quality Engineers</h4>
-                                        <p class="font_family_poppins">Enim ad minim veniam quis nostrud exercit laboris nisi ut aliquip ex ea commodo conseq uat aute  velit.</p>
-                                    </div>
-                                    <div class="single-item p_relative d_block pl_100">
-                                        <div class="icon-box p_absolute l_0 t_5 w_70 h_70 lh_70 fs_20 centred b_radius_50"><i class="icon-16"></i></div>
-                                        <h4 class="d_block fs_20 lh_30 fw_sbold mb_13">Top Quality Engineers</h4>
-                                        <p class="font_family_poppins">Enim ad minim veniam quis nostrud exercit laboris nisi ut aliquip ex ea commodo conseq uat aute  velit.</p>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image_block_22">
-                            <div data-animation-box class="image-box p_relative d_block ml_30 pt_160 pr_190">
-                                <div class="shape">
-                                    <div class="shape-1 p_absolute t_90 rotate-me" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-176.png);"></div>
-                                    <div class="shape-2 p_absolute b_80 float-bob-y" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-184.png);"></div>
+                             
+                        <div class="inner-box">
+                                   
+                                    <div class="single-item p_relative d_block pl_100 mb_25">
+                                        <div class="icon-box p_absolute l_0 t_5 w_70 h_70 lh_70 fs_20 centred b_radius_50"><i class="icon-16"></i></div>
+                                        <h4 class="d_block fs_20 lh_30 fw_sbold mb_13">Our Mission</h4>
+                                        <p class="font_family_poppins">We work in partnership with others across the globe- people with deafblindness, their families, carers, and other professionals to ensure anyone facing challenges because of deafblindness has access to advice, guidance, and support.</p>
+                                    </div>
+                                   
                                 </div>
-                                <figure data-animation-text class="overlay-anim-black-bg image image-1 p_relative d_block z_1 paroller" data-animation="overlay-animation"><img src="assets/frontend_assets/assets/images/resource/chooseus-7.jpg" alt=""></figure>
-                                <figure data-animation-text class="overlay-anim-black-bg image image-2 p_absolute t_0 r_0 paroller-2" data-animation="overlay-animation"><img src="assets/frontend_assets/assets/images/resource/chooseus-8.jpg" alt=""></figure>
-                            </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
-        </section> -->
+        </section> 
         <!-- chooseus-12 end -->
 
 

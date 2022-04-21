@@ -41,8 +41,8 @@ Support
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-133.png" alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Office Location</h4>
-                                <p class="font_family_poppins">Kampala , Uganda</p>
-                                <p class="font_family_poppins">Bweyogerere</p>
+                                <p class="font_family_poppins"> Plot 27, Kimera Rd, </p>
+                                <p class="font_family_poppins">Ntinda</p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ Support
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-134.png" alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Company Email</h4>
-                                <p class="font_family_poppins"><a href="mailto:example@gmail.com">info@senseinternational.com</a><br /><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                <p class="font_family_poppins"><a href="mailto:example@gmail.com">info@senseintuganda.org</a><br /><a href="mailto:example@gmail.com">example@gmail.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -65,8 +65,8 @@ Support
                                     <div class="icon p_relative d_iblock"><i class="icon-182"></i></div>
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-135.png" alt=""></div>
                                 </div>
-                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Contact Us</h4>
-                                <p class="font_family_poppins"><a href="tel:11165458856">+256 706382817 </a><br /><a href="tel:11165458856">+256 78855225</a></p>
+                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Contact Us</h4>  
+                                <p class="font_family_poppins"><a href="tel:11165458856">0392176541 </a><br /><a href="tel:11165458856">0392176542</a></p>
                             </div>
                         </div>
                     </div>

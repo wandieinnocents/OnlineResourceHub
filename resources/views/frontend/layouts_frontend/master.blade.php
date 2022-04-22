@@ -23,7 +23,7 @@
 <title>@yield('title')</title>
 
 <!-- Fav Icon -->
-<link rel="icon" href="{{ asset('assets/frontend_assets/assets/images/favicon-9.ico') }}" type="image/x-icon">
+<link rel="icon" href="{{ asset('assets/frontend_assets/assets/sense/favicon.png') }}" type="image/x-icon">
 
 <!-- Stylesheets -->
 <link href="{{ asset('assets/frontend_assets/assets/css/font-awesome-all.css') }}" rel="stylesheet">

@@ -6798,14 +6798,14 @@ div[class^="bubble-"] {
   background-repeat: no-repeat;
   -webkit-animation: zoom-fade 6s infinite linear;
   animation: zoom-fade 6s infinite linear;
-}
+} 
 
 
 /** home-nine **/
 
 /** slider-seven **/
 
-.slider-seven{
+.slider-seven{ 
   /* border-bottom: 7px solid #494949; */
 }
 

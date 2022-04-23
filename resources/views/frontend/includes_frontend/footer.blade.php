@@ -40,7 +40,7 @@
                                 <div class="widget-content">
                                     <ul class="info-list clearfix">
                                         <li style="color:#fff">Kampala, Uganda</li>
-                                        <li ><a href="tel:23055873407" style="color:#fff">+256 706382817</a></li>
+                                        <li ><a href="tel:+256 75585585" style="color:#fff">+256 75585585</a></li>
                                         <li style="color:#fff"><a href="mailto:info@senseinternational.org" style="color:#fff">info@senseinternational.org</a></li>
                                     </ul>
                                 </div>

@@ -5,7 +5,6 @@ use Illuminate\Http\Request;
 use Spatie\Analytics\Period;
 // use Spatie\Analytics\Analytics;
 use Analytics;
-
 class AnalyticsController extends Controller
 {
     //analytics

@@ -48,15 +48,17 @@
                                 
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix home-menu">
+                                        <!-- Home page -->
                                         <li class="{{ Request::is('/') ? 'current' : '' }}">
 											<a href="/">Home</a>
-                                           
                                         </li>
-                                        
+                                        <!-- About Page -->
                                         <li class="{{ Request::is('about') ? 'current' : '' }}"><a href="/about">About</a></li>
+                                        <!-- Resources page -->
 										<li class="{{ Request::is('our_resources') ? 'current' : '' }}"><a href="/our_resources">Resources</a></li>
-                                        
+                                        <!-- Careers Page -->
 										<li class="{{ Request::is('careers') ? 'current' : '' }}"><a href="/careers">Careers</a></li>
+                                        <!-- Contact page -->
                                         <li class="{{ Request::is('contact/create') ? 'current' : '' }}"><a href="/contact/create">Support</a></li>
                                     
                                     </ul>

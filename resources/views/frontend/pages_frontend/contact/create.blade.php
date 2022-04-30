@@ -86,8 +86,7 @@ Support
                 <div class="row align-items-center clearfix">
                     <div class="col-lg-6 col-md-6 col-sm-12 map-column">
                         <div class="map-inner p_relative d_block">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127672.2787163465!2d32.52908471229046!3d0.3132007819821155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc0f9d74b39b%3A0x4538903dd96b6fec!2sKampala!5e0!3m2!1sen!2sug!4v1646488823067!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7433286896116!2d32.61066171415076!3d0.35129196406897906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dba33d9ff5925%3A0xd52f83725f5b91b9!2s27%20Kimera%20Rd%2C%20Kampala!5e0!3m2!1sen!2sug!4v1651339054954!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                         <div class="content-box p_relative d_block pl_50">

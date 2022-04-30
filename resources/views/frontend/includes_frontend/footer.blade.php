@@ -23,7 +23,7 @@
                                         <li style="color:#fff"><a href="" style="color:#fff">About</a></li>
                                         <li style="color:#fff"><a href="/our_resources" style="color:#fff">Resources</a></li>
                                         <li style="color:#fff"><a href="/careers" style="color:#fff">Careers</a></li>
-                                        <li style="color:#fff"><a href="" style="color:#fff">Support</a></li>
+                                        <li style="color:#fff"><a href="/contact/create" style="color:#fff">Support</a></li>
                                     </ul>
                                 </div>
                             </div>

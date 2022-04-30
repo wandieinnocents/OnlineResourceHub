@@ -1,11 +1,10 @@
 @extends('frontend.layouts_frontend.master')
-
+<!-- title -->
 @section('title')
-
 Support 
-
 @endsection
 
+<!-- content -->
 @section('content')
 
 

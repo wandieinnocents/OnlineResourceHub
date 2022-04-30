@@ -72,7 +72,7 @@ Support
                 </div>
             </div>
         </section>
-        <!-- contactinfo-one end -->
+        <!-- contact info-one end -->
 
 
         <!-- contact-three end -->
@@ -131,10 +131,5 @@ Support
             </div>
         </section>
         <!-- contact-three end -->
-
-
-        
-
-    
 
 @endsection

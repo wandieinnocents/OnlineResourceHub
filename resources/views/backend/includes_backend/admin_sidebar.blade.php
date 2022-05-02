@@ -12,7 +12,6 @@
                         <span data-key="t-dashboard">Dashboard</span>
                     </a>
                 </li>
-
                 <!-- analytics -->
                 <li>
                     <a href="/analytics">
@@ -20,8 +19,6 @@
                         <span data-key="t-dashboard">Analytics</span>
                     </a>
                 </li>
-              
-
                 <!-- Feedback -->
                 <li>
                     <a href="/feedbacks">
@@ -29,8 +26,6 @@
                         <span data-key="t-dashboard">Feedback</span>
                     </a>
                 </li>
-
-               
                 <!-- Resources -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">

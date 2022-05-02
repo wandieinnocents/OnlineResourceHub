@@ -60,9 +60,6 @@
                         </li>
                     </ul>
                 </li>
-
-
-
                 <!-- Gallery -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
@@ -76,7 +73,6 @@
                                 <span data-key="t-calendar">Add Category</span>
                             </a>
                         </li>
-
                         <li>
                             <a href="/gallery_categories">
                                 <span data-key="t-calendar"
@@ -84,7 +80,6 @@
                                 >
                             </a>
                         </li>
-
                         <li>
                             <a href="/galleries/create">
                                 <span data-key="t-chat">Add Photo</span>

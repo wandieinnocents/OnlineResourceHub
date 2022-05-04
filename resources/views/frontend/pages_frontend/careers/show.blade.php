@@ -64,7 +64,7 @@ View Career
                                 <div class="addto-cart-box p_relative d_block mb_35"> 
                                     <ul class="clearfix">
                                         <li class="p_relative d_block float_left mr_10">
-                                            <a href="{!! asset($resource->attachment) !!}"><button type="button" class="theme-btn theme-btn-eight">DOWNLOAD</button></a>
+                                            <a href="#"><button type="button" class="theme-btn theme-btn-eight">DOWNLOAD</button></a>
                                         </li>
                                     </ul>
                                 </div>

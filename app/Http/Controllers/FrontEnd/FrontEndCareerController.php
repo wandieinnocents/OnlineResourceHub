@@ -14,7 +14,7 @@ class FrontEndCareerController extends Controller
      */
     public function index()
     {
-        
+        $resources = Resource::all();
         return view('frontend.pages_frontend.careers.index'); 
     }
 

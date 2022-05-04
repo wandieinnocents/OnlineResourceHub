@@ -35,17 +35,10 @@ View Career
                             <div class="image-box p_relative d_block">
                                 <br><br>
                                 <figure class="image-box">
-                                    <!-- <img src="assets/frontend_assets/assets/images/service/service-23.jpg" alt=""> -->
+                                    <img src="assets/frontend_assets/assets/images/service/service-23.jpg" alt="">
                                     <!-- Image thumbnail -->
 
-                                        @if (($resource->thumbnail))
-                                                    <img 
-                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
-                                                        src="{{ asset($resource->thumbnail) }}" alt="preview"
-                                                        style="height:250px !important; width:500px !important; ">
-                                        @else
-                                            <img class="user-img" width="500px;" style="height:330px !important;" src="{{ asset('assets/frontend_assets/assets/images/sense/docicon.png') }}">
-                                        @endif
+                                        
                                     <!-- End of image thumbnail -->
                             </figure>
 
@@ -57,7 +50,7 @@ View Career
                                
                                 <span class="price p_relative d_block fs_20 lh_30 fw_medium color_black mb_25 font_family_inter">{{ $resource->topic }}</span>
                                 <div class="text p_relative d_block mb_30">
-                                    <p class="font_family_poppins mb_25">{{ $resource->description }}</p>
+                                    <p class="font_family_poppins mb_25">Career Description</p>
                                 </div>
                                 <div class="other-option">
                                     <ul class="list">

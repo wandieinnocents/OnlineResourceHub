@@ -14,7 +14,8 @@ class FrontEndCareerController extends Controller
      */
     public function index()
     {
-        $resources = Resource::all();
+        
+       // $careers = Career::all();
         return view('frontend.pages_frontend.careers.index'); 
     }
 
@@ -48,8 +49,8 @@ class FrontEndCareerController extends Controller
     public function show($id)
     {
         // show single career
-        $career = Career::where('id', $id)->first();
-        return view('frontend.pages_frontend.careers.show',compact('career')); 
+        //$career = Career::where('id', $id)->first();
+        //sreturn view('frontend.pages_frontend.careers.show',compact('career')); 
     }
 
     /**

@@ -47,7 +47,10 @@ class FrontEndCareerController extends Controller
      */
     public function show($id)
     {
-        //
+        // show single career
+        $resource = Resource::where('id', $id)->first();
+        // dd("adff");
+        return view('frontend.pages_frontend.resources.show',compact('resource')); 
     }
 
     /**

@@ -53,7 +53,7 @@ Careers
                                         </div> -->
                                         <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_13"><a href="service-details.html">Scholarship</a></h4>
                                         <div class="link">
-                                            <a href="/careers/{{ $career->id }}" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                            <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
                                         </div>
                                     </div>
                                 </div>

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\ResourceCategory;
 use Illuminate\Http\Request;
 use App\Models\Resource;
+use DB;
 
 
 class ResourceController extends Controller
@@ -17,8 +18,12 @@ class ResourceController extends Controller
      */
     public function index()
     {
-        $categories  = ResourceCategory::all();
-        $resources = Resource::all();
+        // dd("test");
+        $categories = DB::table('resource_categories')->get();
+        $resources = DB::table('resources')->get();
+        // dd($resources);
+        // $categories  = ResourceCategory::all();
+        // $resources = Resource::all();
         $count_resources = Resource::count();
         return view('backend.pages_backend.resources.index',compact('categories','resources','count_resources'));
     }

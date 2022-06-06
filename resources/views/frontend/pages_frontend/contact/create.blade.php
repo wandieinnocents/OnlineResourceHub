@@ -1,11 +1,10 @@
 @extends('frontend.layouts_frontend.master')
-
+<!-- title -->
 @section('title')
-
 Support 
-
 @endsection
 
+<!-- content -->
 @section('content')
 
 
@@ -41,8 +40,8 @@ Support
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-133.png" alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Office Location</h4>
-                                <p class="font_family_poppins">Kampala , Uganda</p>
-                                <p class="font_family_poppins">Bweyogerere</p>
+                                <p class="font_family_poppins"> Plot 27, Kimera Rd, </p>
+                                <p class="font_family_poppins">Ntinda</p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +53,7 @@ Support
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-134.png" alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Company Email</h4>
-                                <p class="font_family_poppins"><a href="mailto:example@gmail.com">info@senseinternational.com</a><br /><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                <p class="font_family_poppins"><a href="mailto:example@gmail.com">info@senseintuganda.org</a><br /><a href="mailto:example@gmail.com">example@gmail.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -65,15 +64,15 @@ Support
                                     <div class="icon p_relative d_iblock"><i class="icon-182"></i></div>
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-135.png" alt=""></div>
                                 </div>
-                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Contact Us</h4>
-                                <p class="font_family_poppins"><a href="tel:11165458856">+256 706382817 </a><br /><a href="tel:11165458856">+256 78855225</a></p>
+                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Contact Us</h4>  
+                                <p class="font_family_poppins"><a href="tel:11165458856">0392176541 </a><br /><a href="tel:11165458856">0392176542</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- contactinfo-one end -->
+        <!-- contact info-one end -->
 
 
         <!-- contact-three end -->
@@ -86,8 +85,7 @@ Support
                 <div class="row align-items-center clearfix">
                     <div class="col-lg-6 col-md-6 col-sm-12 map-column">
                         <div class="map-inner p_relative d_block">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127672.2787163465!2d32.52908471229046!3d0.3132007819821155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc0f9d74b39b%3A0x4538903dd96b6fec!2sKampala!5e0!3m2!1sen!2sug!4v1646488823067!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7433286896116!2d32.61066171415076!3d0.35129196406897906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dba33d9ff5925%3A0xd52f83725f5b91b9!2s27%20Kimera%20Rd%2C%20Kampala!5e0!3m2!1sen!2sug!4v1651339054954!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                         <div class="content-box p_relative d_block pl_50">
@@ -133,10 +131,5 @@ Support
             </div>
         </section>
         <!-- contact-three end -->
-
-
-        
-
-    
 
 @endsection

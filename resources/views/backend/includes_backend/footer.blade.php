@@ -8,7 +8,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
-                    Design & Develop by <a href="#!" class="text-decoration-underline">Wanran Inc</a>
+                    Designed & Developed by <a href="javascript::void(0)" class="text-decoration-underline">Wanran Inc</a>
                 </div>
             </div>
         </div>

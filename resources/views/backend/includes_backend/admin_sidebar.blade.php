@@ -1,3 +1,4 @@
+<!-- Vertical menu side bar  -->
 <div class="vertical-menu ">
     <div data-simplebar class="h-100">
         <!--- Sidemenu -->
@@ -11,7 +12,6 @@
                         <span data-key="t-dashboard">Dashboard</span>
                     </a>
                 </li>
-
                 <!-- analytics -->
                 <li>
                     <a href="/analytics">
@@ -19,8 +19,6 @@
                         <span data-key="t-dashboard">Analytics</span>
                     </a>
                 </li>
-              
-
                 <!-- Feedback -->
                 <li>
                     <a href="/feedbacks">
@@ -28,8 +26,6 @@
                         <span data-key="t-dashboard">Feedback</span>
                     </a>
                 </li>
-
-               
                 <!-- Resources -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
@@ -64,9 +60,6 @@
                         </li>
                     </ul>
                 </li>
-
-
-
                 <!-- Gallery -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
@@ -80,7 +73,6 @@
                                 <span data-key="t-calendar">Add Category</span>
                             </a>
                         </li>
-
                         <li>
                             <a href="/gallery_categories">
                                 <span data-key="t-calendar"
@@ -88,7 +80,6 @@
                                 >
                             </a>
                         </li>
-
                         <li>
                             <a href="/galleries/create">
                                 <span data-key="t-chat">Add Photo</span>

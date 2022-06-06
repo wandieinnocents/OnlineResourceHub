@@ -11,6 +11,11 @@ use DB;
 
 class ResourceController extends Controller
 {
+    public function __construct()
+{
+ini_set('max_execution_time', 300);
+}
+
     /**
      * Display a listing of the resource.
      *

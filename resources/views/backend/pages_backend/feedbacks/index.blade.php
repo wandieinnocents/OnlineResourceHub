@@ -16,23 +16,22 @@ Feedback
                        
 
                         <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <h5 class="card-title">Customer Feedbacks <span class="text-muted fw-normal ms-2">{{ $count_feedbacks }}</span></h5>
+                            
+                            <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                                    <h5 class="card-title">Customer Feedbacks ({{ $count_feedbacks }})</h5>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li>
+                                            <li class="breadcrumb-item active">Resource Category</li>
+                                        </ol>
+                                    </div>
+
                                 </div>
                             </div>
-
-                            <!-- <div class="col-md-6">
-                                <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
-                                   
-                                    <div>
-                                        <a href="#" class="btn bg-primary text-light"><i class="bx bx-plus me-1"></i> Add Feedback</a>
-                                    </div>
-                                    
-                                   
-                                </div>
-
-                            </div> -->
+                        </div>
 
                         </div>
                         <!-- end row -->

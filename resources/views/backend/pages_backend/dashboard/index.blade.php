@@ -28,6 +28,7 @@ Dashboard
                         </div>
                         <!-- end page title -->
 
+                        <!-- START OF ROW 1 -->
                         <div class="row">
                             <div class="col-xl-3 col-md-6">
                                 <!-- card -->
@@ -125,109 +126,10 @@ Dashboard
                                     </div><!-- end card body -->
                                 </div><!-- end card -->
                             </div><!-- end col -->    
-                        </div><!-- end row-->
+                        </div>
+                        <!-- END OF ROW 1 -->
+                        
 
-                        <!-- second row -->
-
-
-                        <div class="row">
-                            <div class="col-xl-3 col-md-6">
-                                <!-- card -->
-                                <div class="card card-h-100">
-                                    <!-- card body -->
-                                    <div class="card-body bg-gradient bg-success">
-                                        <div class="row align-items-center">
-                                            <div class="col-6">
-                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Permissions</span>
-                                                <h4 class="mb-3 text-light">
-                                                    <span class="counter-value" data-target="{{ $feedbacks }}">0</span>
-                                                </h4>
-                                            </div>
-        
-                                            <div class="col-6">
-                                                <div id="mini-chart1" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
-                                            </div>
-                                        </div>
-                                        <div class="text-nowrap">
-                                            <span class="badge bg-soft-primary text-success">{{ $feedbacks }}</span>
-                                            <span class="ms-1 text-muted font-size-13">Details</span>
-                                        </div>
-                                    </div><!-- end card body -->
-                                </div><!-- end card -->
-                            </div><!-- end col -->
-        
-                            <div class="col-xl-3 col-md-6">
-                                <!-- card -->
-                                <div class="card card-h-100">
-                                    <!-- card body -->
-                                    <div class="card-body bg-gradient bg-primary">
-                                        <div class="row align-items-center">
-                                            <div class="col-6">
-                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Roles</span>
-                                                <h4 class="mb-3 text-light">
-                                                    <span class="counter-value" data-target="5">0</span>
-                                                </h4>
-                                            </div>
-                                            <div class="col-6 text-light">
-                                                <div id="mini-chart2" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
-                                            </div>
-                                        </div>
-                                        <div class="text-nowrap">
-                                            <span class="badge bg-soft-danger text-light">5</span>
-                                            <span class="ms-1 text-light font-size-13">Details</span>
-                                        </div>
-                                    </div><!-- end card body -->
-                                </div><!-- end card -->
-                            </div><!-- end col-->
-        
-                            <div class="col-xl-3 col-md-6">
-                                <!-- card -->
-                                <div class="card card-h-100">
-                                    <!-- card body -->
-                                    <div class="card-body bg-gradient bg-warning">
-                                        <div class="row align-items-center">
-                                            <div class="col-6">
-                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Projects</span>
-                                                <h4 class="mb-3">
-                                                    <span class="counter-value" data-target="5">0</span>
-                                                </h4>
-                                            </div>
-                                            <div class="col-6">
-                                                <div id="mini-chart3" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
-                                            </div>
-                                        </div>
-                                        <div class="text-nowrap">
-                                            <span class="badge bg-soft-success text-success">5</span>
-                                            <span class="ms-1 text-muted font-size-13">Details</span>
-                                        </div>
-                                    </div><!-- end card body -->
-                                </div><!-- end card -->
-                            </div><!-- end col -->
-        
-                            <div class="col-xl-3 col-md-6">
-                                <!-- card -->
-                                <div class="card card-h-100">
-                                    <!-- card body -->
-                                    <div class="card-body bg-gradient bg-danger">
-                                        <div class="row align-items-center">
-                                            <div class="col-6">
-                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Careers</span>
-                                                <h4 class="mb-3">
-                                                    <span class="counter-value" data-target="8">0</span>
-                                                </h4>
-                                            </div>
-                                            <div class="col-6">
-                                                <div id="mini-chart4" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
-                                            </div>
-                                        </div>
-                                        <div class="text-nowrap">
-                                            <span class="badge bg-soft-primary text-success">8</span>
-                                            <span class="ms-1 text-light font-size-13">Details</span>
-                                        </div>
-                                    </div><!-- end card body -->
-                                </div><!-- end card -->
-                            </div><!-- end col -->    
-                        </div><!-- end row-->
 
 
                     </div>

@@ -58,7 +58,7 @@ Add Resource
                                                         @foreach($categories as $category)
                                                             <option value="{{ $category->id }}">{{ $category->name }}</option>
                                                            
-                                                            @endforeach
+                                                        @endforeach
                                                     </select>
 
                 
@@ -67,8 +67,13 @@ Add Resource
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Title</label>
-                                                        <input type="text" class="form-control"  name="title" id="validationCustom02" placeholder="Enter Resource Title" value="" required>
-                                                        
+                                                        <input type="text" class="form-control @error('title') is-invalid @enderror"  name="title" id="validationCustom02" placeholder="Enter Resource Title" value="" >
+                                                        <!--  validation error message -->
+                                                        @error('title')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                                 </div>
 

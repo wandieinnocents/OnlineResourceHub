@@ -53,27 +53,36 @@ ini_set('max_execution_time', 300);
      */
     public function store(Request $request)
     {
-        //submit resource to the database
+
+        //validation
+        // validation
+        $validatedData = $request->validate([
+            'title' => 'required|max:255',
+            
+            'description' => 'required|alpha_num',
+            'attachment' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
+        ]);
+
         $validatedData = $request->validate([
             
-            'attachment' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
+            
             
         ]);
 
-    $resource = new Resource;
-    $resource->resource_category_id              = $request->resource_category_id;
-    $resource->title                             = $request->title;
-    $resource->audience                          = $request->audience;
-    $resource->written_permission                = $request->written_permission;
-    $resource->written_permission_storage        = $request->written_permission_storage;
-    $resource->contact_person_written_permission = $request->contact_person_written_permission;
-    $resource->permission_status                 = $request->permission_status;
-    $resource->topic                             = $request->topic;
-    $resource->link                              = $request->link;
-    $resource->created_by                        = $request->created_by;
-    $resource->partner_orgnisations              = $request->partner_orgnisations;
-    $resource->date                              = $request->date;
-    $resource->description                       = $request->description;
+        $resource = new Resource;
+        $resource->resource_category_id              = $request->resource_category_id;
+        $resource->title                             = $request->title;
+        $resource->audience                          = $request->audience;
+        $resource->written_permission                = $request->written_permission;
+        $resource->written_permission_storage        = $request->written_permission_storage;
+        $resource->contact_person_written_permission = $request->contact_person_written_permission;
+        $resource->permission_status                 = $request->permission_status;
+        $resource->topic                             = $request->topic;
+        $resource->link                              = $request->link;
+        $resource->created_by                        = $request->created_by;
+        $resource->partner_orgnisations              = $request->partner_orgnisations;
+        $resource->date                              = $request->date;
+        $resource->description                       = $request->description;
 
     // resource attachment 
     if($request->hasfile('attachment')){

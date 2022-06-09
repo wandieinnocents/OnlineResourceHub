@@ -44,20 +44,9 @@ Add Resource
 
                             <div class="col-xl-6">
                                 <div class="card">
-                                    <!-- validation -->
-                                <!-- @if ($errors->any())
-                                <div class="alert alert-danger">
-                                    <ul>
-                                        @foreach ($errors->all() as $error)
-                                        <li>{{ $error }}</li>
-                                        @endforeach
-                                    </ul>
-                                </div><br />
-                                @endif -->
-                                <!-- end validation -->
+                                 
                                     <div class="card-header">
                                         <h4 class="card-title">Add Resource Category</h4>
-                                        <!-- <p class="card-title-desc">Add Category</p> -->
                                     </div>
                                     <div class="card-body">
                                         <form  action="{{ route('resource_categories.store') }}"  method="POST">
@@ -69,7 +58,7 @@ Add Resource
                                                         <input type="text" class="form-control @error('name') is-invalid @enderror" id="validationCustom01"  
                                                         name="name" placeholder="Ennter Category Name" value="" >
                                                         <div >
-                                                        <!-- error message -->
+                                                        <!--  validation error message -->
                                                         @error('name')
                                                             <span style="color:red" role="alert">
                                                                 <strong>{{ $message }}</strong>

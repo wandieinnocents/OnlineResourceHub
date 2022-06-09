@@ -54,11 +54,10 @@ ini_set('max_execution_time', 300);
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+
     public function store(Request $request)
     {
         
-
-        //validation
         // validation
         $validatedData = $request->validate([
             'resource_category_id' => 'required',
@@ -79,12 +78,6 @@ ini_set('max_execution_time', 300);
 
         ]);
 
-        $validatedData = $request->validate([
-            
-            
-            
-        ]);
-       
         $resource = new Resource;
         $resource->resource_category_id              = $request->resource_category_id;
         $resource->title                             = $request->title;
@@ -95,45 +88,31 @@ ini_set('max_execution_time', 300);
         $resource->permission_status                 = $request->permission_status;
         $resource->topic                             = $request->topic;
         $resource->link                              = $request->link;
-        // $resource->created_by                       = $request->created_by;
+        // $resource->created_by                     = $request->created_by;
         $resource->created_by                        = $user = Auth::user()->name;
         $resource->partner_orgnisations              = $request->partner_orgnisations;
         $resource->date                              = $request->date;
         $resource->description                       = $request->description;
 
-    // resource attachment 
-    if($request->hasfile('attachment')){
-        $file               = $request->file('attachment');
-        $extension          = $file->getClientOriginalExtension();  //get image extension
-        $filename           = time() . '.' .$extension;
-        $file->move('uploads/resource_attachments/',$filename);
-        $resource->attachment   = url('uploads' . '/resource_attachments/'  . $filename);
-    }
 
-    else{
-        // return $request;
-        $resource->attachment  = '';
-    }
+        // Thumbnail 
+        // resource thumbnail  
+        if($request->hasfile('thumbnail')){
+            $file               = $request->file('thumbnail');
+            $extension          = $file->getClientOriginalExtension();  //get image extension
+            $filename           = time() . '.' .$extension;
+            $file->move('uploads/resource_thumbnails/',$filename);
+            $resource->thumbnail   = url('uploads' . '/resource_thumbnails/'  . $filename);
+        }
 
-    // Thumbnail 
-    // resource thumbnail  
-    if($request->hasfile('thumbnail')){
-        $file               = $request->file('thumbnail');
-        $extension          = $file->getClientOriginalExtension();  //get image extension
-        $filename           = time() . '.' .$extension;
-        $file->move('uploads/resource_thumbnails/',$filename);
-        $resource->thumbnail   = url('uploads' . '/resource_thumbnails/'  . $filename);
-    }
+        else{
+            // return $request;
+            $resource->thumbnail  = '';
+        }
 
-    else{
-        // return $request;
-        $resource->thumbnail  = '';
-    }
-
-
-    // dd("works");
+    // dd($resource);
     $resource->save();
-
+    // resources
     return redirect('/resources');
     }
 

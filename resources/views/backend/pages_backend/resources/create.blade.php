@@ -233,7 +233,7 @@ Add Resource
                                                         <label class="form-label" >Description</label>
                                                         <textarea class="form-control @error('description') is-invalid @enderror" name="description" id="exampleFormControlTextarea5" placeholder="Enter Resource Description" rows="3"></textarea>
                                                     <!--  validation error message -->
-                                                    @error('description')
+                                                     @error('description')
                                                             <span style="color:red" role="alert">
                                                                 <strong>{{ $message }}</strong>
                                                             </span>
@@ -248,17 +248,27 @@ Add Resource
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                         <label class="form-label" for="validationCustom05">Attachment</label>
-                                                        <input type="file" class="form-control" name="attachment" id="validationCustom05" placeholder="Attachment" >
-                                                        
+                                                        <input type="file" class="form-control @error('attachment') is-invalid @enderror" name="attachment" id="validationCustom05" placeholder="Attachment" >
+                                                         <!--  validation error message -->
+                                                     @error('attachment')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                              </div>
 
                                              <!-- thumbnail  -->
                                              <div class="col-md-6">
                                                 <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom05">Thumbnail</label>
-                                                        <input type="file" class="form-control" name="thumbnail" id="validationCustom05" placeholder="Thumbnail" >
-                                                        
+                                                        <label class="form-label" for="validationCustom05">Featured Image/Thumbnail</label>
+                                                        <input type="file" class="form-control @error('thumbnail') is-invalid @enderror" name="thumbnail" id="validationCustom05" placeholder="Thumbnail" >
+                                                        <!--  validation error message -->
+                                                     @error('thumbnail')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                              </div>
 

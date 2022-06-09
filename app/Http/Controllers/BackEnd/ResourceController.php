@@ -59,9 +59,20 @@ ini_set('max_execution_time', 300);
         $validatedData = $request->validate([
             'resource_category_id' => 'required',
             'title' => 'required|max:255',
-            'description' => 'required',
             'audience' => 'required',
+            'written_permission' => 'required',
+            'written_permission_storage' => 'required',
+            'contact_person_written_permission' => 'required',
+            'permission_status' => 'required',
+            'topic' => 'required',
+            'link' => 'required',
+            'created_by' => 'required',
+            'partner_orgnisations' => 'required',
+            'date' => 'required',
+            'description' => 'required',
             'attachment' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
+            'thumbnail' => 'required|mimes:jpeg,jpg,png',
+
         ]);
 
         $validatedData = $request->validate([

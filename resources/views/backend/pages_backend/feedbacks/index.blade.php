@@ -20,12 +20,12 @@ Feedback
                             <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h5 class="card-title">Customer Feedbacks ({{ $count_feedbacks }})</h5>
+                                    <h5 class="card-title">Feedbacks ({{ $count_feedbacks }})</h5>
 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
                                             <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li>
-                                            <li class="breadcrumb-item active">Resource Category</li>
+                                            <li class="breadcrumb-item active">Feebacks</li>
                                         </ol>
                                     </div>
 
@@ -46,12 +46,7 @@ Feedback
                             <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
                                 <thead>
                                   <tr>
-                                    <th scope="col" style="width: 50px;">
-                                        <div class="form-check font-size-16">
-                                            <input type="checkbox" class="form-check-input" id="checkAll">
-                                            <label class="form-check-label" for="checkAll"></label>
-                                        </div>
-                                    </th>
+                                    
                                     <th scope="col">#ID</th>
                                     <th scope="col">Full Name</th>
                                     <th scope="col">Subject</th>
@@ -67,12 +62,7 @@ Feedback
                                    
                                     
                                       <tr>
-                                        <th scope="row">
-                                            <div class="form-check font-size-16">
-                                                <input type="checkbox" class="form-check-input" id="contacusercheck11">
-                                                <label class="form-check-label" for="contacusercheck11"></label>
-                                            </div>
-                                        </th>
+                                       
                                         <td>{{ $feedback->id }}</td>
                                         <td>
                                             <a href="#" class="text-body">{{ $feedback->name }}</a>

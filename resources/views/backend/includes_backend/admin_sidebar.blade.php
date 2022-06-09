@@ -13,12 +13,12 @@
                     </a>
                 </li>
                 <!-- analytics -->
-                <!-- <li>
+                <li>
                     <a href="/analytics">
                     <i class="fas fa-chart-bar"></i>
                         <span data-key="t-dashboard">Analytics</span>
                     </a>
-                </li> -->
+                </li>
                 <!-- Feedback -->
                 <li>
                     <a href="/feedbacks">

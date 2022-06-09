@@ -1,7 +1,7 @@
 @extends('backend.layouts_backend.master')
 
 @section('title')
-
+All Resources
 @endsection
 
 @section('extra_styles')

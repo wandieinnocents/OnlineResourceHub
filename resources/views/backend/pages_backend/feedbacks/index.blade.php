@@ -18,7 +18,7 @@ Feedback
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <h5 class="card-title">Customer Feedback <span class="text-muted fw-normal ms-2">(1)</span></h5>
+                                    <h5 class="card-title">Customer Feedbacks <span class="text-muted fw-normal ms-2">{{ $count_feedbacks }}</span></h5>
                                 </div>
                             </div>
 

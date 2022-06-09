@@ -18,8 +18,8 @@ class FeedbackController extends Controller
     public function index()
     {
         $feedbacks =  FrontEndContact::all();
-
-        return view('backend.pages_backend.feedbacks.index',compact('feedbacks'));
+        $count_feedbacks = FrontEndContact::count();
+        return view('backend.pages_backend.feedbacks.index',compact('feedbacks','count_feedbacks'));
     }
 
     /**

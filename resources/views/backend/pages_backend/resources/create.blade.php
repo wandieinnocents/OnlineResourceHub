@@ -167,8 +167,13 @@ Add Resource
                                                 <div class="col-md-6">
                                                 <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Topic</label>
-                                                        <input type="text" class="form-control"  name="topic" id="validationCustom02" placeholder="Enter Topic" value="" >
-                                                        
+                                                        <input type="text" class="form-control @error('topic') is-invalid @enderror"  name="topic" id="validationCustom02" placeholder="Enter Topic" value="" >
+                                                         <!--  validation error message -->
+                                                         @error('topic')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->
@@ -180,8 +185,13 @@ Add Resource
                                             <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Link</label>
-                                                        <input type="text" class="form-control"  name="link" id="validationCustom02" placeholder="Enter Link" value="" >
-                                                        
+                                                        <input type="text" class="form-control @error('link') is-invalid @enderror"  name="link" id="validationCustom02" placeholder="Enter Link" value="" >
+                                                        <!--  validation error message -->
+                                                        @error('link')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->

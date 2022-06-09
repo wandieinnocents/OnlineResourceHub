@@ -92,7 +92,7 @@ Add Resource
                                                         <label class="form-label" for="validationCustom02">Audience</label>
                                                         <input type="text" class="form-control @error('audience') is-invalid @enderror"  name="audience" id="validationCustom02" placeholder="Add audience" value="" >
                                                     <!--  validation error message -->
-                                                    @error('audience')
+                                                        @error('audience')
                                                             <span style="color:red" role="alert">
                                                                 <strong>{{ $message }}</strong>
                                                             </span>
@@ -122,8 +122,13 @@ Add Resource
                                             <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Written Permission Storage</label>
-                                                        <input type="text" class="form-control"  name="written_permission_storage" id="validationCustom02" placeholder="Written Permission Storage" value="" >
-                                                        
+                                                        <input type="text" class="form-control @error('written_permission_storage') is-invalid @enderror"  name="written_permission_storage" id="validationCustom02" placeholder="Written Permission Storage" value="" >
+                                                         <!--  validation error message -->
+                                                         @error('written_permission_storage')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->
@@ -149,8 +154,13 @@ Add Resource
                                             <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Who to contact for permission</label>
-                                                        <input type="text" class="form-control"  name="contact_person_written_permission" id="validationCustom02" placeholder="Who to contact for permission" value="" >
-                                                        
+                                                        <input type="text" class="form-control @error('contact_person_written_permission') is-invalid @enderror"  name="contact_person_written_permission" id="validationCustom02" placeholder="Who to contact for permission" value="" >
+                                                         <!--  validation error message -->
+                                                         @error('contact_person_written_permission')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->

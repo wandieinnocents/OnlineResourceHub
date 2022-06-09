@@ -18,7 +18,7 @@ Add Resource
 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
+                                            <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li>
                                             <li class="breadcrumb-item active">Resources</li>
                                         </ol>
                                     </div>
@@ -222,8 +222,13 @@ Add Resource
                                                 <div class="col-md-6">
                                                 <div class="mb-3">
                                                         <label class="form-label" for="validationCustom03">Date</label>
-                                                        <input type="date" class="form-control"  name="date" id="validationCustom03" placeholder="Date" >
-                                                        
+                                                        <input type="date" class="form-control @error('date') is-invalid @enderror"   name="date" id="validationCustom03" placeholder="Date" >
+                                                        <!--  validation error message -->
+                                                     @error('date')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                             </div>

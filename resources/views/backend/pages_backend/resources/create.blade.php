@@ -198,7 +198,7 @@ Add Resource
                                                 <div class="col-md-6">
                                                 <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Created By</label>
-                                                        <input type="text" class="form-control"  name="created_by" id="validationCustom02" placeholder="Created By" value="{{ $loggedinUser }}" >
+                                                        <input type="text" class="form-control"  name="created_by" id="validationCustom02" disabled placeholder="Created By" value="{{ $loggedinUser }}" >
                                                         
                                                     </div>
                                                 </div>
@@ -209,8 +209,13 @@ Add Resource
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom03">Partner Organisations</label>
-                                                        <input type="text" class="form-control"  name="partner_orgnisations" id="validationCustom03" placeholder="Partner Organisations" >
-                                                        
+                                                        <input type="text" class="form-control @error('partner_orgnisations') is-invalid @enderror"  name="partner_orgnisations" id="validationCustom03" placeholder="Partner Organisations" >
+                                                         <!--  validation error message -->
+                                                         @error('partner_orgnisations')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                               
@@ -226,7 +231,13 @@ Add Resource
                                                 <div class="col-md-12">
                                                 <div class="mb-3">
                                                         <label class="form-label" >Description</label>
-                                                        <textarea class="form-control" name="description" id="exampleFormControlTextarea5" placeholder="Enter Resource Description" rows="3"></textarea>
+                                                        <textarea class="form-control @error('description') is-invalid @enderror" name="description" id="exampleFormControlTextarea5" placeholder="Enter Resource Description" rows="3"></textarea>
+                                                    <!--  validation error message -->
+                                                    @error('description')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                               

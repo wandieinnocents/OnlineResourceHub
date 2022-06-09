@@ -36,7 +36,7 @@ class UserTableSeeder extends Seeder
         // run the seeder commands
         //seeder
        /* 
-       php artisan db:seed --class=PermissionTableSeeder
+        php artisan db:seed --class=PermissionTableSeeder
         php artisan db:seed --class=RoleTableSeeder
         php artisan db:seed --class=UserTableSeeder 
         

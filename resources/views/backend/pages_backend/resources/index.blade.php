@@ -56,12 +56,7 @@ All Resources
                             <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
                                 <thead>
                                   <tr>
-                                    <th scope="col" style="width: 50px;">
-                                        <div class="form-check font-size-16">
-                                            <input type="checkbox" class="form-check-input" id="checkAll">
-                                            <label class="form-check-label" for="checkAll"></label>
-                                        </div>
-                                    </th>
+                                    
                                     <th scope="col">#ID</th>
                                     <th scope="col">Date</th>
                                     <th scope="col">Category</th>
@@ -81,12 +76,7 @@ All Resources
                                     
                                 @foreach($resources as $resource)
                                       <tr>
-                                        <th scope="row">
-                                            <div class="form-check font-size-16">
-                                                <input type="checkbox" class="form-check-input" id="contacusercheck11">
-                                                <label class="form-check-label" for="contacusercheck11"></label>
-                                            </div>
-                                        </th>
+                                        
 
                                         <td>{{ $resource->id }}</td>
                                         <td>{{ $resource->date }}</td>

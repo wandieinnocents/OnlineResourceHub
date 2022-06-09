@@ -198,7 +198,7 @@ Add Resource
                                                 <div class="col-md-6">
                                                 <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Created By</label>
-                                                        <input type="text" class="form-control"  name="created_by" id="validationCustom02" placeholder="Created By" value="" >
+                                                        <input type="text" class="form-control"  name="created_by" id="validationCustom02" placeholder="Created By" value="{{ $loggedinUser }}" >
                                                         
                                                     </div>
                                                 </div>

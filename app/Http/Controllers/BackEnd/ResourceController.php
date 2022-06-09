@@ -7,6 +7,7 @@ use App\Models\ResourceCategory;
 use Illuminate\Http\Request;
 use App\Models\Resource;
 use DB;
+use Auth;
 
 
 class ResourceController extends Controller
@@ -40,8 +41,10 @@ ini_set('max_execution_time', 300);
      */
     public function create()
     {
+
         $categories = ResourceCategory::all();
-        return view('backend.pages_backend.resources.create',compact('categories'));
+        $loggedinUser = Auth::user()->name;
+        return view('backend.pages_backend.resources.create',compact('categories','loggedinUser'));
 
     }
 
@@ -53,6 +56,7 @@ ini_set('max_execution_time', 300);
      */
     public function store(Request $request)
     {
+        
 
         //validation
         // validation
@@ -80,7 +84,7 @@ ini_set('max_execution_time', 300);
             
             
         ]);
-
+       
         $resource = new Resource;
         $resource->resource_category_id              = $request->resource_category_id;
         $resource->title                             = $request->title;
@@ -91,7 +95,8 @@ ini_set('max_execution_time', 300);
         $resource->permission_status                 = $request->permission_status;
         $resource->topic                             = $request->topic;
         $resource->link                              = $request->link;
-        $resource->created_by                        = $request->created_by;
+        // $resource->created_by                       = $request->created_by;
+        $resource->created_by                        = $user = Auth::user()->name;
         $resource->partner_orgnisations              = $request->partner_orgnisations;
         $resource->date                              = $request->date;
         $resource->description                       = $request->description;

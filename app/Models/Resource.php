@@ -10,6 +10,7 @@ class Resource extends Model
     use HasFactory;
 
     // fillables
+    protected $fillable = ['attachment'];
 
 
     public function resource_category_r(){

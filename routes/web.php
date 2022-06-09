@@ -66,7 +66,7 @@ Route::group(['middleware' => ['auth']], function() {
 Route::resource('/users', 'App\Http\Controllers\UserController');
 
 // analytics
-Route::get('/analytics', 'App\Http\Controllers\BackEnd\AnalyticsController@analytics');
+// Route::get('/analytics', 'App\Http\Controllers\BackEnd\AnalyticsController@analytics');
 // Roles
 Route::resource('/roles', 'App\Http\Controllers\RoleController');
 // permissions

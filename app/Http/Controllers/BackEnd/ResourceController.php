@@ -12,10 +12,10 @@ use Auth;
 
 class ResourceController extends Controller
 {
-    public function __construct()
-{
-ini_set('max_execution_time', 300);
-}
+//     public function __construct()
+// {
+// ini_set('max_execution_time', 300);
+// }
 
     /**
      * Display a listing of the resource.
@@ -24,12 +24,11 @@ ini_set('max_execution_time', 300);
      */
     public function index()
     {
-        // dd("test");
-        $categories = DB::table('resource_categories')->get();
-        $resources = DB::table('resources')->get();
-        // dd($resources);
-        // $categories  = ResourceCategory::all();
-        // $resources = Resource::all();
+
+       
+        $categories  = ResourceCategory::all();
+        $resources = Resource::all();
+        //  dd($resources->resource_category_r->name);
         $count_resources = Resource::count();
         return view('backend.pages_backend.resources.index',compact('categories','resources','count_resources'));
     }
@@ -58,10 +57,10 @@ ini_set('max_execution_time', 300);
     public function store(Request $request)
     {
         
-        // validation
+       // validation
         $validatedData = $request->validate([
             'resource_category_id' => 'required',
-            'title' => 'required|max:255',
+            'title' => 'required',
             'audience' => 'required',
             'written_permission' => 'required',
             'written_permission_storage' => 'required',
@@ -69,7 +68,7 @@ ini_set('max_execution_time', 300);
             'permission_status' => 'required',
             'topic' => 'required',
             'link' => 'required',
-            'created_by' => 'required',
+            // 'created_by' => 'required',
             'partner_orgnisations' => 'required',
             'date' => 'required',
             'description' => 'required',
@@ -94,26 +93,32 @@ ini_set('max_execution_time', 300);
         $resource->date                              = $request->date;
         $resource->description                       = $request->description;
 
-
-        // Thumbnail 
-        // resource thumbnail  
-        if($request->hasfile('thumbnail')){
-            $file               = $request->file('thumbnail');
+        // resource attachment
+        if($request->hasfile('attachment')){
+            $file               = $request->file('attachment');
             $extension          = $file->getClientOriginalExtension();  //get image extension
             $filename           = time() . '.' .$extension;
-            $file->move('uploads/resource_thumbnails/',$filename);
-            $resource->thumbnail   = url('uploads' . '/resource_thumbnails/'  . $filename);
+            $file->move('uploads/resource_attachments/',$filename);
+            $resource->attachment   = url('uploads' . '/resource_attachments/'  . $filename);
         }
 
-        else{
-            // return $request;
-            $resource->thumbnail  = '';
-        }
+       
+    // Thumbnail 
+    // resource thumbnail  
+    if($request->hasfile('thumbnail')){
+        $file               = $request->file('thumbnail');
+        $extension          = $file->getClientOriginalExtension();  //get image extension
+        $filename           = time() . '.' .$extension;
+        $file->move('uploads/resource_thumbnails/',$filename);
+        $resource->thumbnail   = url('uploads' . '/resource_thumbnails/'  . $filename);
+    }
 
+   
     // dd($resource);
     $resource->save();
-    // resources
-    return redirect('/resources');
+    return redirect('/resources ');
+
+
     }
 
     /**

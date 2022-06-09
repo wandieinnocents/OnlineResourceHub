@@ -61,7 +61,7 @@
                     </ul>
                 </li>
                 <!-- Gallery -->
-                <li>
+                <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-photo-video"></i>
                         
@@ -92,10 +92,10 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
                 <!-- Services -->
-                <li>
+                <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-people-carry"></i>
                         <span data-key="t-apps">Services</span>
@@ -127,10 +127,10 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
                 <!-- Projects -->
-                <li>
+                <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-university"></i>
                         <span data-key="t-apps">Projects</span>
@@ -162,7 +162,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
 
                 <hr>

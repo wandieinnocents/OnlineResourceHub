@@ -12,6 +12,17 @@ Add Resource
 
                         <!-- start page title -->
                         <div class="row">
+                            <!-- validation -->
+                            @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div><br />
+                            @endif
+                            <!-- end validation -->
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                                     <h4 class="mb-sm-0 font-size-18">Resource Category</h4>
@@ -53,7 +64,7 @@ Add Resource
                                                 <div class="col-md-12">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom01">Name</label>
-                                                        <input type="text" class="form-control" id="validationCustom01"  name="name" placeholder="Ennter Category Name" value="" required>
+                                                        <input type="text" class="form-control" id="validationCustom01"  name="name" placeholder="Ennter Category Name" value="" >
                                                         <div class="valid-feedback">
                                                             Validation
                                                         </div>

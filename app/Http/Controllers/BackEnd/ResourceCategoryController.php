@@ -37,6 +37,12 @@ class ResourceCategoryController extends Controller
      */
     public function store(Request $request)
     {
+        // validation
+        $validatedData = $request->validate([
+            'name' => 'required|max:255',
+            'description' => 'required|alpha_num',
+        ]);
+
         $resource_category = new ResourceCategory();
         $resource_category->name = $request->name;
         $resource_category->description = $request->description;

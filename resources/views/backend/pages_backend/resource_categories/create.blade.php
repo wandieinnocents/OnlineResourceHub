@@ -12,17 +12,8 @@ Add Resource
 
                         <!-- start page title -->
                         <div class="row">
-                            <!-- validation -->
-                            @if ($errors->any())
-                            <div class="alert alert-danger">
-                                <ul>
-                                    @foreach ($errors->all() as $error)
-                                    <li>{{ $error }}</li>
-                                    @endforeach
-                                </ul>
-                            </div><br />
-                            @endif
-                            <!-- end validation -->
+                            
+
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                                     <h4 class="mb-sm-0 font-size-18">Resource Category</h4>
@@ -53,6 +44,17 @@ Add Resource
 
                             <div class="col-xl-6">
                                 <div class="card">
+                                    <!-- validation -->
+                                <!-- @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div><br />
+                                @endif -->
+                                <!-- end validation -->
                                     <div class="card-header">
                                         <h4 class="card-title">Add Resource Category</h4>
                                         <!-- <p class="card-title-desc">Add Category</p> -->
@@ -64,17 +66,29 @@ Add Resource
                                                 <div class="col-md-12">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom01">Name</label>
-                                                        <input type="text" class="form-control" id="validationCustom01"  name="name" placeholder="Ennter Category Name" value="" >
-                                                        <div class="valid-feedback">
-                                                            Validation
+                                                        <input type="text" class="form-control @error('name') is-invalid @enderror" id="validationCustom01"  
+                                                        name="name" placeholder="Ennter Category Name" value="" >
+                                                        <div >
+                                                        <!-- error message -->
+                                                        @error('name')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="mb-3">
                                                         <label class="form-label" >Description</label>
-                                                        <textarea class="form-control"  name="description" placeholder="Enter Category Description" rows="3"></textarea>
+                                                        <textarea class="form-control @error('description') is-invalid @enderror"  name="description" placeholder="Enter Category Description" rows="3"></textarea>
                                                     </div>
+                                                    <!-- validation error message -->
+                                                    @error('description')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                    @enderror
                                                 </div>
 
                             

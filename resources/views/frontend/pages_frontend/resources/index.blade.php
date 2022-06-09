@@ -48,7 +48,7 @@ Resources
                                     @if (($resource->thumbnail))
                                                 <!-- <a href="{!! asset($resource->thumbnail) !!}" target="_blank"> -->
                                                     <img 
-                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
+                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/default_icon.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/default_icon.jpg') }}';"
                                                         src="{{ asset($resource->thumbnail) }}" alt="preview"
                                                         style="height:250px !important; width:500px !important; ">
                                                 <!-- </a> -->

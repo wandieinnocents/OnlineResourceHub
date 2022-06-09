@@ -83,14 +83,14 @@ All Resources
                                         @if (($resource->thumbnail))
                                                 <a href="{!! asset($resource->thumbnail) !!}" target="_blank">
                                                     <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img" style="width: 100px; height:100px;"
-                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
+                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/default_icon.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/default_icon.jpg') }}';"
                                                         src="{{ asset($resource->thumbnail) }}" alt="preview"
                                                         style="height:120px !important; width:80px !important; margin-left:20px;">
                                                 </a>
 
                                         @else
                                             <!-- <p class="text-danger">No Photo</p> -->
-                                            <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img" style="width: 100px; height:100px;" src="{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}">
+                                            <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img" style="width: 100px; height:100px;" src="{{ asset('assets/backend_assets/assets/images/users/default_icon.jpg') }}">
 
                                         @endif
                                             
@@ -170,7 +170,7 @@ All Resources
                                     @if (($resource->thumbnail))
                                                 <!-- <a href="{!! asset($resource->thumbnail) !!}" target="_blank"> -->
                                                     <img 
-                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
+                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/default_icon.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/default_icon.jpg') }}';"
                                                         src="{{ asset($resource->thumbnail) }}" alt="preview"
                                                         style="height:250px !important; width:500px !important; ">
                                                 <!-- </a> -->

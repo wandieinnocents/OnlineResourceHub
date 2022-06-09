@@ -57,9 +57,10 @@ ini_set('max_execution_time', 300);
         //validation
         // validation
         $validatedData = $request->validate([
+            'resource_category_id' => 'required',
             'title' => 'required|max:255',
-            
-            'description' => 'required|alpha_num',
+            'description' => 'required',
+            'audience' => 'required',
             'attachment' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
         ]);
 

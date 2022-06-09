@@ -54,12 +54,17 @@ Add Resource
                                                     <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">Category</label>
 
-                                                    <select name="resource_category_id" class="form-select">
+                                                    <select name="resource_category_id" class="form-select @error('resource_category_id') is-invalid @enderror">
                                                         @foreach($categories as $category)
                                                             <option value="{{ $category->id }}">{{ $category->name }}</option>
-                                                           
                                                         @endforeach
                                                     </select>
+                                                    <!--  validation error message -->
+                                                    @error('resource_category_id')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
 
                 
                                                     </div>
@@ -85,9 +90,15 @@ Add Resource
                                             <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Audience</label>
-                                                        <input type="text" class="form-control"  name="audience" id="validationCustom02" placeholder="Add audience" value="" >
-                                                        
+                                                        <input type="text" class="form-control @error('audience') is-invalid @enderror"  name="audience" id="validationCustom02" placeholder="Add audience" value="" >
+                                                    <!--  validation error message -->
+                                                    @error('audience')
+                                                            <span style="color:red" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
+
                                                 </div>
                                                 <!-- Hidden status on create , visible on update -->
                                                 <div class="col-md-6">

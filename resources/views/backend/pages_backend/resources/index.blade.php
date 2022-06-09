@@ -56,7 +56,6 @@ All Resources
                             <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
                                 <thead>
                                   <tr>
-                                    
                                     <th scope="col">#ID</th>
                                     <th scope="col">Date</th>
                                     <th scope="col">Category</th>
@@ -72,21 +71,15 @@ All Resources
                                   </tr>
                                 </thead>
                                 <tbody>
-                                   
-                                    
                                 @foreach($resources as $resource)
                                       <tr>
-                                        
-
                                         <td>{{ $resource->id }}</td>
                                         <td>{{ $resource->date }}</td>
-
                                         <td>
                                             <a href="#" class="text-body">{{ $resource->resource_category_r->name }} </a>
                                         </td>
                                         <td>{{ $resource->title }}</td>
                                         <td>  
-
                                         @if (($resource->thumbnail))
                                                 <a href="{!! asset($resource->thumbnail) !!}" target="_blank">
                                                     <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img" style="width: 100px; height:100px;"

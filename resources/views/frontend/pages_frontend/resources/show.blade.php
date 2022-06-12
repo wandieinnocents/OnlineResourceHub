@@ -6,8 +6,6 @@ View Resource
 
 @section('content')
 <!-- content  -->
-
-
         <!-- Page Title -->
         <section class="page-title about-page-3 p_relative centred">
             <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url({{ asset('assets/frontend_assets/assets/images/background/page-title-2.jpg') }});"></div>
@@ -22,8 +20,6 @@ View Resource
             </div>
         </section>
         <!-- End Page Title -->
-
-
         <!-- service-15 -->
         
         <section class="shop-details p_relative pt_40 pb_50">

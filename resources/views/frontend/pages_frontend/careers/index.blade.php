@@ -6,8 +6,6 @@ Careers
 
 @section('content')
 <!-- content  -->
-
-
         <!-- Page Title -->
         <section class="page-title about-page-3 p_relative centred">
             <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/frontend_assets/assets/images/sense/carpenter.JPG);"></div>
@@ -47,10 +45,7 @@ Careers
                                 <figure class="image-box p_relative d_block"><img src="assets/frontend_assets/assets/images/sense/other.jpg" alt=""></figure>
                                 <div class="content-box p_absolute l_0 b_0 pl_40 pb_35 pr_30 tran_5">
                                     <div class="inner p_absolute l_0 b_0 pl_40 pb_35 pr_60">
-                                        <!-- <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_40 mb_20">
-                                            <div class="icon"><i class="icon-11"></i></div>
-                                            <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/icons/hid-icon-19.png" alt=""></div>
-                                        </div> -->
+                                        
                                         <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_13"><a href="service-details.html">Scholarship</a></h4>
                                         <div class="link">
                                             <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
@@ -58,10 +53,7 @@ Careers
                                     </div>
                                 </div>
                                 <div class="overlay-content p_absolute l_0 pl_40 pb_35 pr_30 pt_40 z_2 tran_5">
-                                    <!-- <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_40 mb_20">
-                                        <div class="icon"><i class="icon-11"></i></div>
-                                        <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/sense/tailor.jpg" alt=""></div>
-                                    </div> -->
+                                   
                                     <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_17"><a href="/">Scholarship  <br />Opportunity</a></h4>
                                     <p class="d_block font_family_oxygen mb_15">We have a scholarship opportunity for people who can do tailoring.</p>
                                     <div class="link">
@@ -80,10 +72,7 @@ Careers
                                 <figure class="image-box p_relative d_block"><img src="assets/frontend_assets/assets/images/sense/tailor.jpg" alt=""></figure>
                                 <div class="content-box p_absolute l_0 b_0 pl_40 pb_35 pr_30 tran_5">
                                     <div class="inner p_absolute l_0 b_0 pl_40 pb_35 pr_60">
-                                        <!-- <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_40 mb_20">
-                                            <div class="icon"><i class="icon-12"></i></div>
-                                            <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/icons/hid-icon-20.png" alt=""></div>
-                                        </div> -->
+                                        
                                         <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_13"><a href="service-details.html">Deafblindness translator</a></h4>
                                         <div class="link">
                                             <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
@@ -91,10 +80,7 @@ Careers
                                     </div>
                                 </div>
                                 <div class="overlay-content p_absolute l_0 pl_40 pb_35 pr_30 pt_40 z_2 tran_5">
-                                    <!-- <div class="icon-box p_relative d_iblock w_80 h_80 lh_80 b_radius_50 text-center fs_40 mb_20">
-                                        <div class="icon"><i class="icon-12"></i></div>
-                                        <div class="icon-img hidden-icon d_iblock"><img src="assets/frontend_assets/assets/images/icons/hid-icon-20.png" alt=""></div>
-                                    </div> -->
+                                   
                                     <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_17"><a href="service-details.html">Deafblindness  <br />translator</a></h4>
                                     <p class="d_block font_family_oxygen mb_15">We have an opportunity to do translations students with deafblindness .</p>
                                     <div class="link">

@@ -13,7 +13,7 @@
                     <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <!-- <h5 class="card-title">Users <span class="text-muted fw-normal ms-2">88</span></h5> -->
+                                    <h5 class="card-title">Users <span class="text-muted fw-normal ms-2">88</span></h5>
                                 </div>
                             </div>
 
@@ -51,7 +51,7 @@
                                        
                                         
                                         <div class="mx-auto mb-4">
-                                            <img src="{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}" alt="" class="avatar-xl rounded-circle img-thumbnail">
+                                            <img src="{{ asset('assets/backend_assets/assets/images/users/user.png') }}" alt="" class="avatar-xl rounded-circle img-thumbnail">
                                         </div>
                                         <h5 class="font-size-16 mb-1"><a href="#" class="text-dark"> {{ $user->name }}</a></h5>
                                         <p class="text-muted mb-2"> {{ $user->email }}</p>
@@ -60,20 +60,17 @@
                                         
                                     </div>
 
-                                    <div class="btn-group" role="group">
+                                    <!-- <div class="btn-group" role="group">
                                         <button type="button" class="btn btn-success text-truncate"><i class="uil uil-user me-1"></i> Email</button>
-                                        <!-- Edit user -->
+                                      
                                         <button type="button" class="btn btn-primary text-truncate"><i class="uil uil-envelope-alt me-1"></i>
                                         @can('user-edit')
                                         <a class="text-white" href="{{ route('users.edit',$user->id) }}">
                                           Edit</a>
                                        @endcan
                                         </button>
-                                    
-                                    
-                                       
 
-                                    </div>
+                                    </div> -->
                                 </div>                           
                             
                         </div>

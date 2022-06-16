@@ -17,7 +17,7 @@
                                     <!-- <h5 class="card-title">Users <span class="text-muted fw-normal ms-2">88</span></h5> -->
                                 </div>
                             </div>
-
+<!-- 
                             <div class="col-md-6">
                                 <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
                                    
@@ -28,7 +28,7 @@
                                    
                                 </div>
 
-                            </div>
+                            </div> -->
                         </div>
                         <!-- end page title -->
 

@@ -54,7 +54,7 @@ Support
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Company Email</h4>
                                 <p class="font_family_poppins"><a href="mailto:example@gmail.com">info@senseintuganda.org</a>
-                                <br />
+                                <br /> .
                             
                             </p>
                             </div>

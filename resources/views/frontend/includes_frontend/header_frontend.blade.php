@@ -60,6 +60,8 @@
 										<li class="{{ Request::is('careers') ? 'current' : '' }}"><a href="/careers">Careers</a></li>
                                         <!-- Contact page -->
                                         <li class="{{ Request::is('contact/create') ? 'current' : '' }}"><a href="/contact/create">Support</a></li>
+                                        <!-- global website -->
+                                        <li class="{{ Request::is('contact/create') ? 'current' : '' }}"><a href="https://deafblindness.info" target="_blank">Global Website</a></li>
                                     
                                     </ul>
                                 </div>

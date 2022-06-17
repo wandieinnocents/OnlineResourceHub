@@ -53,7 +53,10 @@ Support
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-134.png" alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_7">Company Email</h4>
-                                <p class="font_family_poppins"><a href="mailto:example@gmail.com">info@senseintuganda.org</a><br /><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                <p class="font_family_poppins"><a href="mailto:example@gmail.com">info@senseintuganda.org</a>
+                                <br />
+                            
+                            </p>
                             </div>
                         </div>
                     </div>

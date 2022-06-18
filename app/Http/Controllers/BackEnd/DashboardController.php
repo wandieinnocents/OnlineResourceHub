@@ -11,6 +11,9 @@ use App\Models\Service;
 use App\Models\Career;
 use App\Models\Feedback;
 use App\Models\FrontEndContact;
+use App\Models\ResourceCategory;
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
 
 
 
@@ -27,8 +30,12 @@ class DashboardController extends Controller
 
         // fetch count - resurces
         $resources      = Resource::all()->count();
+
+        // resource categories
+        $resource_categories = ResourceCategory::all()->count();
         // users 
         $users          =  User::all()->count();
+
         // photos
         $photos         = Gallery::all()->count();
         // services
@@ -36,9 +43,9 @@ class DashboardController extends Controller
         // feedback
         $feedbacks      = FrontEndContact::all()->count();
 
+        $roles = Role::all()->count();
 
-
-        return view('backend.pages_backend.dashboard.index', compact('resources','users','photos','services','feedbacks'));
+        return view('backend.pages_backend.dashboard.index', compact('resources','resource_categories','roles','users','photos','services','feedbacks'));
     }
 
     /**

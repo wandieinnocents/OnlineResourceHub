@@ -38,7 +38,7 @@ Dashboard
                                         <div class="row align-items-center">
                                             <div class="col-6">
                                             <span class="text-light mb-3 lh-1 d-block ">Resource Categories</span>                                                <h4 class="mb-3 text-light">
-                                                    <span class="counter-value" data-target="{{ $resources }}"></span>
+                                                    <span class="counter-value" data-target="{{ $resource_categories }}"></span>
                                                 </h4>
                                             </div>
         
@@ -47,7 +47,7 @@ Dashboard
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-primary text-success">{{ $resources }}</span>
+                                            <span class="badge bg-soft-primary text-success">{{ $resource_categories }}</span>
                                             <span class="ms-1 text-muted font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->
@@ -63,7 +63,7 @@ Dashboard
                                             <div class="col-6">
                                                 <span class="text-light mb-3 lh-1 d-block text-truncate">Resources</span>
                                                 <h4 class="mb-3 text-light">
-                                                    <span class="counter-value" data-target="{{ $users }}"></span>
+                                                    <span class="counter-value" data-target="{{ $resources }}"></span>
                                                 </h4>
                                             </div>
                                             <div class="col-6 text-light">
@@ -71,7 +71,7 @@ Dashboard
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-danger text-light">{{ $users }}</span>
+                                            <span class="badge bg-soft-danger text-light">{{ $resources }}</span>
                                             <span class="ms-1 text-light font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->
@@ -87,7 +87,7 @@ Dashboard
                                             <div class="col-6">
                                                 <span class="text-muted mb-3 lh-1 d-block text-truncate">Users</span>
                                                 <h4 class="mb-3">
-                                                    <span class="counter-value" data-target="{{ $photos }}"></span>
+                                                    <span class="counter-value" data-target="{{ $users }}"></span>
                                                 </h4>
                                             </div>
                                             <div class="col-6">
@@ -95,7 +95,7 @@ Dashboard
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-success text-success">{{ $photos }}</span>
+                                            <span class="badge bg-soft-success text-success">{{ $users }}</span>
                                             <span class="ms-1 text-muted font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->
@@ -111,7 +111,7 @@ Dashboard
                                             <div class="col-6">
                                                 <span class="text-muted mb-3 lh-1 d-block text-truncate">Roles</span>
                                                 <h4 class="mb-3">
-                                                    <span class="counter-value" data-target="{{ $services }}"></span>
+                                                    <span class="counter-value" data-target="{{ $roles }}"></span>
                                                 </h4>
                                             </div>
                                             <div class="col-6">
@@ -119,7 +119,7 @@ Dashboard
                                             </div>
                                         </div>
                                         <div class="text-nowrap">
-                                            <span class="badge bg-soft-primary text-success">{{ $services }}</span>
+                                            <span class="badge bg-soft-primary text-success">{{ $roles }}</span>
                                             <span class="ms-1 text-light font-size-13">Details</span>
                                         </div>
                                     </div><!-- end card body -->

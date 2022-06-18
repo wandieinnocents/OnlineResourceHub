@@ -48,7 +48,7 @@ Careers
                                         
                                         <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_13"><a href="service-details.html">Scholarship</a></h4>
                                         <div class="link">
-                                            <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                            <!-- <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ Careers
                                     <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_17"><a href="/">Scholarship  <br />Opportunity</a></h4>
                                     <p class="d_block font_family_oxygen mb_15">We have a scholarship opportunity for people who can do tailoring.</p>
                                     <div class="link">
-                                        <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                        <!-- <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a> -->
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@ Careers
                                         
                                         <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_13"><a href="service-details.html">Deafblindness translator</a></h4>
                                         <div class="link">
-                                            <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                            <!-- <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ Careers
                                     <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_17"><a href="service-details.html">Deafblindness  <br />translator</a></h4>
                                     <p class="d_block font_family_oxygen mb_15">We have an opportunity to do translations students with deafblindness .</p>
                                     <div class="link">
-                                        <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                        <!-- <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a> -->
                                     </div>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ Careers
                                         </div> -->
                                         <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_13"><a href="/">Carpentry opportunities</a></h4>
                                         <div class="link">
-                                            <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                            <!-- <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ Careers
                                     <h4 class="d_block fs_20 lh_30 fw_bold font_family_oxygen mb_17"><a href="/">Carpentry   <br />opportunities</a></h4>
                                     <p class="d_block font_family_oxygen mb_15">We have an opportunity to do carpentry to students with deafblindness .</p>
                                     <div class="link">
-                                        <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                        <!-- <a href="javascript::void(0)" class="p_relative d_iblock fs_15 lh_25 fw_bold font_family_oxygen">Learn more<i class="icon-4"></i></a> -->
                                     </div>
                                 </div>
                             </div>

@@ -4,6 +4,10 @@ https://codelapan.com/post/google-analytics-laravel#mcetoc_1f87pg3kai
 //how to find view_id analytics
 https://stackoverflow.com/questions/36898103/what-is-a-viewid-in-google-analytics
 
+//how to reobtain the credential, generate anew key
+https://stackoverflow.com/questions/46287267/how-can-i-get-the-file-service-account-json-for-google-translate-api
+
+
 1. analytics url : https://analytics.google.com 
  - go to admin area on bottom left
 

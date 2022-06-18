@@ -55,7 +55,12 @@ Route::resource('/contact', 'App\Http\Controllers\FrontEnd\FrontEndContactContro
 
 // BACKEND ROUTES
 
-Auth::routes();
+// Auth::routes();
+Auth::routes([
+    'register' => false, // Registration Routes...
+    'reset' => false, // Password Reset Routes...
+    'verify' => false, // Email Verification Routes...
+  ]);
 
 // middleware auth 
 Route::group(['middleware' => ['auth']], function() {

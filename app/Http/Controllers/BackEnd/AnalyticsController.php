@@ -9,7 +9,6 @@ class AnalyticsController extends Controller
 {
     //analytics
     public function analytics(){
-
         
         // fetch visitors and page views
         $analyticsData = Analytics::fetchVisitorsAndPageViews(Period::days(5));

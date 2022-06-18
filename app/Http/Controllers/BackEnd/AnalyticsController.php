@@ -24,7 +24,7 @@ class AnalyticsController extends Controller
         
         // dd($fetch_top_countries);
         // $analyticsData = Analytics::performQuery(Period::years(1), 'ga:sessions',['metrics' => 'ga:sessions, ga:pageviews','dimensions' => 'ga:country']);
-        dd($analyticsData); 
+        // dd($analyticsData); 
         return view('backend.pages_backend.analytics.index',compact('analyticsData','popular','total_visitors','fetch_top_browsers'));
 
     }

@@ -25,7 +25,8 @@ Dashboard
                             </div>
                         </div>
                         <!-- end page title -->
-                        <!-- START OF ROW 1 -->
+
+                        <!-- START OF DASHBOARD ROW 1 -->
                         <div class="row">
                             <div class="col-xl-3 col-md-6">
                                 <!-- card -->
@@ -115,7 +116,7 @@ Dashboard
                                 </div><!-- end card -->
                             </div><!-- end col -->    
                         </div>
-                        <!-- END OF ROW 1 -->
+                        <!-- END OF DASHBOARD ROW 1 -->
                         
 
 

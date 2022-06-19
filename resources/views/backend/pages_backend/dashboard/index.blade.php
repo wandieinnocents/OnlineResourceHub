@@ -3,13 +3,11 @@
 @section('title')
 Dashboard
 @endsection
-
 @section('content')
 
 <!-- Main content dashboard  -->
 <div class="page-content">
                     <div class="container-fluid">
-
                         <!-- start page title -->
                         <div class="row">
                             <div class="col-12">
@@ -27,7 +25,6 @@ Dashboard
                             </div>
                         </div>
                         <!-- end page title -->
-
                         <!-- START OF ROW 1 -->
                         <div class="row">
                             <div class="col-xl-3 col-md-6">

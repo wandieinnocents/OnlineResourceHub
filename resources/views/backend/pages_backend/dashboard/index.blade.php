@@ -42,9 +42,7 @@ Dashboard
                                                 </h4>
                                             </div>
         
-                                            <div class="col-6">
-                                                <div id="mini-chart1" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
-                                            </div>
+                                            
                                         </div>
                                         <div class="text-nowrap">
                                             <span class="badge bg-soft-primary text-success">{{ $resource_categories }}</span>

@@ -64,9 +64,7 @@ Dashboard
                                                     <span class="counter-value" data-target="{{ $resources }}"></span>
                                                 </h4>
                                             </div>
-                                            <!-- <div class="col-6 text-light">
-                                                <div id="mini-chart2" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
-                                            </div> -->
+                                          
                                         </div>
                                         <div class="text-nowrap">
                                             <span class="badge bg-soft-danger text-light">{{ $resources }}</span>
@@ -88,9 +86,7 @@ Dashboard
                                                     <span class="counter-value" data-target="{{ $users }}"></span>
                                                 </h4>
                                             </div>
-                                            <!-- <div class="col-6">
-                                                <div id="mini-chart3" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
-                                            </div> -->
+                                           
                                         </div>
                                         <div class="text-nowrap">
                                             <span class="badge bg-soft-success text-success">{{ $users }}</span>
@@ -112,9 +108,7 @@ Dashboard
                                                     <span class="counter-value" data-target="{{ $roles }}"></span>
                                                 </h4>
                                             </div>
-                                            <!-- <div class="col-6">
-                                                <div id="mini-chart4" data-colors='["#5156be"]' class="apex-charts mb-2"></div>
-                                            </div> -->
+                                           
                                         </div>
                                         <div class="text-nowrap">
                                             <span class="badge bg-soft-primary text-success">{{ $roles }}</span>

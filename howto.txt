@@ -13,3 +13,7 @@ https://stackoverflow.com/questions/46287267/how-can-i-get-the-file-service-acco
 
 
 2. json file : cloud.google.com
+
+
+//emails 
+https://www.itsolutionstuff.com/post/laravel-8-mail-laravel-8-send-email-tutorialexample.html

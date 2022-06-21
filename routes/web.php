@@ -23,16 +23,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('send', function () {
-  $details = [
-      'name' => 'Mail from Sense web portal.com',
 
-      'description' => 'This is for testing email using smtp'
-  ];
-  \Mail::to('wandieinnocent2@gmail.com')->send(new \App\Mail\SupportMail($details));
-  dd("Email is Sent.");
-
-});
 // FRONT END ROUTES
 // about us
 Route::resource('/about', 'App\Http\Controllers\FrontEnd\FrontEndAboutController');

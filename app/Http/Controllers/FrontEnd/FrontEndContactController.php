@@ -44,6 +44,12 @@ class FrontEndContactController extends Controller
         $contact->subject      = $request->subject;
         $contact->description  = $request->description;
 
+        // send copy to email
+       
+        \Mail::to('wandieinnocent2@gmail.com')->send(new \App\Mail\SupportMail($contact));
+       
+
+
         // save to DB
         $contact->save();
         // dd($contact);

@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'SensePortal'),
+    'name' => env('APP_NAME', 'SENSE ONLINE WEB PORTAL'),
 
     /*
     |--------------------------------------------------------------------------

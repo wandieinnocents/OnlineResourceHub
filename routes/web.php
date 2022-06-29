@@ -3,8 +3,6 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
-use App\Models\DrinkMenu;
-use App\Models\FoodMenu;
 
 
 /*
@@ -38,14 +36,8 @@ Route::resource('/testimonials', 'App\Http\Controllers\FrontEnd\FrontEndTestimon
 Route::resource('/works', 'App\Http\Controllers\FrontEnd\FrontEndServiceController');
 // gallery
 Route::resource('/pictures', 'App\Http\Controllers\FrontEnd\FrontEndGalleryController');
-//food menu
-Route::resource('/foods', 'App\Http\Controllers\FrontEnd\FrontEndFoodMenuController');
-//drinks menu
-Route::resource('/drinks', 'App\Http\Controllers\FrontEnd\FrontEndDrinkMenuController');
 //posts
 Route::resource('/articles', 'App\Http\Controllers\FrontEnd\FrontEndPostController');
-//bookings
-Route::resource('/book', 'App\Http\Controllers\FrontEnd\FrontEndBookingController');
 //contact 
 Route::resource('/contact', 'App\Http\Controllers\FrontEnd\FrontEndContactController');
 
@@ -85,8 +77,6 @@ Route::resource('/post_categories', 'App\Http\Controllers\BackEnd\PostCategoryCo
 
 // Admin dashboard 
 Route::resource('/dashboard', 'App\Http\Controllers\BackEnd\DashboardController');
-// Bookings
-Route::resource('/bookings', 'App\Http\Controllers\BackEnd\BookingController');
 // Feedbacks
 Route::resource('/feedbacks', 'App\Http\Controllers\BackEnd\FeedbackController');
 
@@ -99,16 +89,6 @@ Route::resource('/resource_categories', 'App\Http\Controllers\BackEnd\ResourceCa
 
 // Orders
 Route::resource('/orders', 'App\Http\Controllers\BackEnd\OrderController');
-// Food menu category
-Route::resource('/foodmenu_categories', 'App\Http\Controllers\BackEnd\FoodMenuCategoryController');
-// Food menu
-Route::resource('/foodmenus', 'App\Http\Controllers\BackEnd\FoodMenuController');
-
-// DOWNLOAD DOCUMENT ON FOOD MENU
-Route::get('/foodmenus/download/{file}', 'App\Http\Controllers\BackEnd\FoodMenuController@downloadDoc')->name('downloadResource');
-
-
-
 
 // Gallery  category
 Route::resource('/gallery_categories', 'App\Http\Controllers\BackEnd\GalleryCategoryController');

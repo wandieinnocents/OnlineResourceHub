@@ -20,7 +20,7 @@ class FeedbackController extends Controller
         $feedbacks =  FrontEndContact::all();
         $count_feedbacks = FrontEndContact::count();
         // dd($feedbacks);
-        return view('backend.pages_backend.feedbacks.index',compact('feedbacks'));
+        return view('backend.pages_backend.feedbacks.index',compact('feedbacks','count_feedbacks'));
     }
 
     /**

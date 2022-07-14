@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nrautamaduniawar/public_html/portal
+    - export DEPLOYPATH=/home/nrautamaduniawar/public_html
     - /bin/cp -R * $DEPLOYPATH

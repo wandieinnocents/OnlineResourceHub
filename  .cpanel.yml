@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nrautamaduniawar/public_html/portal/sense
+    - /bin/cp -R * $DEPLOYPATH

@@ -39,8 +39,8 @@ class ResourceCategoryController extends Controller
     {
         // validation
         $validatedData = $request->validate([
-            'name' => 'required|max:255',
-            'description' => 'required|alpha_num',
+            'name' => 'required',
+            'description' => 'required',
         ]);
 
         $resource_category = new ResourceCategory();

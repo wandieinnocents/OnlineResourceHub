@@ -253,7 +253,7 @@ All Resources
                                     <div class="modal-body">
 
 
-                            <!-- form update food menu items -->
+                            <!-- form    food menu items -->
                                     
                             <form action="{{ route('resources.update', $resource->id) }}" method="post" enctype="multipart/form-data">
                             @csrf
@@ -265,7 +265,7 @@ All Resources
                                     <label class="form-label" for="validationCustom01">Category</label>
 
                                     <select name="resource_category_id" class="form-select">
-                                        @foreach($categories as $category)
+                                            @foreach($categories as $category)
                                             <option value="{{ $category->id }}">{{ $category->name }}</option>
                                            
                                             @endforeach

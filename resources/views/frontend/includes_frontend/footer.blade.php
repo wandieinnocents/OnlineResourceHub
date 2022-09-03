@@ -49,7 +49,7 @@
                 <div class="auto-container">
                     <div class="bottom-inner clearfix">
                         <div class="copyright pull-left">
-                            <p style="color:#fff"><a href="/" style="color:#fff">SENSE</a> &copy; 2022 All Right Reserved</p>
+                            <p style="color:#fff"><a href="/" style="color:#fff">SENSE</a> &copy; 2022 All Right Reserved Design by : Wanran Inc</p>
                         </div>
                         <ul class="footer-nav clearfix pull-right">
                             <li><a href="javascript::void(0)" style="color:#fff">Terms of Service</a></li>
